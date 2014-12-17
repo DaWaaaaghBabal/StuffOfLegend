@@ -5,6 +5,9 @@ import junit.framework.TestCase;
 import org.junit.Assert;
 import org.junit.Test;
 
+import com.dwb.stuffoflegend.math.Expression;
+import com.dwb.stuffoflegend.math.MathParser;
+
 public class TestMath extends TestCase {
 
 	private MathParser parser;
