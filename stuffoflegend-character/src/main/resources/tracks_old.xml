@@ -1,0 +1,3042 @@
+<?xml version="1.0" encoding="UTF-8" ?><!-- Created from PDF via Acrobat 
+	SaveAsXML --><!-- Mapping Table version: 28-February-2003 -->
+<root>
+	<track id="rage" bindId="pathOfWar" name="Rage" kom="STR">
+		<circle n="1" name="Rage" type="EX">You channel the barbarian rage,
+			a state where you gain heightened morale and physical prowess. As a
+			swift action, if you are not [Fatigued], [Exhausted], or in a rage,
+			you can enter a rage, which lasts for a maximum of %3+CON% [Rounds].
+			While in a rage, you gain a +%CRL% bonus to attack rolls and damage
+			you deal with attacks, and a +1 bonus to combat maneuver DCs and
+			Fortitude and Will saves. When you enter a rage, you also gain
+			%2*LVL% temporary HP. These temporary HP are lost when your rage
+			ends. You can always prematurely end your rage as a free action. When
+			your rage ends (either before the beginning of your turn due to its
+			duration running out, or on your turn due to your ending it
+			prematurely), you become [Fatigued] for as many [Rounds] as you spent
+			raging (minimum 1), and you cannot begin a rage on either the turn it
+			ends or on your following turn.</circle>
+		<circle n="2" name="Powerful Rage" type="EX">Your rage gives you
+			unusual physical ability equal to a creature much larger than
+			yourself. You gain a +2 item bonus to Strength. While in a rage, your
+			size becomes [Large] (if you are not already [Large] or [Huge]), you
+			gain the normal +5 ft bonus to your movement speed, +2 bonus to saves
+			against combat maneuvers, and 5 ft bonus to your [Melee] range
+			associated with the [Large] size). While in a rage, you do not suffer
+			any of the normal penalties of being [Large], even if you&apos;re
+			normally [Large]. </circle>
+		<circle n="3" name="Intimidating Rage" type="EX">Once per
+			[Encounter], when you enter a rage, you can attempt to intimidate a
+			single opponent within 30 ft as a free action (as per the in-combat
+			use of the Intimidate skill). If your intimidate attempt succeeds,
+			that opponent becomes [Shaken] until the end of the [Encounter]. In
+			addition, your bonus to combat maneuver DCs while raging increases to
+			+2. </circle>
+		<circle n="4" name="Greater Rage" type="EX">Your rage increases in
+			potency. You gain %4*LVL% temporary HP per level when you rage
+			instead of %2*LVL%, and your bonuses to Fortitude and Will saves from
+			Rage increase to +2. Additionally, select one of the following
+			abilities (this choice is permanent): - Hurling Charge: While raging,
+			after making a melee attack as part of the Charge combat maneuver,
+			you can use a ranged weapon in your possession to make a single
+			ranged attack. This does not provoke an attack of opportunity. You
+			can treat any square you moved into as part of the Charge combat
+			maneuver as a square you occupy for purposes of the range, line of
+			effect and line of sight of this attack. - Momentum Charge: While
+			raging, if you use the Charge combat maneuver and your melee attack
+			hits, you may immediately attempt the Bull Rush combat maneuver
+			against the opponent hit. If your Bull Rush attempt succeeds, you may
+			deal damage equal to your Key Offensive Modifier to that opponent.
+		</circle>
+		<circle n="5" name="Stubborn Rage" type="EX">While in a rage, you
+			possess [Immunity] to effects with the [Mind-affecting] descriptor.
+			In addition, your bonus to combat maneuver DCs while raging increases
+			to +3. </circle>
+		<circle n="6" name="Mighty Rage" type="EX"> The power of your rage
+			increases again. You gain %6*LVL% temporary HP when you rage instead
+			of %4*LVL%, and the bonus to Fortitude and Will saves increases to
+			+4.</circle>
+		<circle n="7" name="Heart of Fury" type="EX">You are always
+			considered raging. You can activate the Intimidating Rage ability
+			once per [Encounter] as a swift action. At the beginning of an
+			[Encounter], you gain temporary HP (as per Mighty Rage), and no less
+			than 2 [Rounds] after gaining temporary HP from this ability, you may
+			gain a new set of temporary HP as a swift action. </circle>
+	</track>
+	<track id="dervish" bindId="pathOfWar" name="Dervish" kom="dex">
+		<circle n="1" name="War Dance" type="EX">You can whip yourself into
+			a war dance, a state in which you gain heightened morale and
+			maneuverability. As a swift action, if you are not [Fatigued],
+			[Exhausted], or in a war dance, you can enter a war dance, which
+			lasts for a maximum number of %3+CON% [Rounds].
+			While in this war dance you gain a +%CRL% bonus to attack rolls,
+			damage you deal with attacks, and Acrobatics checks, a +1 bonus to
+			Reflex and Will saves, and a +2 bonus to saves against combat
+			maneuvers. You can always prematurely end your war dance as a free
+			action. When your war dance ends (either before the beginning of your
+			turn due to its duration running out, or on your your turn due to
+			your ending it prematurely) you cannot begin a war dance on either
+			the turn it ends or on your following turn. In addition, you are
+			[Fatigued] for as many [Rounds] as you spent war dancing (minimum 1).
+		</circle>
+		<circle n="2" name="Frenzied Strikes" type="EX">Your frantic
+			movements become more focused and lethal. While in a war dance, you
+			gain a [Bonus attack] whenever you take an attack action and you gain
+			a 5 ft bonus to your movement speed, which increases to 10 ft at 4th
+			circle and 15 ft at 6th circle. </circle>
+		<circle n="3" name="Razor Wind" type="EX">Your whirling attacks
+			amaze friend and foe alike, leaving vicious wounds at blinding speed.
+			You gain a +2 bonus to Acrobatics checks. The first hit with an
+			attack you make against each opponent each [Round] inflicts the
+			[Burning] and [Bleeding] conditions on that opponent. </circle>
+		<circle n="4" name="Greater War Dance" type="EX">Your war dance
+			increases in potency, and you become adept at avoiding the sharp
+			pointy bits of metal other people want to stick in you. Your bonuses
+			to Reflex and Will saves while in a war dance increase to +2. While
+			in a war dance, you gain 20% [Miss chance]. Additionally, select one
+			of the following abilities (this choice is permanent): -Cloaked
+			Dance: While in a war dance, you can use the Surprising an Opponent
+			function of the Acrobatics skill as part of a move action without
+			halving your movement speed. Additionally, whenever you deal damage
+			to a [Flat-footed] opponent, you deal %KOM% additional damage.
+			-Tendon Sever: While in a war dance, any time you hit a [Flat-footed]
+			opponent with an attack, you inflict the [Entangled] condition on
+			that opponent for one [Round]. </circle>
+		<circle n="5" name="Unstoppable War Dance" type="EX">While in a war
+			dance, you gain [Immunity] to [Binding] effects, and moving out of a
+			square of difficult terrain does not cost you extra movement.
+		</circle>
+		<circle n="6" name="Whirling War Dance" type="EX">Your war dance has
+			reached the point where you are little more than a terrifying tempest
+			of blades. Your bonuses to Reflex and Will saves while in a war dance
+			increase to +4. Your ability to avoid damage increases as well,
+			granting a 30% [Miss chance] while you are in a war dance. </circle>
+		<circle n="7" name="Dance of Endless Blades" type="EX">Your war
+			dance is a primal thing of terrible wrath and frightening beauty. Any
+			time you hit a [Bleeding] opponent with an attack, they are
+			[Battered] for the [Encounter]. Additionally, while in a war dance,
+			as a move action and a standard action, you move up to twice your
+			movement speed without provoking attacks of opportunity. You may take
+			an attack action during this movement, and may divide all of the
+			attacks you are entitled to among any targets who were within [Melee]
+			range at any point during your movement. Finally, you may enter your
+			war dance as a free action. </circle>
+	</track>
+	<track id="pathOfDestruction" name="Path of Destruction">
+		<circle n="1" name="Cleave" type="EX"> Once per [Round], as a swift
+			action, when you hit an opponent with a melee attack and deal damage
+			to that opponent with that attack, you may compare your attack roll
+			from that attack to the AC of another target opponent within [Melee]
+			range. If the attack roll equals or exceeds that opponent&apos;s AC,
+			you deal damage to that opponent equal to the damage dealt by the
+			attack. This ability is not an attack. </circle>
+		<circle n="2" name="Whirlwind" type="EX"> If you would make one or
+			more melee attacks during your standard action, you may add the
+			[Volley] descriptor to a single one of those attacks; this attack
+			with the [Volley] descriptor is applied against every opponent in
+			[Melee] range. </circle>
+		<circle n="3" name="Disrupting Presence" type="EX">You are a living
+			force of entropy, and creatures who attempt mental focus close to you
+			suffer the consequences. For each opponent, the first time in a
+			[Round] that opponent activates a spell, spell-like, or supernatural
+			ability within your [Melee] range, that opponent takes %LVL% damage.
+		</circle>
+		<circle n="4" name="Terrifying Presence" type="EX"> Once per
+			[Round], at the beginning of your turn, opponents within your [Melee]
+			range become [Shaken]. A successful Will save (DC %10+LVL/2+CHA%)
+			negates the effect. This application of the [Shaken] condition
+			doesn't stack with itself, but stacks normally with other [Fear]
+			effects. This is a [Mind-affecting] [Fear] effect.</circle>
+		<circle n="5" name="Path of Blades" type="EX">When you use the
+			Charge maneuver, you can make a single additional attack with the
+			[Volley] descriptor as you make the Charge; this attack with the
+			[Volley] descriptor is applied to all opponents within [Melee] range
+			of squares you move into as part of the Charge. This attack deals
+			%3*KOM% damage. </circle>
+		<circle n="6" name="Greater Cleave" type="EX"> Activating Cleave no
+			longer requires a swift action, and it can be used any number of
+			times per [Round] (though you may only activate Cleave once per melee
+			attack you make that hits an opponent and deals damage to that
+			opponent). You may only activate Cleave once per attack you make.
+		</circle>
+		<circle n="7" name="Deadly Presence" type="EX"> When an opponent
+			begins their turn within your [Melee] range, it takes %LVL+KOM%
+			damage and is [Battered] for one [Round]. This ability can be turned
+			on or off as a swift action.</circle>
+	</track>
+	<track id="pathOfAncestors" name="Path of the Ancestors">
+		<circle n="1" name="Lineage" type="EX"> Any effect that would heal
+			you but does not originate from you heals %LVL% extra point of
+			damage. In addition, choose one of the following options. This choice
+			is permanent: -Guidance: You gain a +%LVL/2% bonus on
+			initiative rolls. -Leading the Charge: When using the Charge combat
+			maneuver, you ignore the normal -2 penalty to Armor Class. </circle>
+		<circle n="2" name="Hard to Break" type="EX">Once per [Encounter],
+			if you make a successful Fortitude or Will save against an effect
+			that would normally have a lesser effect on a successful save (such
+			as a spell with a save of &quot;Fortitude half&quot;), you instead
+			ignore the effect entirely. </circle>
+		<circle n="3" name="Readiness" type="EX"> You gain a +2 bonus to
+			Vigor checks, and becoming [Flat-footed] does not prevent you from
+			making attacks of opportunity or taking immediate actions. Once per
+			[Round], you may make a Vigor check at any time during the [Round].
+			This does not require an action. </circle>
+		<circle n="4" name="Resilience" type="EX"> You gain [Fast healing]
+			%LVL%. </circle>
+		<circle n="5" name="Ancestral Blessing" type="EX">Once per
+			[Encounter], as an immediate action, you can reroll a failed save.
+		</circle>
+		<circle n="6" name="Greater Readiness" type="EX"> You are always
+			able to act in a surprise [Round]. </circle>
+		<circle n="7" name="Strength Unbroken" type="EX">Once per
+			[Encounter], as a swift action, you can begin an unstoppable assault.
+			Until the beginning of your next turn, you gain [Immunity] to damage,
+			[Binding] effects, and the [Dazed] and [Stunned] conditions. </circle>
+	</track>
+	<track id="disciplineOfSerpent" name="Discipline of the Serpent">
+		<circle n="1" name="External Techniques" type="EX">Choose five
+			weapon properties other than [Arcane], [Barbed], [Distant],
+			[Hold-out] or [Quick-draw]. At 3rd, 5th and 7th circles, you may
+			choose an additional weapon property. Your Unarmed Strike natural
+			weapon gains those properties. If you possess any other natural
+			weapons, they gain any 2 of your Unarmed Strike natural weapon&apos;s
+			chosen properties at 1st circle, and 1 more at 3rd, 5th and 7th
+			circles. These choices are permanent. Additionally, whenever you
+			switch to a weapon, you may grant it a number of weapon properties
+			your Unarmed Strike natural weapon possesses. You may grant it 2 such
+			properties at 1st circle, 3 at 3rd, 4 at 5th, and 5 at 7th. The
+			weapon retains those properties for as long as you wield it. Attacks
+			you make as part of a Disarm, Grapple, Pin, or Trip attempt deal
+			%LVL% additional damage with the [Precision] descriptor. </circle>
+		<circle n="2" name="Internal Principles" type="EX">Your combat
+			maneuvers, and opponents-attempts to escape or act in a [Grappled] or
+			[Pinned] condition you inflict, have a DC of (%11+LVL/2+KOM%) This DC
+			increases by 1 at 4th circle, and again at 6th circle. In addition,
+			you gain access to the following special combat maneuvers, which
+			benefit from the additional damage of External Techniques: -Pushing
+			Blow: As a standard action, you make a single melee attack that deals
+			normal damage. If the attack hits, the target must make a Fortitude
+			save or be pushed 5 ft, and you can choose to move into their
+			previously occupied space. If you choose not to move into their
+			space, you may instead push them %5*CRL% ft in the same direction.
+			These movements do not provoke attacks of opportunity. A successful
+			Pushing Blow benefits from abilities that would enhance a successful
+			Bull Rush. -Neutralize: As a standard action, you make a single melee
+			attack that deals normal damage. If the attack hits, the target must
+			make a Will save or take a -%LVL% penalty to damage for 1 [Round].
+			This penalty does not stack with itself. </circle>
+		<circle n="3" name="Open and Close" type="EX">You gain access to the
+			following special combat maneuvers, which benefit from the additional
+			damage of External Techniques: -Close Meridian: As a standard action,
+			you make a single melee attack that deals normal damage. If this
+			attack hits, the target must make a Fortitude save or be [Sickened]
+			for 1 [Round]. -Open Gate: As a standard action, you make a single
+			melee attack that deals normal damage. If the attack hits, the target
+			must make a Will save or all creatures gain a +2 bonus to skill
+			checks against the target and saves against the target&apos;s
+			abilities for 1 [Round]. In addition, when an opponent fails a save
+			against your Close Meridian, Disarm, Grapple, Neutralize, Open Gate,
+			Pushing Blow, or Trip, you may immediately make a [Bonus attack].
+		</circle>
+		<circle n="4" name="Ceaseless Flow" type="EX">Once per [Round], you
+			may replace any one melee attack other than an attack of opportunity
+			with any of the following combat maneuvers, at the same attack bonus
+			as the replaced attack: Close Meridian, Disarm, Grapple, Neutralize,
+			Open Gate, Pushing Blow, or Trip. If the combat maneuver hits, you
+			can use Ceaseless Flow an additional time this [Round]. If you
+			replace a [Bonus attack] using Ceaseless Flow, it still counts as
+			your [Bonus attack] for that [Round]. </circle>
+		<circle n="5" name="Stop the Breath" type="EX">Your combat maneuvers
+			increase in potency: when an opponent fails a save against your Close
+			Meridian, Disarm, Grapple, Neutralize, Open Gate, Pin, Pushing Blow,
+			or Trip, it is [Flat-footed] until the beginning of its next turn.
+		</circle>
+		<circle n="6" name="Poison the Blood" type="EX"> Each time you deal
+			[Precision] damage to an opponent with Close Meridian, Disarm,
+			Grapple, Neutralize, Open Gate, Pin, Pushing Blow, or Trip during an
+			attack action, or an opponent fails a save against any of those
+			combat maneuvers during an attack action you make, that opponent
+			gains an [Imbalance]. These [Imbalances] cause the opponent to gain
+			various conditions, as below, and have no other effects on the
+			opponent. [Imbalances] disappear at the end of each attack action,
+			but conditions your opponents have gained from this ability do not
+			disappear when [Imbalances] do. -Two [Imbalances]: The opponent is
+			[Battered] for 2 [Rounds]. -Four [Imbalances]: The opponent is
+			[Blinded] for 1 [Round]. -Six [Imbalances]: The opponent is [Slowed]
+			for 1 [Round]. -Eight [Imbalances]: The opponent is [Nauseated] for 1
+			[Round]. -Ten [Imbalances]: The opponent is [Stunned] for 1 [Round].
+			If multiple opponents would gain [Imbalances] from a single combat
+			maneuver, you instead choose one of those opponents to gain an
+			[Imbalance]. </circle>
+		<circle n="7" name="On Power" type="EX">: You can now use Ceaseless
+			Flow any number of times per [Round], and Stop the Breath now affects
+			any opponent you hit with Close Meridian, Disarm, Grapple,
+			Neutralize, Open Gate, Pin, Pushing Blow, or Trip, regardless of
+			whether they successfully save against it or not. </circle>
+	</track>
+	<track id="disciplineOfCrane" name="Discipline of the Crane">
+		<circle n="1" name="Fast Movement" type="EX"> You gain a %5+5*CRL%
+			ft bonus to your movement. </circle>
+		<circle n="2" name="Between the Raindrops" type="EX">You gain a
+			+%CRL% deflection bonus to Armor Class. </circle>
+		<circle n="3" name="Through the Clouds" type="EX"> You gain the Fly
+			movement mode. </circle>
+		<circle n="4" name="Deftly Striking" type="EX">As a standard action,
+			you may make an attack action at any time during a movement, and
+			continue that movement afterwards. </circle>
+		<circle n="5" name="Journey of the Crane" type="SU">You can take a
+			great step as with the long legs of the crane, seeking new challenges
+			to face or new lessons to learn. Once per [Scene], as a standard
+			action, you can use teleport, as the spell. </circle>
+		<circle n="6" name="Gust of Action" type="EX">You can ride the wind
+			at overwhelming speeds. %1+LVL/4% times per [Encounter], as a swift
+			action, you can gain an extra move action on your current turn.
+		</circle>
+		<circle n="7" name="Phoenix Reborn" type="SU"> As the avatar of the
+			crane, you become an entirely otherworldly being. Once per [Scene],
+			if you become [Dead] or are rendered [Unconscious], you are revived
+			with full hit points one [Round] after your death or knockout. You
+			can choose not to return, if you believe that your impact on the
+			multiverse is complete. </circle>
+	</track>
+	<track id="disciplineOfDragon" name="Discipline of the Dragon">
+		<circle n="1" name="Dance of the Sun and Moon" type="EX">You embark
+			upon the path of the Careful Sun or the Reckless Moon. Choose one of
+			the following abilities (this choice is permanent): -Careful Sun:
+			Once per [Encounter], when you make a successful Fortitude or Will
+			save against an offensive action that would normally have a lesser
+			effect on a successful save (such as a spell with a save of
+			&quot;Fortitude half&quot;), you may instead ignore the effect
+			entirely. -Reckless Moon: Once per [Encounter], when you make a
+			successful Reflex saving throw against an offensive action that would
+			normally have a lesser effect on a successful save (such as a spell
+			with a save of &quot;Reflex half&quot;), you may instead ignore the
+			effect entirely.</circle>
+		<circle n="2" name="Obsidian Mind" type="EX">Monks learn to protect
+			their minds from the clouds of fear. You gain [Immunity] to [Fear]
+			effects and the in-combat use of the Intimidate skill. </circle>
+		<circle n="3" name="Stance of the Falling Star" type="EX">When
+			knocked down, you are quick to get up for another exchange of punches
+			and kicks. You gain [Immunity] to the [Prone] condition. In addition,
+			as a swift action, you may become [Covered] for one [Round]. </circle>
+		<circle n="4" name="Diamond Soul" type="EX"> You have [Resistance]
+			to energy and magic damage. </circle>
+		<circle n="5" name="Cloak of the Sun and Moon" type="EX"> Your
+			devotion to the Careful Sun or Reckless Moon provides additional
+			benefits. Choose one of the following abilities (this choice is
+			permanent): -Careful Sun: You gain [Immunity] to effects with the
+			[Binding] descriptor. -Reckless Moon: Once per [Encounter], when you
+			make a Reflex saving throw against an offensive action that normally
+			deals half damage on a successful save, you may take no damage from
+			that offensive action instead on a successful save, or take half
+			damage from that offensive action instead on a failed save. </circle>
+		<circle n="6" name="Jade Heart" type="EX">You can absorb dark and
+			harmful energies without suffering any ill effects. You gain
+			[Immunity] to [Energy drained] and [Vulnerability], and to [Negative]
+			effects. </circle>
+		<circle n="7" name="Scales of Gems" type="EX">Once per [Encounter],
+			as a swift action, you may harden your hide to absorb devastating
+			attacks without harm. Until the beginning of your next turn, you gain
+			[Immunity] to damage and to the [Sickened], [Nauseated], [Dazed] and
+			[Stunned] conditions. </circle>
+	</track>
+	<track id="judgment" name="Judgment: The Seven Circles of Knowing">
+		<circle n="1" name="Knowing" type="SU">You are aware, in the general
+			sense, of the moral and ideological predilections of any sentient
+			creature within a spread with a radius of %15+5*CRL% ft originating
+			from you. This spread moves with you, is not a divination effect, and
+			is always on. It does not automatically penetrate [Invisible],
+			[Concealed], or Stealth, but if you can otherwise circumvent these
+			effects, Knowing will function unimpeded. Likewise, you become aware
+			of the likely major moral implications of your actions. Just how much
+			you are aware of these implications is determined by the GM. You also
+			gain a +4 bonus to Awareness and to Perception checks. This is a
+			[Bastion] effect.</circle>
+		<circle n="2" name="Mercy" type="SU">Once per [Encounter], as an
+			immediate action or part of another immediate action, you may prevent
+			up to %3*LVL% damage that would be dealt to any ally within your
+			Knowing. This can only be done as the damage is being dealt, but may
+			be activated after you know exactly how much damage a given effect
+			will deal. This is a [Bastion] effect. </circle>
+		<circle n="3" name="Grace" type="SU">You gain a +3 bonus to all
+			saves, %2*LVL% additional HP, and gain [Immunity] to all [Fear]
+			effects. </circle>
+		<circle n="4" name="Requital" type="SU">Opponents who start moving
+			within the range of your Knowing suffer a 20 ft penalty to their
+			movement speed, for the purposes of that move. This does not affect 5
+			ft steps. </circle>
+		<circle n="5" name="Light" type="SU">You may now, at any time,
+			illuminate the area around you out to the limit of the Knowing. This
+			may be turned on or off as a free action. In addition, you gain
+			[Blindsight] with a range equal to the radius of the Knowing. This is
+			a [Bastion] effect. </circle>
+		<circle n="6" name="Endurance" type="SU"> The first time in each
+			[Encounter] that you fail a saving throw against a harmful effect,
+			the effect is negated without affecting you. This is a [Bastion]
+			effect. </circle>
+		<circle n="7" name="Allegiance" type="SU">You are indefatigable. You
+			gain [Immunity] to [Mind-affecting], [Fatigued], [Exhausted], [Blown
+			away], [Stunned], [Dazed], and cannot be knocked [Prone]. </circle>
+	</track>
+	<track id="bastion" name="Bastion: The Seven Circles of Protection">
+		<circle n="1" name="The Shield" type="SU">As a swift action, you may
+			create a spread with a radius of %10+5*LVL/2% ft plus 5 ft
+			originating from you called the Bastion Aura. This spread moves with
+			you. Whenever a spell of first circle or lower that has a duration
+			targets you, if it is not a copy, you may project it. To project a
+			spell, create a copy of that spell for each other ally within your
+			Bastion Aura. That spell and each of those copies become bonded to
+			one another and gain “When a [Dispelling] effect ends this spell, end
+			all spells bonded to it,” that spell gains “When this spell ends, end
+			all spells bonded to it,” and each of those copies gains “You gain
+			this spell’s effect only while you are within the Bastion Aura of the
+			ally who created this spell. ” Then you cast each of those copies
+			targeting a different one of those allies. This does not provoke
+			attacks of opportunity and counts as casting those spells only for
+			the purpose of those spells’ effects and abilities of this track. As
+			a swift action, you may end this spread. </circle>
+		<circle n="2" name="The Gauntlet" type="SU">Whenever a spell of
+			second circle of lower that has a duration targets you, if it is not
+			a copy, you may project it. </circle>
+		<circle n="3" name="The Mantle" type="SU">Whenever a spell of third
+			circle of lower that has a duration targets you, if it is not a copy,
+			you may project it. Each [Encounter], the first [Dispelling] effect
+			made against a bonded spell you cast fails. </circle>
+		<circle n="4" name="The Armor" type="SU">Whenever a spell of fourth
+			circle of lower that has a duration targets you, if it is not a copy,
+			you may project it. Additionally, each ally gains a +3 deflection
+			bonus to AC as long as it is within the Bastion Aura. </circle>
+		<circle n="5" name="The Soul" type="SU">Whenever a spell of fifth
+			circle of lower that has a duration targets you, if it is not a copy,
+			you may project it. Each [Encounter], the second [Dispelling] effect
+			made against a bonded spell you cast fails. </circle>
+		<circle n="6" name="The Ready" type="SU">Each ally gains a pool of
+			%LVL/2% points. Without taking an action, an ally may spend any
+			number of points from their pool after they know the numerical result
+			of a single saving throw, attack roll or skill check they made to add
+			a bonus to that roll equal to the number of points spent. These
+			points may only be spent while the ally is affected by the Bastion
+			Aura. The pool refreshes each [Scene].</circle>
+		<circle n="7" name="The Strong" type="SU">When an ally within the
+			Bastion Aura is reduced to -1 or fewer hit points from 0 or more hit
+			points, it gains [Immunity] to [Dying], [Unconscious], [Stable], and
+			[Dead] for one [Round]. </circle>
+	</track>
+	<track id="heroica" name="Heroica: The Seven Circles of Ending">
+		<circle n="1" name="The Blade and the Bow" type="EX">When you gain
+			this ability, designate target ally other than yourself as your
+			partner (you also become its partner). A creature with a partner
+			cannot be designated as another creature’s partner, and no creature
+			can have more than one partner at a time. Once per [Scene], you may
+			designate a different ally other than yourself to be your partner.
+			You and your partner both add %LVL/2% damage to your attacks. If your
+			partner also has this ability, the damage bonuses stack. </circle>
+		<circle n="2" name="Of Might and Guile" type="EX">Choose one of the
+			following abilities (this choice is permanent): -Might: As a swift
+			action, if your partner is within [Medium] range, you may deal %KOM%
+			damage to all opponents within your [Close] range of your partner.
+			This damage ignores [Immunity] and cannot be mitigated or reduced. »
+			Guile: You can spend a move action to double your partner’s critical
+			threat range for one [Round]. Your partner also gains this ability,
+			but cannot use it in a [Round] where you have used it. </circle>
+		<circle n="3" name="The Just and the Unjust" type="EX">Your partner
+			gains the benefits of a Lesser item or Greater item you are attuned
+			to as if they possessed a duplicate of that item and were attuned to
+			it. You cannot choose a duplicate of an item to which your partner is
+			already attuned. </circle>
+		<circle n="4" name="The Truth and the Folly" type="EX">Whenever you
+			attack an opponent against which your partner took an offensive
+			action within the last [Round], you may ignore the highest applicable
+			[Miss chance]. Whenever your partner attacks an opponent against
+			which you took an offensive action within the last [Round], your
+			partner may ignore the highest applicable [Miss chance]. </circle>
+		<circle n="5" name="The Quick and the Dead" type="EX">While within
+			your [Close] range, your partner gains [Resistance] to all damage
+			dealt by opponents within your [Close] range. </circle>
+		<circle n="6" name="Aleph and Null" type="EX">When either you or
+			your partner kills an opponent, you each heal 25 HP and may each
+			immediately take two 5 ft steps. </circle>
+		<circle n="7" name="With Your Shield or On It" type="EX">You don’t
+			die until your partner would also be [Dead]. This only works if you
+			are within 100 ft of each other, and have line of effect. If either
+			of those conditions ceases to be met, you die instantly if this
+			ability was currently sustaining you. If your partner has this
+			ability, it does not make you immortal. </circle>
+	</track>
+	<track id="smiting" name="Smiting: The Seven Circles of War">
+		<circle n="1" name="Skirmish" type="EX">When you miss on an attack
+			roll against an opponent, add a +1 bonus to your attack rolls for the
+			duration of the [Encounter]. This bonus stacks with itself up to the
+			higher of 2 or %LVL%, but cannot be added to more than once per
+			attack. </circle>
+		<circle n="2" name="Conflict" type="EX">Your attacks gain a +%CHA%
+			bonus to damage. </circle>
+		<circle n="3" name="Struggle" type="EX">The second time you hit a
+			single opponent during your turn, you gain a +%CHA% bonus to damage
+			against that opponent for one [Round]. The fourth time you hit an
+			opponent during your turn, your bonus to damage against that opponent
+			from this ability increases to +%CHA*2%. These bonuses apply to
+			damage from the attacks with which you hit the second and fourth
+			time.</circle>
+		<circle n="4" name="Escalation" type="EX">Whenever your Struggle
+			ability activates, you may inflict the [Battered] condition for one
+			[Round] on the opponent you hit to activate Struggle. The duration of
+			this condition increases by one [Round] for every time you hit the
+			opponent again. Additionally, once per [Round], if you hit a
+			[Battered] opponent with an attack, that opponent becomes [Dazed] for
+			one [Round]. A successful Fortitude save (DC %10+LVL/2+CHA%) negates
+			the [Dazed] condition. </circle>
+		<circle n="5" name="Annihilation" type="EX">When you Charge, your
+			attacks gain a +%CHA% bonus to damage for the duration of the
+			[Encounter]. This ability stacks with itself up to two times.
+		</circle>
+		<circle n="6" name="Scorched Earth" type="EX"> If you are reduced to
+			less than half of your normal maximum HP, your attacks gain a +%CHA%
+			bonus to damage for the duration of the [Encounter] or until you are
+			healed above that threshold. </circle>
+		<circle n="7" name="War Engine" type="EX">Whenever you hit an
+			opponent with an attack, that opponent becomes [Battered] and suffers
+			a -%CHA% penalty to its AC until the end of the [Encounter]. </circle>
+	</track>
+	<track id="virtue" name="Virtue: The Seven Circles of Renewal">
+		<circle n="1" name="Font" type="SU">Once per [Encounter], you may
+			draw up an immobile wellspring of vitality called a font, which
+			manifests as a low steady hum and a single spark of light. As a swift
+			action, you may place it anywhere within %10+5*LVL/2% ft. Each
+			[Round], at the start of your turn, an arc of restorative energy
+			strikes one ally of your choice within your [Close] range of the
+			font, and heals %2+LVL+CHA% HP. A font expires after %CHA% [Rounds]
+			(minimum 2). Fonts do not occupy a square, and cannot be targeted or
+			affected by anything but the Virtue track abilities of their creator.
+		</circle>
+		<circle n="2" name="Icon" type="EX">You may now place up to two
+			fonts per [Encounter], using a separate swift action to place each.
+		</circle>
+		<circle n="3" name="Dawnsign" type="EX">Fonts you place now persist
+			for %2*CHA% (minimum 4) [Rounds] and an additional font emanates from
+			you passively, beginning on your first turn each [Encounter].
+		</circle>
+		<circle n="4" name="Vitality Engine" type="SU">If any portion of the
+			HP healed by an arc would have no effect on a target due to his or
+			her HP being full, instead of simply being wasted, that target gains
+			temporary HP equal to the amount of healing that would have normally
+			had no effect. Unlike normal temporary HP, this stacks to a maximum
+			of half the target’s normal max HP. This temporary HP lasts for the
+			duration of the [Encounter]. </circle>
+		<circle n="5" name="Holy Glyph" type="SU">Instead of its normal
+			benefit, an arc from one of your fonts may be used to expunge any one
+			of the following conditions: [Shaken], [Entangled], [Nauseated],
+			[Dazzled], [Deafened], [Blinded], or [Sickened]. You can trigger and
+			direct a single arc from one of your fonts as a swift action, in
+			addition to the normal arcs at the beginning of your turn. </circle>
+		<circle n="6" name="Star Spark" type="SU">An arc may be used to
+			expunge any one of the following conditions instead of healing:
+			[Stunned], [Slowed], [Battered], or [Dazed]. Additionally, any time
+			you use your swift action to generate an additional arc, you may
+			destroy any one of your fonts to create an arc that heals 50 points
+			of damage and [Teleport] that ally anywhere within range of a
+			remaining font. You may not destroy the font emanating from your
+			person. </circle>
+		<circle n="7" name="Rebirth" type="SU">You may destroy a font as
+			part of your swift action to generate an arc that revives a [Dead]
+			ally, healing the ally to 50 hit points in the process (if the ally’s
+			maximum hit points are less than 50, he gains the rest as temporary
+			HP). If you opt to do this, you may not destroy a font with Star
+			Spark as part of the same action. You may not destroy the font
+			emanating from your person. </circle>
+	</track>
+	<track id="professionalSoldier" name="Professional Soldier">
+		<circle n="1" name="Reap the Whirlwind" type="EX">You can, with
+			minimal preparation and using only the resources at hand, create
+			deadly ambushes for your enemy. You can prepare traps, which can be
+			deployed in combat as a swift action. You can deploy one trap per
+			[Encounter], plus one more for every four character levels you
+			possess. A trap will remain functional until the end of the
+			[Encounter], with some exceptions. Every trap has a unique effect
+			when sprung, and while traps are normally visible, they can be
+			concealed with the Larceny skill (as explained in Chapter VII). At
+			1st circle, you have access to the following traps: -Tanglefoot
+			Paste: Atomized in a fine mist that hovers in the air, this paste
+			covers up to five squares in [Close] range of you at time of
+			deployment. Each affected square must touch at least one other
+			affected square. Targets entering these squares must make a Fortitude
+			save (DC %10+LVL/2+KOM%), or stop their movement and become
+			[Flat-footed] until their next turn. -Tripwire: A tripwire is
+			stretched across a 30 ft line originating from target square within
+			[Medium] range. The entire tripwire must exist entirely within your
+			[Medium] range. Those attempting to leave a square covered by the
+			line fall [Prone]. A successful Reflex save (DC %10+LVL/2+KOM%)
+			negates the [Prone] condition. A tripwire can only trigger twice
+			before being destroyed utterly. -Fumigator: A fumigator can be
+			thrown to any square inside [Medium] range, creating a 20 ft radius
+			spread of with a thin gas that has mild hallucinogenic effects
+			originating from that square. For each creature, whenever that
+			creature begins its turn inside the spread or the first time each
+			[Round] that creature enters the spread, that creature starts seeing
+			double, forcing it to treat all creatures as [Fully concealed] for
+			the next 2 [Rounds]. A successful Will save (DC %10+LVL/2+KOM%)
+			negates this effect. A fumigator dissipates after 4 [Rounds].
+		</circle>
+		<circle n="2" name="A Personal Touch" type="EX">Grappling hooks are
+			standard-issue for rangers, and for good reason. Once per [Round],
+			you may replace an attack made during your attack action with a
+			ranged attack at up to [Close] range at the same attack bonus as the
+			replaced attack. If you hit, you deal damage equal to 1d8 + %KOM% and
+			knock the hit opponent [Prone]. As a swift action, you may then
+			immediately pull the opponent closer to you by up to %10+5*LVL/4% ft.
+			A successful Reflex save (DC %10+LVL/2+KOM%) negates the [Prone]
+			condition and thus prevents the pull.</circle>
+		<circle n="3" name="Kept Secret, Kept Safe" type="EX">At will, you
+			may use a move action to lay down a cloaking scatter of smoke, dust,
+			and silvered shards to screen your allies. All allies within [Close]
+			range gain a +2 bonus to AC and Reflex saves for one [Round]. At 12th
+			level, the bonus rises to +3 and rises again to +4 at 18th. </circle>
+		<circle n="4" name="A Swiftness in the Blood" type="EX"> Once per
+			[Round], you may take an additional swift or immediate action.
+		</circle>
+		<circle n="5" name="Into the Valley of Death" type="EX">As an
+			immediate action, when a creature triggers one of your traps, you may
+			place another trap. This trap may not be placed directly under the
+			unfortunate soul who triggered this ability. You gain access to the
+			following additional traps: -Razorpod Cluster: Once activated, this
+			ominous metallic tangleweed splits into three razorpods — whirring
+			collections of razor edges deployed to three separate squares within
+			[Close] range. At the beginning of your turn, each razorpod you have
+			deployed can move up to half your movement speed. Razorpods can move
+			into a creature’s occupied square and creatures can move into a
+			square that a razorpod is in, but due to their tendency to get caught
+			on anything, two razorpods cannot share the same square. Whenever a
+			creature moves into a square occupied by a razorpod for that
+			creature’s first time this [Round], or at the end of your turn if at
+			least one razorpod occupies the same square as a creature, that
+			creature is dealt %LVL+KOM% damage. This damage ignores [Damage
+			reduction] and [Resistance]. After dealing damage three times, a
+			razorpod is utterly destroyed. -Remote mine: Remote mines exist for
+			the sole purpose of delivering cleverly timed pillars of cheery and
+			warmth-giving fire hot enough to melt steel. Each prepared remote
+			mine can be deployed in target square within [Close] range. As an
+			immediate action, you may detonate a remote mine to create a 15 ft
+			radius spread originating from the mine’s square that deals %LVL*4%
+			energy damage with the [Fire] descriptor and inflicts the [Battered]
+			condition for two [Rounds] against all opponents within the spread. A
+			successful Reflex save (DC %10+LVL/2+KOM%) halves the damage.
+		</circle>
+		<circle n="6" name="Bring the Rain" type="EX">As a move action, if
+			you have a means of communicating with a creature, you provide that
+			creature with targeting information for its abilities. This lets the
+			creature use your location instead of its location for purposes of
+			determining line of sight, line of effect, and range when calculating
+			whether it can target a location or creature with one of its spells
+			or abilities. This ability works over any distance. Each [Round] that
+			you retain a Stealth check’s result, including the [Round] you make
+			your Stealth check, penalties to Stealth incurred by the creature
+			currently benefiting from the ability are also incurred by you. You
+			may maintain this effect for as many [Rounds] as you wish by spending
+			a move action each [Round] you wish to maintain this effect. </circle>
+		<circle n="7" name="The Sound of Cannon" type="EX">You become as
+			swift as the terrible thunder you herald. You gain a +6 bonus to your
+			initiative, and all allies gain a +4 bonus to their initiative,
+			bringing your total bonus to +10. </circle>
+	</track>
+	<track id="reignOfArrows" bindId="arrowsAndDaggers" name="A Reign of Arrows">
+		<circle n="1" name="Dead-eye" type="EX">You fight best when you
+			don’t fight fair. When you hit a [Flat-footed] opponent with a ranged
+			attack, you deal %3*LVL/2% (minimum 3) additional damage with the
+			[Precision] descriptor. </circle>
+		<circle n="2" name="Return Fire" type="EX">Once per [Round], when an
+			opponent within [Close] range attacks you, you may make a ranged
+			attack against that opponent that does not provoke an attack of
+			opportunity. If your attack hits, it deals %LVL% damage and leaves
+			your target [Flat-footed] for one [Round].</circle>
+		<circle n="3" name="Ricochet" type="EX">You can intercept any sort
+			of projectile, given a chance. As an immediate action, you can
+			intercept and hinder any ranged attack, spell, supernatural ability,
+			or spell-like ability that would target or affect an ally within
+			[Close] range. Make an attack roll with a ranged weapon you are
+			wielding. For purposes of that offensive action, the ally can freely
+			choose to replace its Armor Class or any saves it makes with your
+			attack roll. </circle>
+		<circle n="4" name="Missile Barrage" type="EX">Each attack you make
+			is part of a carefully planned pattern of fire. Immediately after
+			taking an attack action in which all attacks are made against target
+			creature, you may create a spread with a radius of %5*LVL/5% ft
+			originating from target creature, causing each creature in the area
+			besides target creature to be [Blown away] in a direction of your
+			choice. </circle>
+		<circle n="5" name="A Crashing of Heaven" type="EX">You learn to
+			take aim, steady your breathing, and unleash devastation on your foe.
+			Twice per [Encounter], as a move action, your next ranged attack this
+			[Round] deals %LVL*4% additional damage if it hits. A successful
+			Fortitude save (DC %10+LVL/2+KOM%) halves the additional damage and
+			prevents that attack from reducing your target below 1 HP. Whether it
+			hits or misses, this attack inflicts the [Battered] condition on your
+			target. This is a [Death] effect. </circle>
+		<circle n="6" name="Storm Bolt" type="EX">Once per [Round], as a
+			swift action, you may make your next ranged attack this [Round] into
+			a Storm Bolt; if the attack hits, your target becomes [Dazed] for one
+			[Round]. A successful Reflex save (DC %10+LVL/2+KOM%) negates the
+			[Dazed] condition. </circle>
+		<circle n="7" name="Thus Always Unto" type="SU">As a swift action,
+			you can sap the will and ability of your opponents with every strike;
+			until the end of your turn, whenever you hit an opponent with a
+			ranged attack, you may inflict the [Energy drained] condition on that
+			opponent. A successful Fortitude save (DC %10+LVL/2+KOM%) negates the
+			[Energy drained] condition and instead leaves the opponent
+			[Flat-footed] for one [Round]. </circle>
+	</track>
+	<track id="ironMagi" bindId="arrowsAndDaggers" name="Iron Magi">
+		<circle n="1" name="A Cadence of Blows" type="EX">From the Tempo
+			comes the simplest Chain component, which trades immediate
+			opportunities for a long-term advantage by throwing an opponent off
+			balance. A Cadence of Blows replaces a single melee attack in an
+			attack action, and when activated, grants you a +1 bonus to attack
+			rolls against a single opponent within [Melee] range and a +1 bonus
+			to AC. These bonuses stack %1+(CRL+1)/2%. A Cadence of Blows can also
+			be activated as a Chain finisher when you have a chain of at least
+			one Link long. </circle>
+		<circle n="2" name="Howl of the North Wind" type="SU">This explosion
+			of the biting and arctic first wind can be activated as a Chain
+			finisher that requires at least one Link in your Chain. You create a
+			30 ft radius spread originating from you that deals %LVL% damage to
+			all opponents in the area and renders them [Blown away] or [Prone],
+			at your choice. A successful Reflex save (DC %10+LVL/2+KOM%) negates
+			the [Blown away] or [Prone] conditions. </circle>
+		<circle n="3" name="Beloved of the Dirae" type="SU">You gain a
+			[Bonus attack] whenever you take an attack action. In addition, you
+			may call on the principle of lightning through the spirits of
+			celestial anger called Dirae. This is a Chain component that replaces
+			two melee attacks in an attack action to strike an opponent with a
+			rain of sparks. You may make a single melee attack against a creature
+			within your [Medium] range. Regardless of whether the attack hits or
+			misses, you create a 35 ft radius spread originating from your target
+			that lasts for one [Round]. For each opponent, the first time that
+			opponent moves into or begins its turn in this spread, it takes %LVL%
+			energy damage with the [Electricity] descriptor. Opponents in the
+			spread at the end of the spread’s duration are dealt %LVL*2% energy
+			damage with the [Electricity] descriptor.</circle>
+		<circle n="4" name="Scream of the Black Sky" type="SU">With the
+			festering darkness of the second wind, you conjure a swirl of violent
+			black clouds as a Chain finisher that requires at least two Links in
+			your chain. Up to three target opponents within your [Close] range
+			take %2*LVL% damage, and are [Blinded] for two [Rounds].
+			A successful Reflex save (DC %10+LVL/2+KOM%) halves the [Blinded]
+			duration. Scream of the Black Sky may be activated three times per [Encounter]. 
+		</circle>
+		<circle n="5" name="Staccato Blastwave" type="SU">As a Chain
+			component that replaces two melee attacks in an attack action, you
+			invoke the Principle of Thunder to create a ripple of violent sound
+			that shatters bone and tears flesh. You make a single melee attack,
+			which deals damage as normal, plus %2*(LVL+KOM)% additional damage.
+			If the attack misses, you still deal %2*(LVL+KOM)% damage to its target.
+		</circle>
+		<circle n="6" name="Bellow of the Deep Earth" type="SU">Roaring and
+			sudden, you call the underground current of the third wind forth as a
+			Chain finisher that requires at least three Links in your chain. You
+			create a 50 ft radius spread originating from you that deals %3*LVL% damage
+			to all opponents in the area and renders them [Prone] and [Entangled].
+			A successful Fortitude save (DC %10+LVL/2+KOM%) negates the [Prone] and
+			[Entangled] conditions. Bellow of the Deep Earth may be activated
+			three times per [Encounter].</circle>
+		<circle n="7" name="Magnum Opus" type="EX">All of your Chain
+			components and successful melee attacks add an additional Link to
+			your Chain.</circle>
+		<circle n="7" name="Roar of the Storm Lords" type="SU">Once per
+			[Encounter], you may activate this ability as a Chain finisher that
+			requires at least seven Links in your Chain. You create a spread with
+			a radius of your [Medium] range originating from you, which deals
+			%LVL*3% damage to all opponents in the area, and renders them [Battered]
+			for two [Rounds], knocks them [Prone], and repositions each of them up
+			to 70 ft each to squares of your choice. A successful Reflex save (DC %10+LVL/2+KOM%)
+			negates the repositioning effect and the [Prone] condition. </circle>
+	</track>
+	<track id="battleTempering" name="Battle's Tempering">
+		<circle n="1" name="Rather Quick than Dead" type="EX">Moving out of
+			a square of difficult terrain does not cost you extra movement. In
+			addition, choose one of the following options. This choice is
+			permanent: -Shoot First: You gain a +%LVL/2% bonus
+			(minimum 1) on initiative checks. -Gain Ground: You can take an
+			additional 5 ft step each [Round]. </circle>
+		<circle n="2" name="Dive for Cover" type="EX">Once per [Encounter],
+			when you make a successful Reflex saving throw against an offensive
+			action that would normally have a lesser effect on a successful save
+			(such as a spell with a save of “Reflex half ”), you instead ignore
+			the effect entirely. </circle>
+		<circle n="3" name="For Ire" type="EX">You gain [Fast healing] %KDM%,
+			and becoming [Flat-footed] does not prevent you from making attacks
+			of opportunity or taking immediate actions. </circle>
+		<circle n="4" name="Look of a Survivor" type="EX">You gain
+			[Resistance] to physical damage. </circle>
+		<circle n="5" name="It Has Been an Honor" type="EX">You are a true
+			expert at getting the hell out of Dodge. You gain [Immunity] to
+			[Binding] effects. In addition, once per [Round], as a move action or
+			as part of a move action, you can fade into your environment,
+			duplicating the effects of the invisibility spell. </circle>
+		<circle n="6" name="Ghost" type="EX">You resist magical and
+			technological attempts to locate you. Items, spells, and supernatural
+			and spell-like abilities cannot be used to establish line of sight to
+			you. Divination spells cannot be used to track or locate you.
+			Additionally, you ignore bonuses to opponents’ Awareness from items,
+			spells, and supernatural and spell-like abilities. </circle>
+		<circle n="7" name="A Masterpiece in Violence" type="EX">Once per
+			[Encounter], if you would take 60 or more damage from a single
+			attack, effect, or ability, you may immediately make an attack action
+			against the source of the damage. If this attack action kills your
+			target, you take no damage. </circle>
+	</track>
+	<track id="esotericaRadica" name="Esoterica Radica">
+		<circle n="1" name="Playing it Right" type="EX">Any rogue learns to
+			use a few key skills without pausing to think about them. Pick two
+			skills. You can take 10 on both these skills regardless of
+			circumstances. </circle>
+		<circle n="2" name="When to Hold" type="EX">When it’s time to stand
+			your ground, you trust in your uncanny luck to protect you. Once per
+			[Encounter] per circle you possess in this track, as an immediate
+			action, you may gain a +2 bonus to your Armor Class, Fortitude,
+			Reflex, and Will saves until the beginning of your next turn.
+		</circle>
+		<circle n="3" name="When to Fold" type="EX">You know the value of
+			beating a hasty retreat in the face of danger. %1+LVL/4% times
+			per [Encounter], you can gain an extra move action on your current turn.
+			If you use this move action to move, the movement provokes attacks of
+			opportunity as normal. </circle>
+		<circle n="4" name="When to Cheat" type="EX">Once per [Round], you
+			may take an additional swift or immediate action. </circle>
+		<circle n="5" name="When to Run" type="EX">Sometimes walking away
+			from a fight isn’t fast enough. Twice per [Encounter], as an
+			immediate action, you can move up to your movement speed. </circle>
+		<circle n="6" name="An Ace to Keep" type="EX">You can be extralucky
+			when you need to be. Once per [Round], you may make a hit with an
+			attack you made that is not a critical hit into a critical hit,
+			inflicting all normal effects of a critical hit. </circle>
+		<circle n="7" name="Gambler’s Dao" type="EX">You’ve made it this far
+			with unbelievably good luck, so you may as well keep relying on it.
+			Whenever you roll a d20, you instead roll two d20s and choose the
+			better result. </circle>
+	</track>
+	<track id="assassin" bindId="rogueOffensive" name="Assassin" kom="dex">
+		<circle n="1" name="Sneak Attack" type="EX">You know that a fair
+			fight is a failure to plan. Any time you make an attack that hits a
+			[Flat-footed], [Helpless], [Confused], [Dazed], [Entangled],
+			[Exhausted], [Stunned], [Shaken], [Frightened], [Cowering] or
+			[Panicked] target, you deal %CRL%d6 additional damage with the
+			V: Classes[Precision] descriptor. </circle>
+		<circle n="2" name="Slayer’s Sense" type="EX">Once you go for an
+			enemy, you’re rarely inclined to let them escape alive. You can
+			ignore [Concealed] and [Fully concealed] when attacking an opponent
+			you have previously damaged with Sneak Attack during the [Encounter].
+		</circle>
+		<circle n="3" name="Blood Calls to Blade" type="EX">Any time you
+			make an attack against an opponent subject to your Sneak Attack
+			ability while you are not benefiting from fury bonuses to attack
+			rolls, save DCs, or damage, you gain a +4 bonus on your attack roll.
+		</circle>
+		<circle n="4" name="Menacing Presence" type="EX">The sight of one of
+			your victims leaves their allies disturbed and vulnerable. Whenever
+			an opponent ends its turn within your [Melee] range of another
+			creature you have damaged with a Sneak Attack during this
+			[Encounter], it becomes [Shaken] for one [Round]. This is a
+			[Mind-affecting], [Fear] effect. </circle>
+		<circle n="5" name="Felling Strike" type="EX">The shock of a Sneak
+			Attack often causes an enemy to open their defenses. Whenever you
+			deal additional damage with the [Precision] descriptor to an opponent
+			within [Melee] range with your Sneak Attack ability, that opponent is
+			knocked [Prone]. A successful Reflex save (DC %10+LVL/2+KOM%)
+			negates the [Prone] condition. </circle>
+		<circle n="6" name="Battle Fatigue" type="EX">Even if an enemy
+			survives your first strikes, you still leave their body battered and
+			crippled. If you deal Sneak Attack damage to an opponent twice in the
+			same [Round], that opponent is [Slowed] until the beginning of your
+			next turn. </circle>
+		<circle n="7" name="No Exit" type="EX">Hell is one other person in
+			particular — you. Twice per [Encounter], as a swift action, you may
+			deal additional %5*LVL% damage on your next Sneak
+			Attack this [Round], and cause the target to be [Blinded] and
+			[Stunned] for one [Round]. A successful Fortitude save (DC %10+LVL/2+KOM%)
+			halves the additional damage and causes the opponent to become [Dazzled]
+			and [Entangled], instead of being [Stunned] and [Blinded]. 
+			This is a [Death] effect. </circle>
+	</track>
+	<track id="swashbuckler" bindId="rogueOffensive" name="Swashbuckler"
+		kom="dex">
+		<circle n="1" name="Dance With Me" type="EX">Whenever you move at
+			least 10 ft, your next attack this [Round] deals %LVL+KDM%
+			additional damage with the [Precision] descriptor. </circle>
+		<circle n="2" name="Once More!" type="EX">When you spend a standard
+			action to make a single attack that is not part of a spell-like
+			ability or spell, and then move at least 10 ft during the same
+			[Round], you may make a single melee attack at the end of your
+			movement. This attack, called a Once More! attack, can be made
+			another time at the end of each additional instance of movement after
+			moving at least 10 more ft. The required distance may comprise a
+			single movement or multiple movements (such as a pair of 5 ft steps),
+			but a Once More! attack can only be made when a movement ends. If the
+			movement is made as part of an action, you can likewise only activate
+			Once More! at the end of that action. You may only make
+			%CRL/2% Once More! attacks per [Round].</circle>
+		<circle n="3" name="Dirty Fighting" type="EX">Your speed and finesse
+			leave opponents demoralized and bruised, even before they are
+			defeated. The first time you hit any opponent with a Once More!
+			attack this [Round], your opponent becomes [Battered] for two
+			[Rounds]. A successful Fortitude save (DC %10+LVL/2+KOM%)
+			negates the [Battered] condition. </circle>
+		<circle n="4" name="Kick Him While He’s Down" type="EX">Once you
+			begin to throw down, you have a knack of taking the advantage and
+			running with it. Once per [Round], after making an attack during your
+			turn, you may immediately take two free 5 ft steps (even if you used
+			or will use a move action to move) and make a [Bonus attack].
+		</circle>
+		<circle n="5" name="Concussive Impact" type="EX">You disorient your
+			opponents with lightning-fast strikes. If you hit an opponent with
+			two Once More! attacks in the same [Round], they become [Confused]
+			for one [Round]. </circle>
+		<circle n="6" name="Panache" type="EX">You mercilessly take
+			advantage of openings in your opponents’ defenses. Any time an
+			opponent provokes an attack of opportunity from you, you may move 10
+			ft in any direction before making your attack of opportunity. In
+			addition, every time you hit an opponent with a Once More! attack,
+			you may move the target 10 ft in any direction. This movement does
+			not provoke an attack of opportunity. </circle>
+		<circle n="7" name="Topsy Turvy" type="EX">Sometimes you roll with
+			the punches and sometimes the punches roll with you. Your Panache
+			ability may now move each opponent within your [Melee] range after
+			you hit an opponent with a Once More! attack instead of just the
+			opponent hit. Once per [Round] for each opponent moved, if your
+			opponent is adjacent to an obstacle or occupied square and you are
+			able to push them 5 ft or further, you may forgo any further movement
+			from that activation of Panache to render that opponent [Prone]. A
+			successful Reflex save (DC %10+LVL/2+KOM%) negates the
+			[Prone] condition. </circle>
+	</track>
+	<track id="demoMan" bindId="rogueOffensive" name="Demo Man" kom="int">
+		<circle n="1" name="Smells Like Victory" type="EX">You love the
+			smell of freshly mixed exposives in the morning. Or afternoon. Or
+			evening, for that matter. Choose an elemental descriptor ([Acid],
+			[Cold], [Electricity], or [Fire]). This choice is permanent. As a
+			move action or a swift action, you can mix noxious chemicals into a
+			vial, which lasts for one [Round], at which point it becomes useless.
+			These vials can be thrown as attacks in an attack action, and you can
+			throw as many vials per [Round] as you have vials to throw,
+			as a ranged attack ([Close] range), with a +%CRL% item bonus to the
+			attack roll. A target hit by the vial takes %LVL%d4 + %KOM% energy damage
+			with the chosen descriptor, and starts [Burning]. A successful Reflex save
+			(DC %10+LVL/2+INT%) negates the [Burning] condition. </circle>
+		<circle n="2" name="Flash-bang" type="EX">Once per [Round], as part
+			of a move action, you can add a fuse to a powerful firecracker, which
+			lasts for one [Round] before its volatile chemicals become useless.
+			You can use the firecracker in either of the following ways: 
+			-Flash Grenade: As a ranged attack, which can be made as part of an attack
+			action, you can throw the firecracker at target square within [Close]
+			range, which creates a 10 ft radius spread originating from that
+			square. All creatures within the spread are [Blinded] and [Deafened]
+			for two [Rounds]. A successful Reflex save (DC %10+LVL/2+INT%)
+			negates the [Blinded] and [Deafened] conditions. 
+			-Flash Missile: You can affix the firecracker to a
+			single ranged weapon in your possession or a vial prepared with your
+			Smells Like Victory ability. The next time you hit a creature with an
+			attack using either that weapon or vial, that creature is [Blinded]
+			and [Deafened] for one [Round]. A successful Fortitude save 
+			(DC %10+LVL/2+INT%) negates the [Blinded] and [Deafened] conditions. </circle>
+		<circle n="3" name="Sticky Bomb" type="EX">It dawns on you that you
+			might want to ensure a safer escape. %LVL/4% times per [Encounter],
+			without spending an action, you can affix a pouch
+			of entangling goo to a single ranged weapon in your possession or a
+			vial prepared with your Smells Like Victory ability. The next time
+			you hit a creature with that weapon or vial before the beginning of
+			your next turn, that creature and all creatures within a 20 ft radius
+			spread originating from that creature are [Entangled] for two
+			[Rounds]. A successful Reflex save (DC %10+LVL/2+INT%)
+			negates the [Entangled] condition. </circle>
+		<circle n="4" name="High Explosive" type="EX">Your most spectacular
+			creation yet is so volatile you’d be a fool to carry more than one...
+			so you carry two. Twice per [Encounter], as a standard action, you
+			may create a 30 ft radius spread originating from target square
+			within [Close] range, which deals %LVL%d6 + KOM damage
+			to creatures within the area and pushes them to the closest square
+			outside of it, knocks them [Prone], and leaves them [Dazed] for one
+			[Round]. A successful Reflex save (DC %10+LVL/2+INT%) negates the
+			[Dazed] condition and halves the damage. </circle>
+		<circle n="5" name="Sapper Rods" type="EX">You’ve created bombs that
+			undermine magic itself. Twice per [Encounter], as a standard action,
+			you may create a 30 ft radius spread originating from target square
+			within [Close] range, and choose to do one of the following: end two
+			target effects created by spells or spell-like abilities of 5th
+			circle or lower that have durations and that originate from a
+			creature or square within the spread or targeted a creature within
+			the spread; or end a single target effect created by a spell or
+			spell-like ability of 6th or 7th circle or lower that has a duration
+			and that originates from a creature or square within the spread or
+			targeted a creature within the spread. This is a [Dispelling] effect.
+		</circle>
+		<circle n="6" name="Cluster Bomb" type="EX">The more explosives you
+			can fit in one space, the better. Once per [Encounter], as a standard
+			action, you can detonate a cluster bomb in any square within [Close]
+			range, creating a 30 ft radius spread originating from target square.
+			This cluster bomb has three of the following effects of your choice:
+			-Vitriol: Creatures in the spread take %LVL%d4+%KOM% energy damage with the
+			elemental descriptor chosen for your Smells Like Victory ability, and start
+			[Burning]. A successful Reflex save negates the [Burning] condition.
+			-Flash: Creatures in the spread are [Blinded] and [Deafened] for
+			two [Rounds]. A successful Reflex save negates this effect 
+			-Tangle: Creatures in the spread are [Entangled] for two
+			[Rounds]. A successful Reflex save negates this effect.
+			-Blast: Creatures in the spread take %LVL%d4+%KOM% damage, 
+			and are pushed to the closest square outside of the burst, 
+			are knocked [Prone], and are [Dazed] for one [Round]. A successful
+			Reflex save negates the [Dazed] condition and halves the damage.
+			-Dispel: Choose one: End two target effects created by spells
+			or spell-like abilities of 5th circle or lower that have durations
+			and that originate from a creature or square within the spread or
+			targeted a creature within the spread; or end a single target effect 
+			created by a spell or spell-like ability of 6th or 7th circle or lower
+			that has a duration and that originates from a creature or square 
+			within the spread or targeted a creature within the spread. 
+			This is a [Dispelling] effect. 
+			The DC for these Reflex saves is (DC %10+LVL/2+INT%).
+		</circle>
+		<circle n="7" name="Show Them All" type="EX">They laughed you out of
+			the university – but who’s laughing now? Once per [Encounter], as a
+			ranged attack, you can hurl a bomb that is beyond the wildest dreams
+			of your stuffy professors at target square within [Close] range. You
+			can make this attack as part of an attack action. The bomb detonates
+			in a massive 60 ft radius spread originating from target square,
+			inflicting %4*LVL% damage to all opponents in the vicinity. A
+			successful Reflex save (DC %10+LVL/2+INT%) halves the damage. 
+			Additionally, the blast leaves a cloud of flaming debris throughout
+			its area of effect that lasts three [Rounds] and deals %2*LVL% damage
+			to any creature entering the debris cloud and to any creature
+			that begins or ends its turn in the debris cloud. </circle>
+	</track>
+	<track id="acrobaticAdept" bindId="rogueDefensive" name="Acrobatic Adept"
+		kdm="con">
+		<circle n="1" name="Just That Quick" type="EX">You learn to react to
+			attacks with stunning alacrity, sometimes dodging a blow that would
+			otherwise pierce your armor. %CRL% times per [Round],
+			when an opponent who is not [Concealed] or [Fully
+			concealed] makes an attack against you, if you are not [Entangled],
+			you may make a Reflex save and use the result in place of your AC
+			against that attack if the result is higher than your AC. </circle>
+		<circle n="2" name="Evasion" type="EX">Once per [Encounter], if you
+			make a successful Reflex saving throw against an offensive action
+			that normally deals half damage on a successful save, you may instead
+			take no damage. Additionally, you gain a +%LVL/4% bonus to Reflex saves.
+		</circle>
+		<circle n="3" name="Supersonic Man" type="EX">You gain a 10 ft bonus
+			to your movement speed and a +1 bonus to AC, and you gain a [Bonus
+			attack] whenever you take an attack action. </circle>
+		<circle n="4" name="Don’t Stop Me Now" type="EX">You can slip out of
+			any bonds, even magical ones, and dexterously dive over any obstacle.
+			You gain [Immunity] to effects with the [Binding] descriptor, and
+			moving out of a square of difficult terrain does not cost you extra
+			movement. </circle>
+		<circle n="5" name="Artful Dodger" type="EX">Your sweet moves have
+			become things of beauty. You never provoke attacks of opportunity.
+		</circle>
+		<circle n="6" name="No Sell" type="EX">Once per [Encounter], any
+			time during a [Round], you may make a Reflex save. You may use the
+			result of this save to replace the results of any Fortitude or Will
+			saves you make for the rest of the [Round]. </circle>
+		<circle n="7" name="Faster Than the Eye" type="EX">Your exceedingly
+			acrobatic movements, like the unpredictable movements of a fly, fool
+			the eyes of those attempting to harm you. Whenever you use Just that
+			Quick and your opponent’s attack roll misses, you gain 20% [Miss
+			chance] for one [Round]. This stacks with itself, but not other
+			sources, up to a maximum of 80% [Miss chance]. </circle>
+	</track>
+	<track id="tenNinjas" bindId="rogueDefensive" name="I Am Ten Ninjas"
+		kdm="wis">
+		<circle n="1" name="Smoke Bomb!" type="EX">As a ninja, you are
+			well-schooled in the art of disappearing at a moment’s notice. As a
+			swift action, you can create an obscuring mist, as the spell.
+			Creating a fourth obscuring mist causes the oldest of your obscuring
+			mists to disperse immediately. </circle>
+		<circle n="2" name="Ninja Reflexes" type="EX">Once per [Encounter],
+			when you make a successful Reflex saving throw against an offensive
+			action that would normally have a lesser effect on a successful save
+			(such as a spell with a save of “Reflex half ”), you may choose to
+			instead ignore the effect entirely. </circle>
+		<circle n="3" name="Shadow Step" type="EX">As a swift action, you
+			gain [Blindsight] out to [Melee] range and may add the [Teleport]
+			descriptor to any of your movements for one [Round]. Whenever you
+			activate the Smoke Bomb! ability, you may activate Shadow Step
+			without taking another action. </circle>
+		<circle n="4" name="Hummingbird Stance" type="EX">You gain the Fly
+			movement mode. In addition, as a standard action, you can move up to
+			your speed and make a single attack at any point during your
+			movement. </circle>
+		<circle n="5" name="Flash of Shadows" type="EX">%LVL/4% times per [Encounter],
+			as an immediate action, you can [Teleport] a distance
+			up to your movement speed. </circle>
+		<circle n="6" name="Paint It Black" type="EX">You can make a Stealth
+			check as a swift or immediate action. In addition, you no longer
+			suffer a penalty to your Stealth check for moving at more than half
+			your movement speed. Once per [Encounter], you may retain the result
+			of your Stealth check after taking an offensive action. </circle>
+		<circle n="7" name="Void Disciple" type="EX">You are permanently
+			[Invisible] and have [Immunity] to the [Revealed] condition. Special
+			vision modes like [Blindsight], [Ghostwise sight], and [Tremorsense]
+			do not allow creatures to ignore the effects of the [Invisibility]
+			condition on you. As a free action, you can turn this ability on or
+			off. However, you must still use the Stealth skill to remain fully
+			unseen. </circle>
+	</track>
+	<track id="fortuneFavored" bindId="rogueDefensive" name="Fortune's Favored"
+		kdm="cha">
+		<circle n="1" name="A Little to the Left" type="EX">You seem to
+			narrowly dodge what would otherwise be lethal blows. Once per
+			[Encounter], if you would be reduced to negative hit points, you are
+			instead reduced or healed to 1 hit point and immediately gain a move
+			action. If you have the Swashbuckler track, this move action triggers
+			the Once More! ability (if you wish to use it). </circle>
+		<circle n="2" name="Improvisation" type="EX">As a swift action, you
+			can grant yourself or an ally within [Close] range a +2 bonus on
+			attack rolls, saving throws, and skill checks until the beginning of
+			your next turn. </circle>
+		<circle n="3" name="Gift of Gab" type="EX">By distracting your
+			opponents with constant jokes, elaborate discourse, and simple
+			nonsense, you gain a +3 deflection bonus to Armor Class and a +3
+			bonus to Reflex saving throws. </circle>
+		<circle n="4" name="Better Lucky And Good" type="EX">Twice per
+			[Encounter], once per [Round], you can remove any one of the
+			following conditions from yourself: [Battered], [Bleeding],
+			[Blinded], [Confused], [Cowering], [Dazed], [Dazzled], [Deafened],
+			[Entangled], [Exhausted], [Fatigued], [Frightened], [Nauseated],
+			[Panicked], [Paralyzed], [Petrified], [Shaken], [Sickened] [Stunned].
+			Activating this ability does not require an action, and can be done  
+			even if a condition would normally prevent you from acting. 
+		</circle>
+		<circle n="5" name="Changing the Odds" type="EX">Things that
+			shouldn’t work in your favor sometimes do anyway. %1+CRL% times per [Scene],
+			as a swift action, you can reroll a single d20
+			roll you made after knowing whether that roll succeeds or fails. You
+			must keep the second result, even if it’s unfavorable. </circle>
+		<circle n="6" name="Never Tell Me the Odds" type="EX">Once per
+			[Round], as an immediate action, you may add 1d4 to a single d20 roll
+			you made after knowing the numerical result of the roll, and treat
+			the sum as the new result of that roll. If the result of the two dice
+			rolls together is 20 or higher, it counts as rolling a natural 20 in
+			any situation in which a natural 20 would matter. </circle>
+		<circle n="7" name="Roll With It" type="EX">Once per [Round], when
+			you would take any amount of damage, you may take half that much
+			damage instead. </circle>
+	</track>
+	<track id="justBlade" bindId="sageWrath" name="Just Blade">
+		<circle n="1" name="Grim Heritor" type="SU">As a swift action, or
+			part of another swift action, you may form a melee weapon of your
+			choice out of pure energy, though it may include a decorative hilt as
+			part of your personal stylings. This weapon has the [Arcane] property
+			and three other weapon properties of your choice, and is a Lesser
+			item of your design with enchantments as normal for a magic weapon of
+			its type (see Chapter XIII). These choices are permanent. This
+			weapon, called your Grim Heritor, does not count against your normal
+			limit of attuned magic items. When you gain your 4th circle in Just
+			Blade, re-design this weapon as a Greater item, and when you gain
+			your 6th circle, redesign it as a Relic. Though your Grim Heritor
+			possesses the [Arcane] property, the weapon itself is a supernatural
+			ability, and attacks with it benefit from magic weapon item bonuses
+			to attack, magic item enchantments that trigger on a hit, and the 
+			[Brutal] property. While wielding your Grim Heritor, you count as
+			having a Good Base Attack Bonus (equal to your level). You may only
+			have a single Grim Heritor in existence at a time, and may cause
+			it to disappear as a free action. </circle>
+		<circle n="2" name="Mental Thrust" type="SU">As a move action, you
+			may cause target opponent within [Close] range to be [Blown away] in
+			a direction of your choosing. If that opponent would enter and leave
+			a square you occupy, it provokes an attack of opportunity from you
+			before passing on its less than merry way. A successful Reflex save
+			(DC %10+LVL/2+KOM%) negates this effect. </circle>
+		<circle n="3" name="Mystic Focus" type="SU">The burgeoning power of
+			your art allows you to create an unstable circuit of arcane power in
+			your Grim Heritor. You begin each [Encounter] with your Grim Heritor
+			uncharged. Once per [Round], as a swift action, if your Grim Heritor
+			is not already charged, you may choose a spell-like ability that you
+			possess. If you do so, your Grim Heritor becomes charged. While your
+			Grim Heritor is charged, you possess a 20% [Miss chance]. When you
+			hit an opponent with an attack made using your Grim Heritor, if the
+			Grim Heritor is charged, you may render it uncharged; note the result
+			of your attack roll for that attack, and activate the chosen
+			spell-like ability (if able) without provoking attacks of opportunity
+			as a [Surge] effect. If the spell-like ability targets one or more
+			creatures, you must choose that opponent as a target of the
+			spell-like ability if able. If the spell-like ability targets one or
+			more squares, you must choose one square that opponent occupies as a
+			target of the spell-like ability if able. If you would make an attack
+			roll for an attack against a creature as part of activating the
+			spell-like ability, compare the noted result to that creature’s AC
+			instead. If it equals or exceeds that creature’s AC, that attack hits
+			that creature. Abilities and effects other than the spell-like
+			ability’s effects that take place as the result of a hit or critical
+			hit don’t activate as a result of this hit. </circle>
+		<circle n="4" name="Vectored Thrust" type="SU">You gain the Fly
+			movement mode. </circle>
+		<circle n="5" name="Devastating Barrage" type="SU">You can
+			manipulate the latent forces of the universe. Once per [Round], as a
+			move action, you may create a line with a maximum length of 
+			%25+5*LVL/4% ft originating from you. Creatures occupying a square
+			in the line are moved to the last square in the line. You then create
+			an implosion, dealing %LVL*2% damage to creatures
+			other than you in that square or any square adjacent to that square,
+			moving those creatures to that square, and knocking them [Prone]. A
+			successful Fortitude save (DC %10+LVL/2+KOM%) halves the damage
+			and negates the [Prone] condition and the moving effect from the implosion. </circle>
+		<circle n="6" name="Indestructible Focus" type="SU">You gain [Lesser
+			resistance] to all damage. At the beginning of your turn, you gain a
+			Grim Barrier that grants [Lesser resistance] against the next source
+			of damage you suffer. Grim Barriers accumulate during an [Encounter]
+			and stack with one another, but each time you are dealt damage, a
+			single Grim Barrier dissipates. All Grim
+			Barriers dissipate at the end of each [Encounter]. </circle>
+		<circle n="7" name="Voice of Devastation" type="SU">You can call
+			upon the fundamental truths of the universe and proclaim your
+			enemies’ mortality. Once per [Encounter], as a swift action, you may
+			create a spread with a radius equal to your [Close] range originating
+			from you that deals %3*LVL% damage to all opponents and renders
+			them [Battered] for 3 [Rounds] and [Stunned] for 1 [Round]. 
+			A successful Will save (DC %10+LVL/2+KOM%) negates the [Stunned] condition. </circle>
+	</track>
+	<track id="arcaneLore" bindId="sageWrath" name="Arcane Lore">
+		<circle n="1" name="Black Tidings" type="SU">Once per [Round], as a
+			standard action, you toss twisting gyres of energy through the air,
+			dealing devastating damage. The actual blast wave takes one of the
+			two following forms, which you may freely alternate between. -Dread
+			Wave: The Dread Wave manifests as a wedge with a length of %20+10*CRL% ft
+			originating from you that deals energy damage with the [Cold] descriptor
+			or magical damage with the [Negative] descriptor, chosen each time you 
+			activate Dread Wave. The Dread Wave deals %LVL%d4 + %KOM% damage
+			to all creatures in the wedge and renders them [Shaken] for one [Round].
+			A successful Will save (DC %10+LVL/2+KOM%) negates the [Shaken] condition.
+			-Hammerfall: Hammerfall deals %LVL%d6 energy damage with the [Fire]
+			descriptor or physical damage, chosen each time you activate
+			Hammerfall, to each creature in a target square within %100+15*LVL% or any
+			square with line of effect from that square that is within %(CRL+1)/2% squares
+			of that square. A successful Reflex save (DC %10+LVL/2+KOM%) halves the damage. </circle>
+		<circle n="2" name="Canto" type="SU">Select one of the two following
+			abilities. This choice is permanent. -Red Hymn: For every five
+			points of damage dealt to an opponent by your Black Tidings, an ally
+			of your choice within 100 ft is healed for 2 HP. Abilities or effects
+			that would increase this ability’s healing apply only once per ally
+			you have healed with this ability per [Round]. -Grey Hymn: For every
+			ten points of damage dealt by your Black Tidings to an opponent, any
+			ally besides yourself of your choice within 100 ft may move 5 ft.
+			This movement does not provoke attacks of opportunity. </circle>
+		<circle n="3" name="With A Word" type="SU">Whenever you use your
+			Black Tidings ability, immediately after using it, you may [Teleport]
+			up to 15 ft in any direction.</circle>
+		<circle n="4" name="Verso" type="SU">Sometimes the few must suffer
+			in the name of your own personal and completely opaque agenda.
+			Whenever you use Black Tidings, select one opponent who failed the
+			associated save. This opponent is [Battered] for one [Round].
+		</circle>
+		<circle n="5" name="Recto" type="SU">Recto improves the ability you
+			selected as your canto. The following text replaces your Red Hymn or
+			Grey Hymn respectively: -Crimson Hymn: For every four points of
+			damage dealt by your Black Tidings, an ally within 100 ft of your
+			choice is healed for 2 hit points. Abilities or effects that would
+			increase this ability’s healing apply only once per ally you have
+			healed with this ability per [Round]. -Silver Hymn: For every ten
+			points of damage dealt by your Black Tidings, any ally besides
+			yourself of your choice within 100 ft may move 10 ft. This movement
+			does not provoke attacks of opportunity. </circle>
+		<circle n="6" name="Bitter News" type="SU">Once every two [Rounds],
+			immediately after dealing damage with Black Tidings, you may inflict
+			[HP reduction] equal to the damage dealt on each affected creature to
+			each affected creature. </circle>
+		<circle n="7" name="Binding" type="SU">Select one of the two
+			following abilities. This choice is permanent. -Glimpse of Madness:
+			Any creature affected by your Black Tidings who fails the associated
+			save is [Blinded] for two [Rounds]. -Life Fades: Any creature
+			affected by your Black Tidings who fails the associated save is
+			[Exhausted] for the rest of the [Encounter]. This is a [Negative]
+			effect. </circle>
+	</track>
+	<track id="forceOfWill" name="Force of Will">
+		<circle n="1" name="Healing Burst" type="SU">By focusing for a
+			moment on the mechanisms of creation, you can force a bit of life
+			back into the world. As a move action, you may create a 15 ft radius
+			spread originating from you, healing %LVL+KDM% HP to all allies 
+			within the spread. This is not a [Positive] or [Negative] effect
+			and can only be used once per [Round]. </circle>
+		<circle n="2" name="A Stitch In Time" type="SU">Time is fleeting,
+			but you have learned how to warp it for just a second, long enough
+			perhaps to change fate. As a standard action, you may create a 15 ft
+			radius spread originating from you, which affects %1+CRL% allies
+			within the area. Those affected may immediately make a single melee
+			or ranged attack. A creature may only be affected by A Stitch in Time
+			once per [Round]. </circle>
+		<circle n="3" name="Stem The Tide" type="SU">Twice per [Encounter]
+			as an immediate action, you may craft a shimmering rune of force,
+			then bestow it on a single ally within 45 ft. You start any
+			[Encounter] with one rune placed, and may have up to two placed at
+			any given time. This rune serves to block half the damage that would
+			be dealt against that ally by a single source, and then dissipates in
+			a shudder of smoke. This effect stacks in such a way that someone
+			with two active runes protecting them takes no damage from a single
+			source, but cannot opt to split them across two sources of damage.</circle>
+		<circle n="4" name="Steady Old Hand" type="SU">You may use A Stitch
+			In Time as a standard action or as a swift action, and the radius of
+			its spread is increased to 25 ft. </circle>
+		<circle n="5" name="Shields, Brace!" type="SU">Whenever an opponent
+			sets off a rune from the Stem the Tide ability, that opponent
+			provokes an attack of opportunity. 
+			A successful Reflex save (DC %10+LVL/2+KOM%) negates this effect. </circle>
+		<circle n="6" name="Swift As Thought" type="SU">Whenever you
+			activate A Stitch in Time, you may also activate Healing Burst at the
+			same time without taking another action. Healing Burst can now be
+			activated any number of times per [Round]. </circle>
+		<circle n="7" name="The Time Is Now" type="SU">The clock is but an
+			illusion. Once per [Round], without spending an action, you may place
+			the protective rune from your Stem the Tide ability upon yourself in
+			response to taking damage from a single source after learning how
+			much damage you would take. This does not count against Stem the
+			Tide’s [Encounter] limits.</circle>
+	</track>
+	<track id="arcaneSecrets" name="Arcane Secrets">
+		<circle n="1" name="Hungry Shadows" type="SLA">As a standard action,
+			you may create a 15 ft radius spread originating from target square
+			within [Medium] range, dealing %KOM% damage and inflicting a -1 penalty
+			to attack rolls and Reflex and Fortitude saves to each opponent
+			in the spread and a penalty to the movement speed of each of
+			those opponents equal to half that creature’s movement speed 
+			for two [Rounds]. This is an Evocation effect.
+		</circle>
+		<circle n="2" name="Space, Discontent" type="SLA">You gain your
+			choice of the Lungbreaker or Stutter Step Arcane Secret (this choice
+			is permanent). -Lungbreaker: As a standard action, you may create
+			%LVL/4% (minimum one) 5 ft radius spreads originating from target
+			squares within [Close] range. Each spread lasts for 4 [Rounds]. 
+			Line of effect is blocked between a creature or
+			square and another creature or square if one or more spreads exist
+			between the creature or square and the other creature or square.
+			Creatures on opposite sides of a spread are [Concealed] in respect to
+			one another. Creatures within a spread are [Concealed] to creatures
+			outside of it, and vice versa. For each creature besides yourself,
+			whenever that creature begins its turn inside a spread or the first
+			time each [Round] that creature enters a spread, it becomes
+			[Nauseated] for one [Round]. A successful Fortitude save (DC %10+LVL/2+KOM%)
+			negates the [Nauseated] condition. This is a Creation effect.
+			-Stutter Step: As a standard action, you may create
+			a 30 ft radius spread originating from target square within [Close]
+			range, inflicting the [Slowed] condition for %LVL/5% [Rounds] (minimum 1[Round])
+			on all creatures besides yourself in the area. 
+			A successful Will save (DC %10+LVL/2+KOM%) negates the [Slowed] 
+			condition. This is a [Binding] Evocation effect. </circle>
+		<circle n="3" name="Dweomertide" type="SLA">You gain access to two
+			Arcane Secrets, Spellbreaker and Reweave. -Spellbreaker: As a
+			standard action, you may end a single target effect created by a
+			spell or spell-like ability of a circle lower than %CRL%
+			that has a duration and that originates from a creature or square within
+			[Medium] range or targeted a creature within [Medium] range. 
+			This is a [Dispelling] effect. -Reweave: As a standard action, you may
+			restore one effect ended by a [Dispelling] effect in the last two [Rounds]
+			that affected a creature or object within [Medium] range. </circle>
+		<circle n="4" name="Space, Twisted" type="SLA">You gain access to the
+			following Arcane Secrets: -Revelation: As a standard action, you may
+			create a spread with a radius of %5*CRL% ft originating from target
+			square within [Close] range. This spread lasts for 2 [Rounds]. 
+			While they are within the spread, creatures are [Revealed], 
+			and if they are [Invisible], they are treated as not being [Invisible]. 
+			This is a Divination effect. -Dark Tendrils: As a standard action, you may
+			use Wall of thorns, as the spell. </circle>
+		<circle n="5" name="Unbearable Lightness Of Casting" type="EX">You
+			may activate any Arcane Secret you know as a swift action. </circle>
+		<circle n="6" name="Gravity Smash" type="SLA">You are able to summon
+			the strength of the earth itself. As a standard action, you may
+			create a 15 ft radius spread originating from target square within
+			[Close] range, which lasts for 2 [Rounds]. Each creature suffers a -2
+			penalty to attack rolls, AC, and all physical skill checks while it
+			is in the spread. Whenever a creature in the spread spends an action
+			to cast a spell, if that creature has not made a save against an
+			ability named Gravity Smash since spending that action, that spell
+			has no effect. A successful Will save (DC %10+LVL/2+KOM%)
+			negates this effect. Each [Round], at the end of your turn,
+			Gravity Smash deals 35 damage to each creature in the spread. This is
+			a [Binding] Transmutation effect. </circle>
+		<circle n="7" name="Cascade Failure" type="SU">For each different
+			Arcane Secret you’ve activated during this [Encounter], the save DCs
+			of all your Arcane Secrets increases by +1, to a maximum of +4. For
+			each different Arcane Secret you’ve chosen when activating the Mystic
+			Focus ability during this [Encounter], your Grim Heritor gains a +1
+			bonus to hit while it is charged with an Arcane Secret, to a maximum
+			of +4. </circle>
+	</track>
+	<track id="incantation" name="Incantation">
+		<circle n="1" name="Incantation" type="SLA">As a standard action, you
+			may either heal an ally or deal damage to an opponent within [Medium]
+			range. You heal HP or deal damage equal to %LVL+1%d4 + %KOM%.
+			Dealing damage to an opponent with your Incantation requires a
+			successful ranged attack roll (this is not considered an attack
+			with a weapon); healing an ally does not require
+			an attack roll. Additionally, whenever you decide to use your
+			Incantation, you count as having a Good Base Attack Bonus (equal to
+			your character level) until the beginning of your next turn. This
+			applies to any attack rolls you make as part of that Incantation.
+		</circle>
+		<circle n="2" name="Imbue Spell" type="SLA">As a swift action, you
+			may spend a spell slot of any circle. If you do, choose a spell you
+			know of that circle or lower which either has a Target listing of a
+			single creature or has a listed Incantation version (if a spell fits
+			both criteria, you must choose the Incantation version). When you hit
+			an opponent with an Incantation or heal an ally with an Incantation
+			this [Round], if the chosen spell is not discharged from your
+			Incantation, you may note the result of your attack roll for your
+			Incantation attack (if you attacked with your Incantation), and cast
+			the chosen spell without provoking attacks of opportunity and without
+			offering a save as a [Surge] effect. If you do, that spell is
+			discharged from your Incantation. You must choose that opponent or
+			ally as the target of the spell. If you
+			would make an attack roll for an attack against a creature as part of
+			casting the spell, compare the noted result to that creature’s AC
+			instead. If it equals or exceeds that creature’s AC, that attack hits
+			that creature. Abilities and effects other than the spell’s effects
+			that take place as the result of a hit or critical hit don’t activate
+			as a result of this hit. </circle>
+		<circle n="3" name="Shaman’s Presence" type="SU">Allies within 30 ft
+			of you have [Fast healing] %KDM%.   </circle>
+		<circle n="4" name="Guardian Spirits" type="SU">Once per [Scene]
+			after making a d20 roll and seeing the result, you may reroll it as
+			an immediate action, taking the better of the two results. </circle>
+		<circle n="5" name="Shallow Grave" type="SU">Once per [Scene], as an
+			immediate action, you can prevent an ally within [Close] range from
+			dying for 1 [Round]. The ally ignores the [Dying], [Unconscious] and
+			[Stable] conditions and has [Immunity] to the [Dead] condition for
+			the duration of Shallow Grave, but unless the ally receives
+			sufficient healing to raise their hit points above what would kill
+			them, it immediately dies at the end of your turn after the effect
+			expires. At 20th level, you can activate this ability once per
+			[Encounter]. </circle>
+		<circle n="6" name="Twin Incantation" type="SLA">Once per
+			[Encounter], as a standard action, you may activate the Incantation
+			ability twice. You may activate the Imbue Spell ability without
+			taking an action immediately before the second Incantation is
+			activated; the spell that may be cast as a result is not a [Surge]
+			effect. </circle>
+		<circle n="7" name="Stolen Moment" type="SU">Once per [Encounter],
+			you may immediately activate your healing Incantation upon an ally
+			that has just been dealt damage or afflicted with a harmful condition
+			or effect. This does not require an action. You may activate the
+			Imbue Spell ability as an immediate action before activating the
+			Incantation ability in this way; the spell must be cast and
+			discharged. </circle>
+	</track>
+	<track id="shamanPath" name="Shaman's Path">
+	</track>
+	<track id="shamanSpells" name="Shaman Spellcasting">
+	</track>
+	<track id="tacticalInsight" name="Tactical Insight">
+		<circle n="1" name="Identification" type="EX">As part of a move
+			action, you can attempt a Knowledge skill check of the relevant type
+			against your opponent (Arcana against an [Outsider], for example). If
+			there are several opponents of the same creature type, the ability
+			affects all of them; opponents with different creature types require
+			additional skill checks (requiring additional partial move actions).
+			The DC of the check is equal to 10 + the level of the highest-level
+			opponent of that creature type (minimum 11). If you succeed on the
+			check, you and allies who can establish line of sight to you or
+			receive your communication gain the benefits of one of the abilities
+			that you know from the list below. You can make any number of
+			Knowledge checks in this way per [Encounter] as long as you spend an
+			action for each, but you cannot apply the same ability to the same
+			creature type more than once during the [Encounter]. Opponents that
+			join an [Encounter] in progress are affected by any Knowledge skill
+			checks that were made for these abilities this [Encounter] that have
+			affected opponents of their creature type. The effects of a Tactical
+			Insight ability expire at the end of the [Encounter], with new
+			Knowledge checks necessary the next time you encounter that opponent.
+		</circle>
+		<circle n="1" name="Combative Precognition" type="EX">You and your
+			allies may gain either a +3 bonus to attack rolls or a +3 deflection
+			bonus to Armor Class against opponents affected by your Knowledge
+			check. You choose which bonus to apply when activating your Tactical
+			Insight ability. When you gain the 3rd circle of this track, you no
+			longer have to choose: you gain both benefits of Combative
+			Precognition whenever you activate it. </circle>
+		<circle n="2" name="Psychological Warfare" type="EX">You and your
+			allies may gain a +2 bonus to Bluff, Diplomacy, Intimidate, and
+			Perception checks against opponents affected by your Knowledge check.
+		</circle>
+		<circle n="3" name="Precognitive Resistance" type="EX">You and your
+			allies may gain a +2 bonus to saving throws against effects used or
+			abilities activated by opponents affected by your Knowledge check.
+		</circle>
+		<circle n="4" name="Exploit Weakness" type="EX">You and your allies
+			may gain a +2 bonus to the DC of any abilities you or they activate
+			against opponents affected by your Knowledge check. </circle>
+		<circle n="5" name="Advanced Insights" type="EX">Pick one of the
+			following abilities. This choice is permanent: -Quick Insight: You
+			can activate your Tactical Insight ability as a swift action. -Deep
+			Insight: Choose one of your Tactical Insight circles other than this
+			one. You increase the bonus granted by that circle by 1. </circle>
+		<circle n="6" name="Countermeasures" type="EX">Once per [Encounter],
+			as an immediate action, you may automatically cancel a spell,
+			spell-like ability, or supernatural ability that an opponent affected
+			by your Knowledge check attempts to activate. The ability
+			automatically fails. The ability counts as having been activated for
+			the purpose of any resource cost (such as spell slots), and if an
+			action was spent for the ability, the action counts as having been
+			used. </circle>
+		<circle n="7" name="Unspeakable Secret" type="EX">Once per
+			[Encounter], as a swift action, you may divulge a secret so profound
+			that it renders a single opponent affected by your Knowledge check
+			[Stunned] for one [Round]. There is no save allowed, and if the
+			opponent has [Immunity] to being [Stunned] the opponent is [Dazed]
+			instead. If the opponent has [Immunity] to both, the ability has no
+			effect, but you really should have known about its [Immunity]
+			beforehand. </circle>
+	</track>
+	<track id="bagOfTricks" name="Bag of Tricks">
+		<circle n="1" name="Surgical Precision" type="EX">Once per
+			[Encounter] per circle of Bag of Tricks you possess, as a swift
+			action, when you create a spread, line, or wedge without a duration,
+			you may remove any number of squares from the area of the effect or
+			rearrange them so long as each square in the area of the effect is
+			adjacent to at least one other square in the area of the effect. Each
+			square must be within range of the square or creature from which the
+			spread, line, or wedge originates if the effect has a range, or
+			within a distance from the square or creature from which the spread,
+			line, or wedge originates equal to its length or radius if it does
+			not. </circle>
+		<circle n="2" name="Early Warning" type="EX">You and all allies
+			within 30 ft gain a +%LVL/4% (minimum 1) bonus to initiative checks. 
+		</circle>
+		<circle n="3" name="Bait and Switch" type="SU">%LVL/4% times per
+			[Encounter] as a move action, if you have line of sight to two allies
+			who are each within %10*LVL% ft of your location,
+			you can switch the positions of those two allies. You can use this
+			ability to switch yourself with another ally. This is a [Warp]
+			effect. </circle>
+		<circle n="4" name="The Enemy You Know" type="SU">You have
+			[Resistance] to energy and magic damage. </circle>
+		<circle n="5" name="Dweomerbreaker" type="SU">Once per [Encounter],
+			as a standard action, you may empower the attacks of allies within 30
+			ft until the beginning of your next turn. The first time each ally
+			under this effect hits an opponent with an attack, they may end a
+			single target effect created by a spell or spell-like ability that
+			has a duration and that originates from the opponent or targeted the
+			opponent. This is a [Dispelling] effect. </circle>
+		<circle n="6" name="Saw That Coming" type="SU">Once per [Encounter],
+			as an immediate action, you can negate an offensive action that
+			targets you specifically. This includes targeted spells, abilities,
+			or attacks, but not area effects. The offensive action still counts
+			as having been activated for the purpose of any resource cost (such
+			as spell slots), and if an action was spent for the offensive action,
+			that action counts as having been used. </circle>
+		<circle n="7" name="Checkmate" type="SU">Once per [Encounter], as a
+			standard action, you can imprison an opponent within your [Close]
+			range for the next 2 [Rounds]. The opponent is incapable of acting or
+			perceiving its surroundings, but it gains [Immunity] to damage and
+			[HP reduction], it cannot be targeted by an attack or ability, and
+			line of effect is blocked between the creature and any attack,
+			ability, or effect. A successful Will save (DC %10+LVL/2+KOM%)
+			negates this effect, but leaves your target [Dazed] for 1[Round]. 
+		</circle>
+	</track>
+	<track id="tacticianSpells" name="Tactician Spellcasting">
+	</track>
+	<track id="chirurgicPoet" name="Chirurgic Poet">
+		<circle n="1" name="Dream of Hope" type="SU">As a free action, if
+			your maximum hit points are one or higher, you may suffer an amount
+			of [HP reduction] no less than 1 and no greater than %KOM% to heal
+			a target ally within [Close] range by twice that amount. This can
+			cause your [HP reduction] to exceed half of your maximum HP.
+			Abilities or effects that would increase this ability’s healing apply
+			only once per target you have healed per [Round]. </circle>
+		<circle n="2" name="The Dream Endures" type="SU">For every 15 points
+			of [HP reduction] you possess, you gain a +2 deflection bonus to AC,
+			or your existing deflection bonus from The Dream Endures increases by
+			2, up to a maximum bonus of %LVL/2% (minimum 2). This
+			deflection bonus expires at the end of the [Encounter]. </circle>
+		<circle n="3" name="The World Bends" type="SU">Whenever you suffer
+			%KOM% points of [HP reduction] from Dream of Hope, you may move one
+			creature within [Close] range up to 10 ft. This movement does not
+			provoke attacks of opportunity. </circle>
+		<circle n="4" name="The Heart Beckons" type="SU">Whenever you heal
+			an ally with Dream of Hope by any amount, an intangible dream-spirit
+			lingers to aid them, remaining until it is expended or a single
+			attack deals more damage to the ally than that amount. The spirit has
+			no combat statistics, but as long as it remains, that ally may expend
+			it as a swift action, creating a spread with a radius of that ally’s
+			[Close] range originating from that ally that inflicts [Entangled]
+			for one [Round] on all opponents within the area. </circle>
+		<circle n="5" name="The Mind Hardens" type="SU">You have
+			[Resistance] to your choice of either physical damage or magic damage
+			and energy damage. You may switch your choice of [Resistance] every
+			time The Dream Endures activates. The [Resistance] remains until it
+			is switched again. </circle>
+		<circle n="6" name="The Soul Sustains" type="SU">Opponents cannot
+			score critical hits against you. Additionally, every time you score a
+			critical hit, or an opponent would normally score a critical hit
+			against you, you may increase the maximum HP of all allies in [Melee]
+			range by %LVL% until the end of the [Encounter]. This
+			may not increase a creature’s maximum HP above twice its normal
+			maximum. </circle>
+		<circle n="7" name="The Skies Answer" type="SU">Your Dream of Hope
+			and The World Bends abilities now affect all allies within [Close]
+			range in addition to any creatures they would normally affect, if
+			any. </circle>
+	</track>
+	<track id="combatAlchemist" name="Combat Alchemist" tam="spell">
+		<circle n="1" name="Lesser Brewing" type="EX">You have the ability
+			to create Brews: potent but short-lived magical concoctions. These
+			concoctions come in three varieties: potions for drinking, poisons
+			that are applied to weapons, and cocktails for throwing into battle.
+			At the beginning of each [Scene], you choose %3+2*CRL% Brews.
+			The chosen Brews are prepared until the end of the [Scene]. At first,
+			you can prepare only Lesser Brews, but you learn to prepare other
+			brews at later circles. Prepared Brews must be primed before they can
+			be used. You can prime a prepared Brew for imminent use as a move
+			action. Once a Brew is primed, any creature can use it: a creature
+			can drink a potion to gain its benefit, apply a poison to its weapon
+			to increase its potency, or pass any Brew to an ally within [Melee]
+			range as part of a move action (including the one used to prime it).
+			A primed Brew not used by the end of the [Encounter] is wasted. A
+			creature or weapon, respectively, may benefit from more than one
+			potion or poison at a time but cannot benefit from multiple uses of
+			the same potion or poison simultaneously. A poison that has an effect
+			when a creature is hit by the affected weapon and allows that
+			creature to make a saving throw cannot affect a single creature more
+			than once per [Round]. Whenever you make an attack action, you may
+			replace any number of attacks with an equal number of cocktail
+			throws, each targeting a square within [Close] range. These throws
+			provoke attacks of opportunity. Unless otherwise noted, the effects
+			of any Brew used last until the end of the [Encounter]. </circle>
+		<circle n="2" name="Transform" type="SU">Your knowledge of esoteric
+			sciences includes the nature of things as well as the supernature of
+			things. You begin each [Encounter] with a %CRL% transmutation points.
+			Additionally, you gain the following abilities: -Exclusion
+			Principle: As an immediate action, when an ally within [Long] range
+			uses a spell, spell-like ability, or supernatural ability with an
+			area of effect, you may spend one transmutation point to exclude any
+			number of creatures from the effect. -Conservation of Energy: As a
+			standard action, you may spend one transmutation point to deal
+			%CRL%d10 damage to one creature within [Medium] range and
+			heal another creature within [Medium] range a number of hit
+			points equal to the damage dealt. A successful Fortitude save negates
+			this effect.
+			-Assisted Entanglement: As a standard action, you may spend one transmutation
+			point to have two target creatures within [Close] range
+			simultaneously [Teleport] into each other’s squares. The
+			destination squares may be occupied, but only by another target of
+			this ability, and only if both targets leave their squares as part of
+			this ability. A successful Reflex save negates this ability. </circle>
+		<circle n="3" name="Greater Brewing" type="EX">You can now prepare
+			Greater Brews in addition to Lesser Brews. </circle>
+		<circle n="4" name="Relic Brewing" type="EX"> You can now prepare
+			Relic Brews in addition to Lesser Brews and Greater Brews. </circle>
+		<circle n="5" name="Transmute" type="SU">Your mastery of arcane
+			structures continues to grow. You gain the following abilities: »
+			Equivalent Exchange: As an immediate action, when an offensive action
+			originating from a creature within your [Medium] range, or whose
+			target is within your [Medium] range, would deal energy damage with
+			the [Acid], [Cold], [Electricity], or [Fire] descriptors, you may
+			spend two transmutation points to have that damage lose those
+			descriptors and gain the [Acid], [Cold], [Electricity], or [Fire]
+			descriptor instead. -Nonlocality: As a standard action, you may
+			spend two transmutation points to move the area of any ongoing
+			area-affecting spell, spell-like ability, or supernatural ability
+			within [Close] range to any other location within [Close] range to
+			which you have line of sight and line of effect. The effect’s creator
+			may make a Will save. A successful Will save negates this ability.
+			You cannot move an ongoing area effect originating from a creature. 
+			-Philosopher’s Stone: As a standard action, you may spend two
+			transmutation points to transmute the equipment of target creature in
+			[Close] range to heavy and largely useless gold. The target is
+			[Slowed], the target’s item bonus to AC from armor is halved, the
+			target’s deflection bonus to AC from a shield is halved, and if the
+			target is wielding a weapon other than a natural weapon, that weapon
+			loses two weapon properties of the target’s choice and the target
+			takes a -1 penalty to attack rolls made using that weapon. These
+			effects last until the end of the [Encounter]. The target may make a
+			Fortitude save, a Reflex save, and a Will save. A successful
+			Fortitude save prevents the target’s item bonus to AC from armor from
+			being halved. A successful Reflex save prevents the target’s
+			deflection bonus to AC from a shield from being halved. A successful
+			Will save negates the loss of weapon properties and the penalty to
+			attack rolls. </circle>
+		<circle n="6" name="Artifact Brewing" type="EX">You can now prepare
+			Artifact Brews in addition to Lesser, Greater and Relic Brews. When
+			an artifact poison or potion is applied to a creature or weapon, the
+			duration of any artifact poison or potion already affecting the same
+			target ends. After a creature fails its save against a particular
+			artifact poison, it can’t be affected by that poison again until the
+			end of the [Encounter]. </circle>
+		<circle n="7" name="Transcend" type="SU">Your mastery of the
+			esoteric is absolute. You gain the following abilities: -Momentum
+			Transfer: As an immediate action, you may spend four transmutation
+			points to cause a creature within [Long] range to be unable to take
+			standard actions for 1 [Round]. A successful Will save negates this
+			effect. If you cause a creature
+			using an ability that requires a standard action to use to be unable
+			to take standard actions, that creature does not use that ability or
+			expend any uses of that ability. -Necromuscular Stimulation: When
+			you die, if you have a Lifewine Brew prepared but not primed, you may
+			spend four transmutation points to cause the Lifewine Brew to boil
+			over into a revivifying gas. If you do so, the Lifewine is consumed,
+			and you are reborn in a bolt of alchemical glory on your next turn
+			with current hit points equal to half of your maximum hit points.
+			Neuromuscular Stimulation can only be used once per [Scene].
+			-Carbonization: As a standard action, you may spend four transmutation
+			points to inflict a flesh-hardening curse on a single creature in
+			[Close] range. The creature is [Entangled]. A successful Fortitude
+			save negates the [Entangled] condition. Each subsequent [Round], at
+			the beginning of your turn, the creature makes an additional
+			Fortitude save, the effects of which vary depending on its current
+			state, as listed below:Not [Entangled] or [Slowed]: The creature
+			becomes [Entangled]. A successful save negates the [Entangled]
+			condition and ends the Carbonization ability. [Entangled]: The
+			creature becomes [Slowed]. A successful Fortitude save negates the
+			[Slowed] condition, and removes the [Entangled] condition if it was
+			caused by Carbonization. [Slowed]: The creature becomes [Entangled].
+			A successful Fortitude save negates the [Entangled] condition, and
+			removes the [Slowed] condition if it was caused by Carbonization.
+			Both [Entangled] and [Slowed]: The creature becomes [Petrified] for
+			three [Rounds]. While the affected creature is [Petrified], it does
+			not make saves against Carbonization. It still makes saves against
+			the [Petrified] condition normally. A successful Fortitude save
+			negates the [Petrified] condition, and removes the [Slowed] condition
+			if it was caused by Carbonization. This effect, and all conditions
+			inflicted by it, end either once the target creature has been
+			[Petrified] by it for 3 [Rounds], or at the end of the [Encounter]. »
+			Probability Redistribution: As a standard action, you may choose two
+			creatures, causing an exchange of one condition or temporary magical
+			effects from each to the other. Viable effects include spells and
+			spell-like ability targeting that creature with a duration measured
+			in [Rounds], an [Encounter] or a [Scene], and the following
+			conditions: [Battered], [Bleeding], [Blinded], [Confused],
+			[Cowering], [Dazed], [Dazzled], [Deafened], [Entangled], [Exhausted],
+			[Fatigued], [Frightened], [Nauseated], [Panicked], [Paralyzed],
+			[Petrified], [Shaken], [Sickened] or [Stunned]. If only one of your
+			targets is under a valid effect, you only move a single valid effect
+			from that target to the other target. Both targets must be within
+			[Medium] range, and each can make a Will save to negate this effect.
+			If either succeeds, Probability Redistribution fails entirely.
+		</circle>
+	</track>
+	<track id="elementalist" name="Elementalist" tam="spell">
+		<circle n="1" name="Elemental Burst" type="SLA">You can summon bursts
+			of elemental energy. At will, you may deal %LVL%d6 + %TAM% energy damage
+			to each creature in target square within [Close] range. A successful save
+			halves the damage. The save required is Reflex if you channel [Electricity]
+			or [Fire], or Fortitude if you channel [Acid] or [Cold]. At 4th circle, you can
+			activate this ability as a swift action once per [Round], in addition
+			to activating it as a standard action. In addition, whenever one of
+			your abilities affects a creature with [Immunity] to your chosen
+			element’s descriptor, you may choose to treat their [Immunity] as if
+			it were [Greater resistance] to that effect’s damage.
+		</circle>
+		<circle n="2" name="Elemental Finesse" type="SLA"> Pick one of the
+			following abilities (this choice is permanent): -Forced
+			VulnerabilitySLA: You can hurl a bolt of energy at an opponent in
+			[Medium] range, leaving it vulnerable to further attacks. This bolt
+			deals %LVL%d6 energy damage to that opponent, and inflicts
+			[Vulnerability] to your element of choice on the opponent until the
+			end of your next turn. A successful Reflex save halves the damage and
+			negates the [Vulnerability] condition. -Elemental ResistanceEX: You
+			gain [Resistance] to your chosen descriptor. When you gain your 6th
+			circle of Elementalist, you gain [Immunity] to your chosen
+			descriptor. </circle>
+		<circle n="3" name="Shape the Elements" type="SLA">For each creature,
+			the first time each [Round] that creature makes a save against one of
+			your Elementalist abilities, if it fails, it is affected as follows:
+			-Acid: [Sickened] for two [Rounds]. -Cold: [Slowed] for one
+			[Round]. -Electricity: [Entangled] for two [Rounds]. -Fire:
+			[Blinded] for two [Rounds] and begin [Burning]. In addition, choose
+			one of the following abilities. This choice is permanent. -Elemental
+			Ball: You can fire baseball-sized bits of energy... that explode!
+			You may create a 20 ft radius spread originating from target square
+			within [Long] range, dealing %LVL%d6 energy damage to all
+			creatures in the area and pushing each of them them to the closest
+			square outside of the spread that is unoccupied by an obstacle. A
+			successful Reflex save halves the damage and negates the pushing
+			effect. -Elemental Bolt: You may create a line with a length of
+			[Medium] range originating from you, which deals %2*LVL%d4 energy damage
+			per level you possess to all creatures caught in its area, and knocks
+			those creatures [Prone]. A successful Reflex save halves the damage
+			and negates the [Prone] condition. -Elemental Wave: You may create a
+			wedge with a length of %15+5*LVL% ft originating from you
+			that deals %LVL%d6 energy damage to all creatures in its area, and pushes
+			them up to %5*LVL% ft, up to the outside edge of the wedge. A
+			successful Reflex save halves the damage and negates the pushing
+			effect. </circle>
+		<circle n="4" name="Elemental Protection" type="SLA">Pick one of the
+			following abilities (this choice is permanent): -Elemental Wall: If
+			there would be no creature occupying a square in the resulting area,
+			you may create a line with a length of %10*LVL% ft originating
+			from target square within [Medium] range, which lasts for the
+			remainder of the [Encounter]. For each creature, whenever that
+			creature begins its turn on a square in the line or the first time
+			each [Round] that creature enters a square in the line, it is dealt %2*LVL%
+			points of energy damage and gains the condition
+			corresponding to your chosen descriptor, as detailed below. Acid:
+			[Sickened] for 2 [Rounds]. Cold: [Slowed] for 1 [Round]. Electricity:
+			[Entangled] for 2 [Rounds]. Fire: [Blinded] for 2 [Rounds] and begin
+			[Burning]. -Elemental Shield: You gain the ability to shield a
+			creature with your chosen element. Once per [Encounter], as a move
+			action, you may grant protection to all allies within [Close] range.
+			For each opponent, the first time each [Round] that opponent hits a
+			creature protected by this ability with a melee attack, that opponent
+			takes %LVL% energy damage. The protection
+			granted by this effect lasts until the end of the [Encounter].
+		</circle>
+		<circle n="5" name="Elemental Strike" type="SLA">You gain one of the
+			following abilities, depending on your chosen descriptor: -Evoker’s
+			Fearsome Wrath: If you channel [Fire] or [Electricity], you may
+			create %LVL/2% 5 ft radius spreads, each originating from a
+			target square within [Medium] range. Each spread deals %LVL%d6 energy
+			damage to creatures in its radius. A successful Reflex save
+			halves the damage. The spreads cannot overlap. -Conjurer’s Insidious
+			Doom: If you chose [Acid] or [Cold] for this track, you may create a
+			45 ft radius spread originating from target square within [Medium]
+			range, which blocks line of sight, but is penetrated by [Darkvision],
+			[Tremorsense], and [Ghostwise sight]. Each creature in the spread is
+			dealt energy damage equal to your level and suffers a -10 ft penalty
+			to its movement speed until the spread disappears, reducing its
+			movement speed to a minimum of 5 ft. At the beginning of your next
+			turn, each creature in the spread or that has been dealt damage from
+			this ability is dealt %2*LVL% energy damage ; and
+			each creature in the area suffers the following penalties until the
+			spread disappears: a -20 ft penalty to its movement speed, to a
+			minimum of 0 ft, and a -2 penalty on all attack rolls. On your
+			following turn, each creature in the spread or that has been dealt
+			damage from this ability takes %3*LVL% energy damage ;
+			and each creature in the spread suffers the following
+			penalties until the spread disappears: a -30 ft penalty to its
+			movement speed, to a minimum of 0 ft, a -4 penalty on all attack
+			rolls, and a -2 penalty on all saving throws. (Remember that
+			penalties from the same ability do not stack.) On your following
+			turn, the spread disappears. </circle>
+		<circle n="6" name="Elemental Mastery" type="EX"> Whenever you deal
+			damage with your chosen descriptor, any [Resistance] to that
+			descriptor is calculated as if the level of its source was halved.
+		</circle>
+		<circle n="7" name="Elemental Rift" type="SU">You may create four 50
+			ft spreads each originating from target square(s) within [Medium]
+			range, each of which lasts for the rest of the [Encounter] and deals
+			%LVL%d6 energy damage to creatures within its area
+			when it is created and at the beginning of your turn each [Round]. A
+			successful Reflex halves the damage. A given spread may overlap
+			another one so long as they do not cover the exact same squares, but
+			a given creature may only be dealt damage by these spreads up to 3
+			times per [Round]. </circle>
+	</track>
+	<track id="airElemental" name="Air Elemental">
+		<circle n="1" name="Gust" type="SLA">As either a standard action, or
+			once per [Round] in place of a single attack in an attack action, you
+			may unleash a small but powerful burst of wind against target
+			creature within [Medium] range. The gust deals damage equal to your
+			level plus your KOM, and reduces movement speed by 5 ft. This penalty
+			stacks to a maximum of %5+5*CRL% ft, and lasts for %CRL% [Rounds].
+			When you activate Gust by sacrificing an attack in an attack
+			action (but not when you activate it as any other action), you may
+			sacrifice additional attacks, up to a maximum of %LVL/5%,
+			to increase damage dealt through that activation of Gust by %KOM%
+			and its movement speed penalty by 5 ft for every attack you give up.
+		</circle>
+		<circle n="2" name="Pressure" type="SU">Pressing down on you,
+			pushing down on them... As a free action, if you do not already
+			have an active pressure spread, you may create a pressure spread with
+			a radius of your [Melee] range originating from you that lasts and
+			remains active until it is dismissed. The pressure spread moves with
+			you and deals %KOM% damage to opponents within its area
+			at the end of your turn, and removes any Stealth check results they
+			may have. You cannot benefit from Stealth skill checks while you have
+			an active pressure spread. As a free action, you may dismiss the
+			pressure spread. </circle>
+		<circle n="3" name="Fly" type="EX">You gain the Fly movement mode.
+		</circle>
+		<circle n="4" name="Windstorm" type="SU">Whenever you use your Gust
+			ability, you may target all opponents within [Close] range instead of
+			a single creature within [Medium] range. In addition, once per
+			[Round], you can activate your Gust ability as a move action.
+		</circle>
+		<circle n="5" name="Vacuum Wave" type="SU">Twice per [Encounter], as
+			a swift action, you may move up to your movement speed. You may move
+			through occupied squares and do not provoke attacks of opportunity at
+			any point during this movement. Opponents in squares through which
+			you move lose their next swift action.</circle>
+		<circle n="6" name="Ominous Wind" type="SU">Once per [Encounter],
+			when you use your Gust ability, all opponents damaged by that ability
+			are [Battered] for 3 [Rounds] and are [Blown away]. </circle>
+		<circle n="7" name="Hurricane" type="SU">Whenever you activate your
+			Gust ability, you may target all opponents within [Medium] range.
+		</circle>
+	</track>
+	<track id="earthElemental" name="Earth Elemental">
+		<circle n="1" name="Earthspike" type="SU">The ground heeds your
+			call, biting into nearby enemies. Once per [Round], as move action,
+			you may create a 5 ft radius spread originating from you, dealing
+			%LVL+KOM% damage to opponents within the area as a [Ground] effect.
+			The radius increases to 10 ft at 5th level, and to your [Close] range at 10th level.
+		</circle>
+		<circle n="2" name="Earth Affinity" type="EX">You gain [Damage
+			reduction] %CON%(minimum 1). In addition, moving out of a
+			square of difficult terrain does not cost you extra movement.
+		</circle>
+		<circle n="3" name="Earthen Pull" type="SU">As a standard action,
+			you may deal %2*LVL+KOM% damage  to target opponent within [Medium] range, 
+			and cause the opponent to lose the [Flying] condition, 
+			the Fly movement mode, and any further access the opponent may
+			gain to that movement mode until the end of the [Encounter].
+			This requires a successful ranged attack roll. In addition, you may choose
+			to ignore any effect that would grant you [Flying]. </circle>
+		<circle n="4" name="Core Principles" type="EX"> Pick one of the following
+			abilities (this choice is permanent): -Digger’s Instincts: You dive 
+			into the earth, and it parts way like water. You gain
+			the Burrow movement mode. Additionally, you gain [Tremorsense] out to
+			25 ft, or if you already possess [Tremorsense], you increase its
+			range by 25 ft. -Mass DriverEX: A sudden, momentary rearrangement of
+			gravitational fields hits your foe as hard as any hammer. You may
+			make melee attacks at [Close] range. You may make melee attacks
+			against [Flying] creatures when you are not [Flying], and if you hit
+			a [Flying] creature with a melee attack, you may cause it to lose the
+			[Flying] condition (but not the Fly movement mode). </circle>
+		<circle n="5" name="Striking Granite" type="SU">Once per [Round],
+			when you hit an opponent with a melee attack, you may immediately
+			perform the Bull Rush combat maneuver against that opponent. You do
+			not need to be adjacent to this opponent or move with them and you
+			can continue to push the opponent without moving. In addition, the
+			opponent is knocked [Prone] at the end of the movement and loses the
+			[Flying] condition if they possess it. </circle>
+		<circle n="6" name="Gravity Well" type="SU">Once per [Encounter], as
+			a standard action, you may create a spread with a radius of your
+			[Close] range originating from you that pulls all opponents in its
+			area to squares jacent to you, or
+			as close as possible to adjacent in the event that all adjacent
+			squares are occupied. If you do so, you may then create a spread with
+			a radius of your [Close] range originating from you, dealing %LVL+KOM% damage
+			to opponents not adjacent to you within the area as a [Ground] effect 
+			and dealing %2*LVL% damage to opponents adjacent to you as a
+			[Ground] effect. </circle>
+		<circle n="7" name="Superior Earthspike" type="EX">Earthspike can
+			now be activated as a swift action. </circle>
+	</track>
+	<track id="fireElemental" name="Fire Elemental">
+		<circle n="1" name="Flame Kiss" type="SU">As a standard action, you
+			may deal %KOM% energy damage with the [Fire] descriptor
+			to target creature within [Medium] range, and
+			cause the creature to begin [Burning]. Additionally, If you would
+			take energy damage with the [Fire] descriptor, you are instead healed
+			for half the damage you would have taken. This counts as a form of
+			[Immunity], so you take damage as normal and are not healed by any
+			effects that specifically ignore [Immunity] to [Fire]. Any
+			[Resistance] or [Vulnerability] you have against the [Fire]
+			descriptor is ignored if you would be healed by that damage with the
+			[Fire] descriptor. </circle>
+		<circle n="2" name="Persistent Inferno" type="SU">At the beginning
+			of your turn, you are healed %CRL% HPfor each creature [Burning] within [Close]
+			range, up to %2*LVL% HP. Additionally, you may activate Flame Kiss as a move action. 
+		</circle>
+		<circle n="3" name="Fire’s Embrace" type="SU">Flame Kiss now heals
+			you for all the damage you would have taken instead of half the
+			damage. Additionally, you may use Flame Kiss as part of another move
+			action, or instead spend a single move action to hurl two separate
+			Flame Kiss fireballs at two different targets. </circle>
+		<circle n="4" name="Firewalker" type="EX">[Burning] opponents within
+			your [Melee] range cannot extinguish the flames as a move action.
+			Furthermore, once per move action you take, you may transport
+			yourself adjacent to any creature within [Close] range that is
+			[Burning]. This movement does not provoke attacks of opportunity, and
+			is not a [Teleport] effect. </circle>
+		<circle n="5" name="Unbearable Radiance" type="SU">At will, as a
+			swift action, if you do not already have a heat spread, you may
+			create a heat spread with a radius of your [Melee] range originating
+			from you that moves with you and lasts until it is dismissed as an
+			immediate action. Opponents you who begin their turn in this spread
+			are dealt %LVL% energy damage with the [Fire] descriptor,
+			inflicted with [Burning], and rendered [Fatigued]
+			until the [Burning] condition is removed. A successful Fortitude save
+			(DC %10+LVL/2+KOM%) negates the damage and the
+			[Fatigued] condition. </circle>
+		<circle n="6" name="Sudden Inferno" type="SU">Once per [Encounter],
+			as a standard action, you can raise an inferno from nothing, creating
+			a Blaze marker in each of up to seven different target squares within
+			[Medium] range, which last until the end of the [Encounter]. You can
+			establish line of sight as though you occupied any square with a
+			Blaze marker that you created in it. As long as you occupy a square
+			with a Blaze marker that you created in it, you may enter any square
+			with a Blaze marker that you created in it as though it were adjacent
+			to any square you occupy with a Blaze marker you created in it and as
+			though you had line of effect to it. A Blaze marker has no HP or AC,
+			does not impede sight or movement, and cannot be attacked or
+			targeted. At the end of each opponent’s turn, if that opponent is
+			within 15 ft of a square with a Blaze marker you created in it,
+			Sudden Inferno deals energy damage with the [Fire] descriptor equal
+			to your character level plus your Key Offensive Modifier to that
+			opponent and inflicts the [Burning] condition on that opponent.
+		</circle>
+		<circle n="7" name="Sirocco" type="SU">Your passing causes the air
+			itself to ignite, choking the battlefield in a wake of cinders and
+			devastating heat. Whenever you enter or exit a square, except as the
+			result of a [Teleport] effect, you may create an Ember marker with no
+			game statistics in that square that lasts until the end of the
+			[Encounter]. Whenever you enter a square with an Blaze marker that
+			you created in it from another square with an Blaze marker that you
+			created in it, you may create an Ember token with no game statistics
+			in each square that a straight line between those squares crosses
+			that lasts until the end of the [Encounter]. For each creature, the
+			first seven times each [Round] that creature begins its turn in or
+			enters a square with one or more Ember markers created by this
+			ability in it, Sirocco deals %LVL% energy damage with the [Fire] descriptor
+			to that creature and inflicts the [Burning] condition on that creature. 
+		</circle>
+	</track>
+	<track id="waterElemental" name="Water Elemental">
+		<circle n="1" name="Agile Sea" type="EX">You may take an additional
+			5 ft step each [Round], and moving out of a square of difficult
+			terrain does not cost you extra movement. In addition, you gain the
+			Swim movement mode. </circle>
+		<circle n="2" name="Hungry Ocean" type="SU">Once per [Round], when
+			you take an offensive action that deals damage, you may inflict 
+			%2*LVL% points of [HP reduction] to a single opponent
+			that would be dealt damage by that offensive action before that
+			damage is dealt. You then heal HP equal to half the [HP reduction]
+			inflicted by this ability. </circle>
+		<circle n="3" name="Mist Aura" type="SU">You can wrap yourself in
+			veils of mist. As a swift or move action, you may create a spread
+			with a radius of your [Melee] range originating from you that lasts
+			for one [Round]. This spread moves with you. Allies are [Concealed]
+			while within this spread. </circle>
+		<circle n="4" name="Viscous" type="EX"> You gain the following abilities: 
+			-Surfing:You embody the crashing waves of the ocean. Once per [Round] when you
+			activate Mist Aura during your turn, you may move to any unoccupied
+			square within your [Close] range. This movement does not provoke an
+			attack of opportunity, and ignores all obstacles. -Tidal WaveSU: You
+			can transform into a wave of water. As a standard action, you may
+			create a 60 ft wedge originating from you, dealing %LVL%d8 energy damage
+			with the [Cold] descriptor to creatures in the area, and rendering them [Knocked down]. A
+			successful Reflex save (DC %10+LVL/2+KOM%) halves the
+			damage and negates the [Knocked down] condition. You may then move to
+			any unoccupied square within the wedge. </circle>
+		<circle n="5" name="Thickening Mist" type="SU">Squares within your
+			spread from your Mist Aura ability are treated as difficult terrain
+			for opponents. [Flying], [Swimming], and [Burrowing] opponents in
+			these squares treat this difficult terrain as if they did not have
+			those conditions. </circle>
+		<circle n="6" name="Maelstrom" type="SU">Once per [Encounter], as a
+			standard action, you may create two 60 ft radius vortex spreads
+			originating from target square(s) within [Medium] range, which last
+			for the rest of the [Encounter] and whose squares are considered
+			difficult terrain for all creatures except yourself. As a move
+			action, you may move from one square within one vortex spread to an
+			unoccupied square in the other vortex spread without provoking
+			attacks of opportunity. An opponent who begins their turn in a square
+			within a vortex spread cannot be affected by [Teleport] effects for
+			one [Round] and is moved up to 30 ft toward the center of the spread
+			(if this opponent began its turn in a square within both vortex
+			spreads, you may choose to which vortex spread center that opponent
+			is moved). A successful Fortitude save (DC %10+LVL/2+KOM%)
+			negates this effect. </circle>
+		<circle n="7" name="Frozen Abyss" type="SU">The spread created from
+			your Mist Aura ability now has a radius of your [Close] range, and
+			may be created as a free action. </circle>
+	</track>
+	<track id="knight" name="Knight" kom="str">
+		<circle n="1" name="Deadly Blades" type="EX"> If an opponent fails a
+			save against a combat maneuver you perform that deals damage, or you
+			hit with an attack from a combat maneuver that does not require a
+			save, that combat maneuver deals %LVL+KOM% additional damage with the
+			[Precision] descriptor.
+			This damage is not applied to normal attacks made while using Power
+			Attack, Precise Strike, or Deadly Aim. This damage never stacks with
+			itself. For instance, if a single attack is both a Trip and a Charge
+			due to some special ability, it only applies once. </circle>
+		<circle n="2" name="Valiant Challenge" type="EX">Whenever a creature
+			is in your [Melee] range, it must target you if able when making
+			melee attacks. The first instance of this ability to apply against a
+			given creature overrides subsequent instances, so the first Knight to
+			arrive is the mandatory target until he leaves, even if a second
+			Knight also engages the same foe at a later time. If multiple
+			instances of this ability apply at the same time against a given
+			creature, that creature may choose which Knight to target. </circle>
+		<circle n="3" name="Indefatigable" type="EX">As a move action, you
+			may become [Steadied] for one [Round]. While [Steadied], you may make
+			one additional attack of opportunity each [Round], and whenever you
+			make an attack of opportunity, you may place yourself anywhere inside
+			your [Melee] range. This does not provoke attacks of opportunity, as
+			it is not movement. </circle>
+		<circle n="4" name="As The Six Hundred" type="EX">You may Charge
+			twice as a standard action: make a Charge, and then make a second
+			Charge immediately afterwards. The penalties and bonuses of these
+			Charges do not stack. </circle>
+		<circle n="5" name="Interrupt" type="EX">While [Steadied], once per
+			[Encounter], you may negate any one ability activated or one spell
+			cast within your [Melee] range as an immediate action. You may also
+			activate this ability against ongoing effects such as [Fast healing].
+			They are negated for one [Round], which still counts against their
+			duration. </circle>
+		<circle n="6" name="On Heroes" type="EX">As part of a Charge, at any
+			point in the Charge, you may move anywhere within your [Melee] range
+			and make a [Bonus attack]. This movement does not provoke attacks of
+			opportunity. After you make this [Bonus attack], you may continue
+			your Charge in a straight line from your current location. </circle>
+		<circle n="7" name="New And Old" type="EX">You may use any combat
+			maneuver other than Charge in place of an attack of opportunity.
+			Additionally, you may now activate Interrupt twice per [Encounter].
+		</circle>
+	</track>
+	<track id="mechanistSavant" name="Mechanist Savant" tam="int/cha/wis">
+		<circle n="1" name="FrontLine Assemblage" type="EX">You have a
+			makeshift defense network called the Assemblage. You are surrounded
+			by a spread with a radius of %10*LVL% ft
+			that moves with you called the Hub. The area of your Assemblage
+			includes each square within this spread and each square within any
+			active Generator spreads you have. The Assemblage begins each [Encounter]
+			with a %TAM*3% scrap points.
+			As long as the Assemblage has 1 or more scrap points, whenever
+			an ally within its area or the area of an Assemblage of one of your
+			allies who is present in the [Encounter] takes damage, if that ally
+			has not had damage be dealt to another Assemblage this [Round], it
+			may have an amount of that damage less than or equal to the number of
+			scrap points the Assemblage has be dealt to the Assemblage instead.
+			Whenever the Assemblage is dealt damage, it loses 1 scrap point for
+			each damage dealt. At the end of each [Encounter], the Assemblage
+			loses all scrap points. </circle>
+		<circle n="2" name="The Littlest Automatons" type="EX">You gain the
+			ability to extend and repair your Assemblage by summoning tiny
+			automatons. You begin each [Encounter] with %1+LVL/6% automatons
+			As part of a move action, if you have at least one automaton, you may expend an
+			automaton. If you do, you may create a spread you can manufacture
+			originating from target square within [Medium] range, which lasts
+			until the end of the [Encounter]. You can now manufacture a 10 ft
+			radius Generator spread. Each Generator spread you have is active as
+			long as the square it originates from is within the area of your Hub
+			or the area of a Hub of any creature to whom you are an ally and who
+			is present in the [Encounter]. Each Hunger spread you create is
+			active as long as the square it originates from is within the area of
+			your Assemblage or the area of an Assemblage of any creature to whom
+			you are an ally and who is present in the [Encounter]. At the end of
+			your turn, for each active Generator spread you have, your Assemblage
+			gains a number of scrap points equal to %TAM% plus the number of
+			other active Generator spreads you have. As a free action, you may
+			end one Generator or Hunger spread you have. If you do, you gain one
+			automaton. </circle>
+		<circle n="3" name="Trust in Steam" type="EX">Your automatons grant
+			you a mechanical detection network. You gain [Tremorsense] out to
+			each square within your Assemblage. </circle>
+		<circle n="4"
+			name="The Consuming Spark: You gain the following abilities: -The Teeth Grind Faster"
+			type="EX">Your automatons take on a more sinister design. You can now
+			manufacture a 35 ft radius Hunger spread. Additionally, as a swift
+			action, if you have at least one automaton, you may expend an
+			automaton. If you do, you may create a spread you can manufacture
+			originating from target square within [Medium] range, which lasts
+			until the end of the [Encounter]. -The FeedSU: At the end of your
+			turn, each active Hunger spread you created deals %2*TAM% damage
+			to each opponent within its area. If one or more
+			opponents were dealt damage this way, your Assemblage gains %TAM% scrap points.
+		</circle>
+		<circle n="5"
+			name="Giants in Iron" type="EX">You gain the following abilities: -Refit:
+			As an immediate action, any ally within your Assemblage can
+			choose an active Generator or Hunger spread you created. If that
+			ally does, that ally may create a 45 ft radius Decimation spread
+			originating from target square of that ally’s choice within your
+			[Medium] range of the square from which the chosen spread originates,
+			then you end the chosen spread and gain one automaton. -OverclockSU:
+			Whenever an ally creates a Decimation spread, if that spread did not
+			end, that spread deals %LVL% damage to each opponent within its area.
+			For each opponent in that spread, as a [Dispelling] effect,
+			the ally that created it ends up to one effect of that its choice
+			created by a spell or spell-like ability that has
+			a duration and that originates from that opponent or targeted that
+			opponent. End that spread. (You are your own ally. )</circle>
+		<circle n="6" name="Scrapheap Hero" type="EX">You gain the following abilities: 
+			-Grist Central: Your armor is augmented with strange devices of your own
+			crafting. Your armor’s item bonus to AC is increased by 2. At the
+			beginning of each [Encounter], you may create a spread you can
+			manufacture originating from yourself that moves with you and lasts
+			until the end of the [Encounter]. -I Meant to Do That!SU: Once per
+			[Round], as an immediate action, you may create a 45 ft radius
+			Decimation spread originating from target square within [Medium]
+			range. </circle>
+		<circle n="7" name="To Bend Steel" type="EX">Kneel before the power of metal! 
+			You gain the following abilities: -One Man’s Trash...:
+			At the end of your turn, for each active Generator spread you
+			have, your Assemblage gains four scrap points. At the beginning of
+			your turn, you may end any number of Hunger spreads you have that do
+			not move with you. For each spread you end this way, choose a target
+			square within a distance equal to your movement speed of the square
+			from which that spread originates. You create a Hunger spread
+			originating from the chosen square. -Junk BondSU: Whenever an
+			opponent exits an active Hunger spread you created, that spread deals
+			%2*TAM% damage to that opponent. If an opponent was
+			dealt damage this way, your Assemblage gains %TAM% scrap points.
+			-Not Under WarrantySU: As an immediate action, any ally within your 
+			Assemblage can choose two active Generator or Hunger spreads you created.
+			If that ally does, that ally may create two 45 ft radius Decimation
+			spreads each originating from a target square of that ally’s choice within
+			your [Medium] range of the square rom which a different one of the chosen
+			spreads originates, then you end the chosen spreads and gain two automatons. 
+			-That Too!SU: Once per [Round], as an immediate action, you may create two 45 ft radius
+			Decimation spreads each originating from a target square within
+			[Medium] range. </circle>
+	</track>
+	<track id="necromancer" name="Necromancer" tam="spell">
+		<circle n="1" name="Speak with Dead" type="SU">Once per [Scene], you can grant the
+			semblance of life and intellect to a corpse for half an hour, allowing
+			it to answer several questions that you put to it. You may ask one
+			question per two levels you possess. Unasked questions are wasted if
+			the duration expires. The corpse is compelled to answer each question
+			truthfully, although the corpse’s knowledge is limited to what the
+			creature knew during life, including the languages it spoke (if any),
+			and the creature is only compelled to answer the explicit question
+			asked. Furthermore, you can only interrogate a corpse that is
+			reasonably intact (at least head and throat) and cannot interrogate a
+			corpse that has been subject to Speak With Dead in the previous week.
+			If the corpse is already animated, such as an [Undead] creature, you
+			cannot interrogate it with this ability.
+		</circle>
+		<circle n="1" name="Apprentice of Darkness" type="SLA">You can choose
+			to damage [Undead] creatures with [Negative] effects as if they were
+			not [Undead], and whenever one of your abilities would affect a
+			creature with [Immunity] to [Negative] effects, you may choose to
+			treat their [Immunity] as if it were [Greater resistance] to damage
+			with the [Negative] descriptor. Additionally, choose one of the
+			following abilities. This choice is permanent. When you gain your 4th
+			Circle of the Necromancer track, you can activate your chosen ability
+			as part of a standard action to activate any spell-like ability from
+			the Necromancer track (including your chosen ability). -Cause Fear:
+			As a move action, you may force an opponent within [Close] range to
+			become [Shaken] for 2 [Rounds]. A successful Will save negates the
+			[Shaken] condition. This is a [Fear], [Mind-affecting] ability. »
+			Chill Touch: You may deal %LVL%d4 + %KOM% damage
+			to an opponent within [Melee] range. This does not
+			provoke attacks of opportunity, but it requires a successful melee
+			attack roll. This is a [Negative] ability. </circle>
+		<circle n="2" name="Whispers of the Afterlife" type="SU">Choose one
+			of the following abilities (this choice is permanent): -False Life:
+			As a swift action, you can give yourself %LVL% temporary HP.
+			These temporary HP disappear at the end of the [Scene]. -Crippling
+			Aura: You can summon the negative energy that courses through the
+			world to wrack enemies around you with pain and limit their mobility.
+			Once per [Encounter], as a swift action, you may create a spread with
+			a radius of your [Close] range originating from you that moves with
+			you and lasts until the end of the [Encounter]. Whenever an opponent
+			ends its turn in a square within the spread, it takes a -10 ft
+			penalty to its movement speed on its next turn. This is a [Negative]
+			ability. </circle>
+		<circle n="3" name="Blight From the Beyond" type="SLA">Pick one of
+			the following abilities (this choice is permanent): -Vampiric Touch:
+			Once per [Encounter], you may deal %LVL%d8 damage to an opponent 
+			within [Melee] range. This does not provoke
+			attacks of opportunity, but it requires a successful melee attack
+			roll. You heal HP equal to half of the damage dealt, and if this
+			would heal you above your maximum HP, you add any excess healing as
+			temporary HP that last until the end of the [Encounter]. This is a
+			[Negative] ability. -Blindness: As a standard action, you may cause
+			target creature within [Close] range to become [Blinded] for 2
+			[Rounds]. </circle>
+		<circle n="4" name="Ebb and Flow" type="SLA">Choose one of the
+			following abilities (this choice is permanent): -Enervation: Once
+			per [Encounter], you may inflict the [Energy drained] condition 1d4
+			times on an opponent within [Medium] range. This requires a
+			successful ranged attack roll. This is a [Negative] ability. »
+			Enervating Strike: Once per [Encounter], as a swift action, you can
+			empower your melee attacks with negative energy; each time you hit an
+			opponent with a melee attack this [Round], you inflict [Energy
+			drained] on the hit opponent. This is a [Negative] ability. »
+			Protection from Death: Once per [Encounter], as a swift action, you
+			may grant a single target within [Close] range [Immunity] to [Death]
+			effects and all conditions and nondamaging effects inflicted by
+			abilities with the [Negative] descriptor, and [Greater resistance] to
+			all damage dealt by abilities with the [Negative] descriptor. This
+			effect lasts for the [Encounter]. </circle>
+		<circle n="5" name="Dread Lord" type="SLA">Choose one of the
+			following abilities (this choice is permanent): -Slay Living: Once
+			per [Encounter], you can deal %6*LVL% damage to a target within
+			[Close] range and apply the [Battered] condition to that target. A
+			successful Fortitude save halves the damage and prevents the damage
+			from reducing the target below 1 hit point. This is a [Negative],
+			[Death] ability. -Retributive Armor: Once per [Encounter] as a move
+			action, you can call up clouds of negative energy that surround your
+			person and lash out at your foes. For the remainder of the
+			[Encounter], for each opponent, the first time each [Round] that
+			opponent hits you with an attack while within [Close] range, that
+			opponent is [Shaken] for 1 [Round] and dealt 1 point of damage per
+			level. This is a [Negative] ability. </circle>
+		<circle n="6" name="Wave of Terror" type="SLA">You can release a huge
+			wave of negative energy. Once per [Encounter], you may create a wedge
+			with a length of %5*LVL% ft originating from you,
+			which deals %LVL%d6 damage and inflicts the
+			[Exhausted] and [Frightened] conditions to all opponents in its area.
+			A successful Fortitude save leaves the opponents [Fatigued] and
+			[Shaken] instead of [Exhausted] and [Frightened]. This is a
+			[Negative], [Fear], [Mind-affecting] ability. </circle>
+		<circle n="7" name="Wail of the Banshee" type="SLA">You can release a
+			horrible shriek, rending the air and destroying your enemies
+			completely. Once per [Encounter], you may create a spread with a
+			radius equal to your [Medium] range originating from you, dealing %6*LVL%
+			damage and applying the [Battered] condition to all
+			opponents within [Medium] range. A successful Fortitude save halves
+			the damage. This is a [Negative], [Death] ability. </circle>
+	</track>
+	<track id="runesongScholar" name="Runesong Scholar" tam="int/wis/cha">
+		<circle n="1" name="Semantics" type="SU">You gain access to the
+			following abilities, which may be activated as a swift action, at
+			will : -Know Truenames: You have learned how to glean the true name
+			of another, even if they do not know it themselves. At will, you may
+			force a creature within [Close] range to surrender the knowledge of
+			its true name. A successful Will save negates this effect, and gives
+			the creature [Immunity] to this ability for the remainder of the
+			[Scene]. -Heed My Words: You can speak a true name to make its owner
+			painfully aware of your words. The creature hears the next sentence
+			you speak regardless of distance, and if it is within [Extreme] range
+			it is [Shaken] for 1 [Round] at your option. It is a [Fear],
+			[Mind-affecting] ability if you choose to make your target [Shaken].
+		</circle>
+		<circle n="2" name="Trace the Lines" type="SU">You gain access to
+			the following abilities, which may be activated as a swift action, at
+			will : -Affirmation of Existence: You can speak a creature’s true
+			name that you know to reveal the creature’s location. This makes you
+			and your allies aware of the creature’s cardinal direction if it is
+			within [Extreme] range, or precise location if within [Medium] range,
+			and this causes the creature to be [Revealed] for one [Round]. You do
+			not need line of sight or effect to the creature to activate this
+			ability. -Denial of Existence: You may intentionally mangle one true
+			name you know. If the true name’s owner is within [Medium] range, he
+			takes %2*TAM% damage.
+		</circle>
+		<circle n="3" name="Will of the Elements" type="SU">You gain access
+			to the following abilities: -Song Shield: Through practice in the
+			tongue from which all things were formed, you gain an unspoken bond
+			with the base elements. At the beginning of your turn, you gain a
+			Song Shield that grants [Lesser resistance] against the next source
+			of energy damage you suffer. Song Shields accumulate during an
+			[Encounter] and stack with one another, but each time you are dealt
+			energy damage, a single Song Shield dissipates. All Song Shields
+			dissipate at the end of each [Encounter]. -Moniker: You may not know
+			the true name of every blade of grass, but you can craft temporary
+			“nicknames” for them. Once per [Encounter], as a swift action, you
+			may give a Moniker to %LVL% creatures within [Close] range.
+			The Moniker expires at the end of the [Encounter]. A
+			Moniker can be used in the place of a proper true name. </circle>
+		<circle n="4" name="The Earth Calls" type="SU">You can send the
+			earth up to meet someone, like a particularly ungentlemanly caller.
+			At will, you may cause a creature within [Close] range whose true
+			name you know to take damage equal to your character level and be
+			[Slowed] for two [Rounds]. A successful Reflex save negates the
+			[Slowed] condition. You cannot choose the same target for The Earth
+			Calls more than once per [Encounter]. You do not need line of sight
+			or effect to the creature to activate this ability. </circle>
+		<circle n="5" name="Unbreakable Oath" type="SU">The first time each
+			[Encounter] that a given creature is targeted by one of your Runesong
+			Abilities that is not Know Truenames or Moniker, that creature
+			becomes [Oathsworn] to you for the rest of the [Encounter]. While the
+			creature is [Oathsworn] to you, if it would take an offensive action
+			that targets you, that action is not taken. A successful Will save
+			allows the creature to take the action; an unsuccessful Will save
+			renders the creature no longer [Oathsworn] to you. </circle>
+		<circle n="6" name="Abjure" type="SU">For a brief moment, you can
+			convince the universe that a creature doesn’t exist. If you know the
+			true name of target creature within [Medium] range and if that
+			creature had not been targeted by this ability this [Encounter], as a
+			swift action you may render the creature [Ethereal] for one [Round] .
+			A successful Will save negates this effect. While a creature is
+			[Ethereal] as a result of this ability, line of sight is blocked
+			between the creature and other creatures besides you, and line of
+			effect is blocked between the creature and any other creature’s
+			attack, ability, or effect. You do not need line of sight or effect
+			to the creature to use this ability. </circle>
+		<circle n="7" name="Unname" type="SU">You gain the ultimate power
+			over true names – the knowledge of their destruction. At will, as a
+			standard action, you can cause a creature within [Close] range whose
+			true name you know to suffer [HP reduction] equal to half of their
+			maximum hit points. A successful Will save negates this effect. You
+			do not need line of sight or effect to the creature to activate this
+			ability</circle>
+	</track>
+	<track id="trueMage" name="True Mage" tam="spell">
+		<circle n="1" name="Kingship" type="EX">You may bestow ritual
+			blessings upon allies at the beginning of a [Scene]. Until
+			discharged, each of these abilities lasts for the duration of the
+			[Scene]. A creature may only benefit from one ritual blessing at a
+			time. You have access to the following ritual blessings, though each
+			must be placed only once per [Scene] and on a different ally: »
+			Sword: Whenever an ally who possesses this ritual blessing hits an
+			opponent with an attack, that opponent takes a -10 ft penalty to
+			their movement speed until the end of the [Encounter]. In addition,
+			as a free action, after hitting an opponent with an attack, that ally
+			may discharge this ritual blessing to inflict a penalty equal to the
+			number of circles of True Mage you possess to the AC of one opponent
+			within [Close] range. This penalty lasts until the end of the
+			[Encounter]. -Shield: For each opponent, the first time each [Round]
+			that opponent’s melee attack hits an ally possessing this ability,
+			that opponent takes 1 point of damage per level of the ally. In
+			addition, as a free action, that ally may discharge this ritual
+			blessing to create a spread with a radius of that ally’s [Close]
+			originating from that ally, dealing damage equal to your TAM + your
+			level to all opponents in the area. -Sceptre: The ally who possesses
+			this ability has the power to speak words which hold greater weight
+			to other creatures. That ally receives a +2 bonus to a social skill
+			of their choice, or to Awareness. When attempting to reason with a
+			hostile creature, the ally may discharge this ability as a free
+			action to gain a token for the social encounter. </circle>
+		<circle n="2"
+			name="Foundation: Once per [Scene], as a standard action, you gain one of the following abilities until the end of the [Scene]: -Theurgic Secret"
+			type="EX"> Choose a single spell you know, of any circle lower than the
+			highest circle of spells you can cast. You may cast this spell once
+			per [Encounter] without expending a spell slot. -Alchemical
+			MysteriesSU: As a move action, if you possess the Combat Alchemist
+			track, you may expend a consumable to convert one of your Potions or
+			Poisons into a consumable with effects identical to that Brew. This
+			consumable expires at the end of the [Scene]. -Goetic StrengthEX:
+			Choose either spell-like or supernatural abilities. Calculate all
+			leveldependent variables, such as range, damage, and DCs, for
+			abilities of the chosen type you possess as if you were two levels
+			higher. -Arcane PreparationSU: Once per [Scene], after spending no
+			actions for 5 minutes, you may create a spread with a radius of your
+			[Close] range originating from you that lasts for the rest of the
+			[Scene]. If any creature enters a square within this spread, the
+			glyph alerts you (a harmless mental jolt sufficient to wake you from
+			sleep) and conveys an image of the creature, along with a vague sense
+			of the creature’s general intent. When you create the spread, you can
+			choose to direct it to ignore creatures fitting a certain description
+			(such as “small animals and insects”), as well as yourself and/or
+			anyone inside the spread when it is created. You can also direct the
+			spread to repel creatures fitting a certain description no more
+			complex than race and a range of height and weight. A creature under
+			that description is unable to enter a square within the spread. A
+			successful Will save (DC 10 + ½ your level + your TAM) allows the
+			creature to enter a square within the spread for the rest of the
+			[Scene]. Finally, creatures outside the spread cannot establish line
+			of sight to any creature within the spread from your [Long] range or
+			farther. Creatures outside your [Medium] range from the spread also
+			cannot establish line of sight to any creature within the spread
+			unless they are able to ignore [Figment] or [Glamer] effects. Taking
+			an offensive action against an opponent while inside a square
+			124within the spread allows any creature to establish line of sight
+			as normal to creatures within the spread for the rest of the [Scene].
+		</circle>
+		<circle n="3" name="Splendor" type="SU"> You gain access to three
+			broader rituals which take a hundred [Rounds] to cast each. Out of
+			combat, this is roughly equivalent to ten minutes. -Seal: You create
+			a Splendorous seal over a door or object, stopping it from being
+			opened without two [Rounds] of concerted effort. You may only have
+			one Seal in existence for each circle of True Mage you have acquired,
+			and only one active on a given door or object. These seals function
+			while you are within 750 ft, and 5 minutes after you leave that
+			radius. You may open a seal or reseal it at anytime. As a swift
+			action, you may discharge a seal in order to deal damage equal to
+			your character level plus your Key Offensive Modifier to all
+			opponents within 20 ft of the seal. -Trickery: You create a Rune of
+			Trickery on an ally. You may only have one Rune in existence for each
+			circle of True Mage you have acquired, and only one active on a given
+			ally. While a Rune of Trickery is on an ally, that ally may alter
+			their appearance at will. A Perception check (DC 10 + ½ your
+			character level + your KAM) makes an observer aware of the deception.
+			This Rune lasts for the duration of the [Quest]. The ally may
+			discharge this Rune as a move action or part of a move action to
+			[Teleport] to a destination point within [Close] range, and become
+			[Invisible] for two [Rounds]. -Majesty: You create a symbol of
+			Majesty on an ally. You may only have a one Symbol in existence for
+			each circle of True Mage you have acquired, and only one active on a
+			given ally. This symbol lasts for the duration of the [Quest]. An
+			affected ally gains a 10 ft bonus to their [Melee] range, and
+			opponents hit by their melee attacks begin [Burning]. As a move
+			action, the ally may discharge the symbol to cause all opponents
+			within the ally’s improved [Melee] range to be [Blown away] and begin
+			[Burning]. </circle>
+		<circle n="4" name="Eternity" type="EX">Your control over the
+			Splendor Rituals increases. You may now prepare these rituals in
+			advance on some form of item, like a card or a scroll, that you can
+			then use for the ritual. A ritual prepared in this fashion can be
+			used as a swift action, as long as the subject is within [Melee]
+			range. No two True Mages may use each other’s rituals prepared this
+			way, and where applicable, cards count against the total number of
+			instances you may have active for a given ritual. </circle>
+		<circle n="5" name="Severity" type="SU">At the start of each
+			[Scene], you possess one of the following abilities of your choice
+			until the end of the [Scene]: -Circle of Ether: Your ability to bind
+			magic into physical forms takes on a startling new aspect. At the
+			start of this [Scene], you gain two consumables: a Rusted Ring and
+			Gloss Armor. If they have not been used by the end of the [Scene],
+			these two consumables crumble into dust, as do any consumables you
+			have created with them using the Alchemical Mysteries ability. »
+			Binding of The Seventh: Once per [Scene], after spending no actions
+			for 5 minutes, you may create a shackle spread with a radius of your
+			[Close] range originating from 125 Chapter VI: Additional
+			Trackstarget adjacent square, which remains dormant until activated
+			or until you create a new shackle spread with this ability. If you
+			create a new shackle spread, this shackle spread disappears. As a
+			standard action, you may activate the shackle spread. Creatures
+			within an activated shackle spread cannot be affected by [Teleport]
+			effects (actions taken on using such [Teleport] effects are still
+			spent), and opponents within an activated shackle spread are
+			inflicted with the [Slowed] condition for as long as they are within
+			the shackle spread. A successful Will save (DC 10 + ½ your level +
+			your TAM) causes a creature to become [Entangled] instead of [Slowed]
+			while inside the shackle spread. Once activated, the shackle spread
+			lasts for ten [Rounds] and then disappears. </circle>
+		<circle n="6"
+			name="Understanding: As you master the ancient arts of the mage, you can combine your powers in unusual ways. You may choose one of the following abilities; this choice is permanent, unless your GM is unusually forgiving: -Dual Focus"
+			type="EX">You learn to split your arcane focus between two constant
+			effects. You may have two instances of your Foundation ability active
+			simultaneously, and their effects stack if they provide the same
+			ability. -Glyph of CallingSU: You can craft linked magic circles,
+			enabling instant travel between their locations. Once per [Scene],
+			with two hours’ effort, you can create a teleportation circle with a
+			10-ft radius linked to any other teleportation circle within a
+			distance of 100 miles per level you possess. Any creature that enters
+			a linked teleportation circle’s space is immediately transported to
+			the teleportation circle to which it is linked, along with up to 250
+			pounds of equipment. The circle is permanent but can be destroyed
+			either by a 7thcircle [Dispelling] effect or by ten minutes’ physical
+			labor. This is a [Teleport] and [Warp] effect. </circle>
+		<circle n="7" name="Crown" type="EX">At the beginning of each
+			[Scene], you possess one of the following abilities of your choice
+			until the end of the [Scene]. -Ars Arcana: If you have the Combat
+			Alchemist track, you may reduce the transmutation point cost of all
+			your abilities by one, to a minimum of one point. -Magna Anima: At
+			the beginning of each [Scene], pick a single spell that you know of a
+			circle lower than your highest spell circle with a casting time of “1
+			standard action”. Once per [Encounter], as a swift action, you may
+			cast that spell without expending a spell slot. In addition, once per
+			[Encounter], as a swift action, if you possess the Theurgic Secret
+			ability this [Scene] and your chosen spell from that ability has a
+			casting time of “1 standard action”, you may cast that chosen spell
+			without expending a spell slot. -Ars Goetia: Once per [Scene], you
+			may activate any two spell-like abilities you possess with a casting
+			time of a standard action or a swift action with a single standard
+			action. You can choose the order in which the abilities take effect.
+			This action counts against any limits for using those spell-like
+			abilities, and you may not activate a spell-like ability that has no
+			remaining uses or otherwise could not normally be activated. 126 »
+			Magna Mutatio: Once per [Scene], you may transform any consumable
+			into any other consumable of the same tier. This takes one [Round] of
+			effort. 
+		</circle>
+	</track>
+	<track id="vigilante" name="Vigilante">
+		<circle n="1" name="Vigilante Armor" type="EX">With a dramatic
+			gesture and shouted command, a suit of incredible armor snaps into
+			existence and covers your body. This provides a +2 item bonus to
+			Athletics, and is a Lesser item of your design with enchantments as
+			normal for magic armor of its tier (see Chapter XIII), but does not
+			count against your normal limit of attuned magic items. When you gain
+			your 4th circle in Vigilante, redesign this armor as a Greater item,
+			and when you gain your 6th circle, redesign it as a Relic. </circle>
+		<circle n="2" name="Brutal Kick" type="EX">As a standard action, you
+			may move up to your movement speed, or your mount’s movement speed if
+			you are mounted, without provoking attacks of opportunity, and then
+			make a melee attack against an opponent in your [Melee] range. This
+			attack deals %LVL% additional damage. If you’re not
+			[Burrowing], [Flying], [Swimming], or [Soaring], you can target a
+			[Flying] creature with this attack. If you’re [Flying] but not
+			[Burrowing], [Swimming], or [Soaring], you can target a creature that
+			isn’t [Burrowing], [Flying], [Swimming], or [Soaring] with this
+			attack. You can choose to treat your Unarmed Strike natural weapon as
+			a [Brutal 2], [Magnum] weapon for purposes of this attack. At 10th
+			level, you can make 2 of these attacks after moving this way, and the
+			additional damage for each attack increases to %2*LVL%. </circle>
+		<circle n="3" name="Signature Ride" type="EX"> If you do not already
+			have a Personal Mount, as a move action, you may summon or dismiss a
+			mysterious contraption, called your Signature Ride. This is a special
+			mount. You may only have one Signature Ride, which you may treat as
+			your Personal Mount. Only you can be its rider, and you can become
+			and remain its rider during combat even if you do not have the Ride
+			skill trained. You cannot become its passenger. Whenever you summon
+			it, it appears in an unoccupied space adjacent to yours. Whenever you
+			dismiss it, it disappears; if you are its rider, you cease to be its
+			rider. As a free action, if you are adjacent to your Signature Ride
+			or are in a square it occupies, you may become the rider of your
+			Signature Ride without provoking attacks of opportunity. It has a
+			movement speed equal to your movement speed + 15 ft, the Fly movement
+			mode, and a space equal in size and shape to your own. While you are
+			the rider of your Signature Ride, you gain a 20% [Miss chance]
+			against all attacks during any [Round] in which you move at least 20
+			ft. </circle>
+		<circle n="4" name="Unnatural Resilience" type="EX">Through esoteric
+			means, you are simply tougher and more enduring than any life ought
+			to be. If you make a successful Fortitude save against an effect that would normally have a
+			lesser effect on a successful save (such as a spell with a save of
+			“Fortitude half ”), you instead ignore the effect entirely. </circle>
+		<circle n="5" name="Vigilante’s Courage" type="EX">You have
+			[Immunity] to [Fear] and gain a +2 bonus to initiative checks, due to
+			your prodigious courage. Twice per [Round], whenever this ability
+			negates an effect, or you successfully make a Fortitude save, you may
+			make a Brutal Kick against the opponent that created the effect, as
+			long as your Brutal Kick ability could bring you within your [Melee]
+			range of that opponent. </circle>
+		<circle n="6" name="Finishing Move" type="EX"> You learn to
+			devastate your enemies, leaving you refreshed for your next
+			challenger. Once per [Encounter], as a standard action, you may move
+			up to your movement speed, or your mount’s movement speed if you are
+			mounted, without provoking attacks of opportunity, and then make a
+			melee attack against an opponent in your [Melee] range. This attack
+			deals %5*LVL% additional damage, and you gain
+			temporary HP equal to the damage dealt by this attack. You can choose
+			to treat your Unarmed Strike natural weapon as a [Brutal 2], [Magnum]
+			weapon for purposes of this attack. If you’re not [Burrowing],
+			[Flying], [Swimming], or [Soaring], you can target a [Flying]
+			creature with this attack. If you’re [Flying] but not [Burrowing],
+			[Swimming], or [Soaring], you can target a creature that isn’t
+			[Burrowing], [Flying], [Swimming], or [Soaring] with this attack.
+		</circle>
+		<circle n="7" name="Unbeaten" type="EX">Once per [Encounter], as a
+			move action, you can heal all damage, setting your current hit point
+			total to your maximum HP. </circle>
+	</track>
+	<track id="celestial" name="Celestial">
+		<circle n="1" name="Divine Radiance" type="SU">At will, as a free
+			action, if you do not already have a radiant spread, you may create a
+			radiant spread with a radius of your [Close] originating from you
+			that moves with you and lasts until dismissed as a swift action. This
+			spread causes opponents in it to lose the [Covered] condition and be
+			[Revealed]. Any opponent who leaves the spread is [Revealed] for one
+			[Round] and cannot benefit from the [Covered] condition for one
+			[Round]. As a swift action, you may increase the light’s brightness
+			momentarily, leaving all opponents within the radiant spread
+			[Dazzled] for 5 [Rounds]. A successful Fortitude save (DC %10+LVL/2+WIS%)
+			reduces the duration of the [Dazzled] condition to 1 [Round]. 
+		</circle>
+		<circle n="2" name="Sway the Heavens" type="EX">Your attacks awe
+			opponents with their wondrous grace. %CRL-1% times per [Round], if you hit an
+			opponent that has been [Revealed] by your Divine Radiance with an
+			attack, you may cause that opponent to be unable to make attacks of
+			opportunity for one [Round]. This does not require an action.</circle>
+		<circle n="3"
+			name="Path to Glory" type="EX">You gain one of the following abilities:
+			-Angelic Wings You gain a pair of wings and the Fly movement mode.
+			-Prophetic VisionsSU: Brief glimpses into the future offer you keen
+			insight into battle. Once per [Round], when you activate Divine
+			Radiance as a swift action, you may gain a +3 bonus to attack rolls
+			or Armor Class until the beginning of your next turn. </circle>
+		<circle n="4" name="Benediction" type="SU">You gain one of the
+			following abilities: -Strength of Faith: Twice per [Encounter], you
+			can activate the Divine Radiance ability as an immediate action, and
+			replace the Armor Class or one saving throw bonus of an ally within
+			the range of your Divine Radiance with your own for one [Round]. When
+			you do so, you may benefit from other abilities you possess that
+			trigger when you activate Divine Radiance as a swift action. -Aura
+			of Vitality: You gain [Immunity] to the [Blinded] condition. In
+			addition, twice per [Encounter], when you activate Divine Radiance as
+			a swift action, you may grant all allies within the range of your
+			Divine Radiance %2*LVL% temporary HP. </circle>
+		<circle n="5" name="Harmonious Scales" type="SLA">You gain one of the
+			following abilities: -Purifying Flame: Twice per [Encounter], as a
+			standard action, you may use sunburst, as the spell. The DC to resist
+			it is %10+LVL/2+WIS%. -Cleansing Light:
+			Twice per [Encounter], as a standard action, you may use heal, as the
+			spell. The DC to resist it is %10+LVL/2+WIS%. </circle>
+		<circle n="6" name="Righteous Wrath" type="EX">You gain one of the
+			following abilities: -Strike Senseless: The first time you hit an
+			opponent with an attack each [Round], that opponent is [Blinded] and
+			[Deafened] for 1 [Round]. A successful Fortitude save (DC %10+LVL/2+WIS%
+			negates the [Blinded] and [Deafened]
+			conditions. -That Hideous Strength: Once per [Round], when you make
+			an attack, you may force all enemies within the area of your Divine
+			Radiance to make a Will save (DC %10+LVL/2+WIS%)
+			or be [Battered] for 2 [Rounds]. </circle>
+		<circle n="7" name="Divine Mercy" type="SU">Once per [Encounter],
+			when you activate Divine Radiance as a swift action, you call down a
+			shield of blistering light which grants a single ally within [Long]
+			range [Immunity] to damage for a single [Round]. </circle>
+	</track>
+	<track id="demon" name="Demon">
+		<circle n="1" name="Demonic Traits" type="EX">Select one Interaction
+			skill (Bluff, Diplomacy, Intimidate, or Perception). You gain a +3
+			bonus on all checks with that skill. A demon also has the following
+			natural weapon: -Demon Claws – Melee, range [Melee], [Brutal 2],
+			[Devastating]. </circle>
+		<circle n="2" name="Demon Magic" type="SLA">Once per [Encounter], as
+			a standard action, you may use either darkness or see invisibility,
+			as the spells. </circle>
+		<circle n="3" name="Abominable Essence" type="EX">
+			Select one of the following abilities (this choice is permanent): 
+			-Fell Flight: You gain wings and the Fly movement mode. -Apocalyptic
+			VisionsSU: Brief glimpses into the future offer you keen insights
+			into battle. Once per [Round], as a swift action, you may gain a +3
+			bonus to attack rolls or to Armor Class for one [Round]. </circle>
+		<circle n="4" name="Thick Skinned" type="EX">You gain a +%CRL% item
+			bonus to your Armor Class, and [Lesser resistance] to physical damage.
+		</circle>
+		<circle n="5"
+			name="Vessel of Entropy" type="SU">Select one of the following abilities (this choice is permanent):
+			-Shield of Chaos: You gain a 20% [Miss chance], and your [Lesser resistance] to
+			physical damage improves to [Resistance] to physical damage. 
+			-Chaos HammerSLA: Twice per [Encounter], as a standard action, you may deal
+			%LVL%d8 damage inflict [Energy drained] to all opponents within
+			[Close] range. A successful Fortitude save (DC %10+LVL/2+KOM%)
+			halves the damage and negates the [Energy drained] condition. </circle>
+		<circle n="6" name="Cruel Reality" type="SU">Select one of the
+			following abilities (this choice is permanent): -Bonded by Blood:
+			You gain the ability to sense how close to death creatures are. You
+			know the maximum and current HP of every creature within [Medium]
+			range to which you have line of sight. In addition, as a swift
+			action, you can form a horrifying bond with a creature within
+			[Medium] range that splits all damage you take equally with that
+			creature until the end of the [Encounter]. (You can damage yourself
+			to damage the bonded creature. ) [Damage reduction] and [Resistance]
+			do not apply to damage that creature takes from this ability. As a
+			move action, that creature may make a Fortitude save (DC %10+LVL/2+KOM%)
+			to sever this bond. A creature
+			may only have one such bond at a time. -Aura of Insanity: Once per
+			[Round], as a free action, you may create spread with a radius of
+			your [Close] range originating from you, which renders all opponents
+			within the area [Confused] for one [Round]. A successful Will save
+			(DC %10+LVL/2+KOM%) negates the [Confused] condition.
+			Each opponent may only be affected by this ability once per
+			[Encounter]. </circle>
+		<circle n="7" name="Aura of Death" type="SU">Everything around you
+			seems to die faster than it otherwise should. At the start of each of
+			your turns, all opponents in [Medium] range gain the [Bleeding]
+			condition, all opponents in [Close] range gain the [Battered]
+			condition for one [Round], and whenever you hit an opponent with an
+			attack in [Melee] range, that attack deals %KOM*2% additional damage. 
+			A successful Fortitude save (DC %10+LVL/2+KOM%) negates the [Battered]
+			condition. (These effects are cumulative. For instance, a creature in your [Melee]
+			range suffers all three effects. )</circle>
+	</track>
+	<track id="dragon" name="Dragon">
+		<circle n="1" name="Agility" type="EX"> You gain the Fly movement
+			mode. You also gain the following natural weapon: -Dragon Claws –
+			Melee, range [Melee], [Brutal 3]. </circle>
+		<circle n="2" name="Vitality" type="EX">Your maximum HP increases by %CRL*LVL%.</circle>
+		<circle n="3" name="True Dragon" type="EX">This marks your
+			transition from your previous form to the dragon you were meant to
+			be. Your scales have formed a protective coat, which can be improved
+			with enchantments (see Chapter XIII) as if it were armor, though it
+			is not treated as armor for any other purpose. This coat grants you a
+			+3 item bonus to AC, which improves by +1 if it is enchanted as a
+			Lesser Item, or +2 if it is enchanted as a Greater Item, or +3 if it
+			is enchanted as a Relic, or +4 if it is enchanted as an Artifact. The
+			Masterwork enchantment can never be applied to your scales. In
+			addition, whenever you hit with an attack using your Dragon Claws,
+			you are healed for half the damage you dealt on that attack, up to
+			%LVL% HP. Abilities or effects that would increase this
+			ability’s healing do so only once per [Round]. 
+		</circle>
+		<circle n="4" name="Dignity" type="EX">All conditions and [Binding]
+			effects affecting you have their durations reduced by one [Round], to
+			a minimum of 1 [Round]. If a condition would normally persist for an
+			[Encounter], it instead lasts eight [Rounds] or until the [Encounter]
+			ends, whichever occurs first. If a condition would normally persist
+			for a [Scene], it instead lasts for the [Encounter]. If a condition
+			would normally persist for a [Quest], it instead lasts for the
+			[Scene]. Permanent conditions are unaltered. </circle>
+		<circle n="5" name="Endurance" type="EX">Fatal damage you are
+			subjected to takes a full [Round] to kill or incapacitate you. During
+			that [Round], you may be healed. </circle>
+		<circle n="6" name="Power" type="EX"> Twice per [Encounter], as a
+			swift action, you may let loose a horrible challenge. Opponents
+			within [Close] range are [Deafened] for one [Round], and they must
+			use their standard and move actions to either flee or approach you
+			(using standard actions to Run and move actions to move away), or
+			target you with offensive actions for one [Round]. A successful Will
+			save (DC %10+LVL/2+KOM%) negates this effect. </circle>
+		<circle n="7" name="Great Wyrm" type="EX">You have grown in power,
+			transcending the mortality of lesser beings. Once per [Scene],
+			whenever you die or are rendered [Unconscious], you are revived at
+			the beginning of the next [Round] with full HP. You can delay your
+			revival or choose not to return at all. If you die more than once
+			during a [Scene], you may come back to life at the beginning of the
+			next [Quest].</circle>
+	</track>
+	<track id="sentientConstruct" name="Sentient Construct">
+		<circle n="1" name="Sturdy Frame" type="EX">Select one of the
+			following abilities (this choice is permanent): -Hard to Break: Once
+			per [Encounter], if you make a successful Fortitude or Will save
+			against an effect that would normally have a lesser effect on a
+			successful save (such as a spell with a save of “Fortitude half ”),
+			you instead ignore the effect entirely. -Harder, Better, Faster,
+			Stronger: You gain a +%CRL% bonus to all damage,
+			and a %5*CRL/2% ft bonus to your movement speed. 
+			You also gain a +2 bonus to saves against combat maneuvers. </circle>
+		<circle n="2" name="Built to Last" type="EX">Select one of the
+			following abilities (this choice is permanent): -Nanites: You gain
+			[Fast healing] %KDM%. -Heavy Metal:
+			As a standard action, you deal %LVL+KOM% damage to every opponent in [Melee] range.
+			Opponents dealt damage by this ability are [Knocked down]. A
+			successful Reflex save (DC  %10+LVL/2+KOM%) egates being [Knocked down]. </circle>
+		<circle n="3" name="Onboard Radar" type="EX">Select one of the
+			following abilities (this choice is permanent): -Sensor Suite: Your
+			advanced senses enable you to penetrate illusions that would fool
+			organic creatures. You gain [Immunity] to effects with the [Figment]
+			descriptor. You also gain [Tremorsense] out to [Close] range and
+			[Blindsight] out to [Melee] range. -Targeting System: You gain
+			[Tremorsense] out to [Close] range. Whenever you use [Tremorsense] to
+			image the area (see Chapter IX), you gain a +2 bonus to attack rolls
+			against any opponent within your [Tremorsense] that [Round], and
+			whenever you deal damage with an attack to an opponent within your
+			[Tremorsense] that [Round], you deal %CRL%d4 additional damage with the
+			[Precision] descriptor. </circle>
+		<circle n="4" name="Defensive Matrix" type="EX">Select one of the
+			following abilities (this choice is permanent): -Spell Disruption:
+			You gain [Resistance] to energy and magic damage. -Active
+			Stabilizers: You gain [Resistance] to physical damage. </circle>
+		<circle n="5" name="Auxiliary Systems" type="EX">Select one of the
+			following abilities (this choice is permanent): -Precise Logic: You
+			gain [Immunity] to effects with the [Mind-affecting] descriptor. »
+			Suppressive Fire: As a move action, you may create a line with a
+			length of your [Medium] range originating from you that deals 2d4 x %KOM%
+			damage to creatures within the area and knocks them [Prone]. 
+			A successful Reflex save (DC  %10+LVL/2+KOM%) negates the [Prone] condition. </circle>
+		<circle n="6" name="Upgraded Chassis" type="EX">Select one of the
+			following abilities (this choice is permanent): -Iron Constitution:
+			You gain [Immunity] to the [Bleeding], [Sickened], and [Nauseated]
+			conditions. -Charged Attack: Once
+			per [Round], as a swift action, you may charge up energy. Whenever
+			you do so, you gain a +%KOM% bonus to damage you deal with attacks or
+			offensive actions for one [Round]. All damage you
+			deal with attacks or offensive actions during that [Round] also
+			ignores %LVL/2% points of [Damage reduction] and [Resistance], 
+			and may inflict the [Burning] and [Bleeding] conditions at your choice. </circle>
+		<circle n="7" name="State of the Art" type="EX">Select one of the
+			following abilities (this choice is permanent): -Kinetic
+			Bombardment: As a standard action, you may pick one square within
+			[Medium] range. You deal 15d6 damage to all creatures within your
+			[Close] range from that square. Those creatures lose [Flying] and the
+			the Fly movement mode for two [Rounds]. In addition, creatures dealt
+			damage by this ability are [Blown away] in a direction of your
+			choice. A successful Fortitude save (DC  %10+LVL/2+KOM%)
+			negates being [Blown away]. -Big Finish: Three times per [Encounter],
+			as a move action, the next time you hit an opponent with an attack, 
+			that attack deals %4*LVL% additional fury damage and inflicts the [Battered]
+			condition until the end of the [Encounter], and the [Slowed] condition
+			for two [Rounds]. A successful Fortitude save (DC %10+LVL/2+KOM%) 
+			halves the additional damage and negates the [Slowed] condition.
+			This is a [Death] effect. </circle>
+	</track>
+	<track bindId="undead" id="ghoul" name="Ghoul">
+		<circle n="1" name="Horrible Bite" type="SU">You draw strength from
+			the flesh of sentient creatures. Once per [Round], when you hit an
+			opponent with your Ghoul Bite natural weapon, you may cause that
+			opponent to become [Sickened] for one [Round] and heal yourself %LVL% HP.
+			A successful Fortitude save (DC %10+LVL/2+KOM%) negates the [Sickened] 
+			condition and the healing. You also gain the Ghoul Bite natural weapon:
+			Ghoul Bite – Melee, range [Melee], [Brutal 3]</circle>
+		<circle n="2" name="Unholy Regeneration" type="EX">You gain [Fast
+			healing] %KDM%. </circle>
+		<circle n="3" name="The Flesh is Strong" type="EX">You gain
+			[Immunity] to [Fear], [Bleeding], and the in-combat use of
+			Intimidate. </circle>
+		<circle n="4" name="Infected Bite" type="EX">Whenever you hit an
+			opponent with an attack using your Ghoul Bite natural weapon, that
+			opponent gains [Vulnerability] to physical damage for 1 [Round].
+		</circle>
+		<circle n="5" name="Necrotic Aura" type="SU">Each opponent takes a
+			penalty to all d20 rolls based on how close it is to you: a -3
+			penalty within your [Melee] range, a -2 penalty within your [Close]
+			range, and a -1 penalty within your [Medium] range. These penalties
+			do not stack and expire as soon as the opponent leaves the area of
+			effect. </circle>
+		<circle n="6" name="Heartstopper" type="SU">You radiate an aura of
+			decay. Any effect that would heal an opponent within [Medium] range
+			heals %2*LVL% fewer points, to a minimum of 1 hit point healed.
+		</circle>
+		<circle n="7" name="No Requiem" type="SU">Heroes who manage to
+			strike you down are doomed to frustration. Once per [Scene], if you
+			become [Dead] or are rendered [Unconscious], you return to undeath
+			after 1 [Round] with full hit points. You may delay your revival or
+			choose not to return at all. </circle>
+	</track>
+	<track bindId="undead" id="lich" name="Lich">
+		<circle n="1" name="Undying Magecraft" type="EX">
+			You draw strength from ambient magical energy. Whenever you cast a spell
+			or spell-like ability, or an effect created by a spell or spell-like ability
+			is ended by a [Dispelling] effect within [Close] range, you heal %LVL/2% HP,
+			minimum 1. At will, as a standard action, you may also use Magic missile,
+			as the spell, as a spell-like ability.</circle>
+		<circle n="2" name="Sorcerous Endurance" type="EX"> 
+			Choose either [Cold] or [Electricity]. You gain [Resistance] to
+			the chosen element. At 6th circle, this improves to [Resistance] to
+			energy damage.</circle>
+		<circle n="3" name="The Flesh is Strong" type="EX">You gain
+			[Immunity] to [Fear], [Bleeding], and the in-combat use of
+			Intimidate. </circle>
+		<circle n="4" name="Hellfire Empowerment" type="SU"> You gain a +2
+			bonus to the DCs of spells, spell-like abilities, and supernatural
+			abilities you possess. Spells, spell-like abilities, and supernatural
+			abilities you possess that have one or more targets within a range
+			category may be used as if the range category within which you can
+			choose your target(s) is one range category higher, to a maximum of
+			[Extreme] range. Whenever an opponent is dealt damage by or fails a
+			save against one of your spells, spell-like abilities, or
+			supernatural abilities, you may cause that opponent to become
+			[Burning]. </circle>
+		<circle n="5" name="Necrotic Aura" type="SU">Each opponent takes a
+			penalty to all d20 rolls based on how close it is to you: a -3
+			penalty within your [Melee] range, a -2 penalty within your [Close]
+			range, and a -1 penalty within your [Medium] range. These penalties
+			do not stack and expire as soon as the opponent leaves the area of
+			effect. </circle>
+		<circle n="6" name="Arcane Insight" type="SLA">Once per [Encounter],
+			as a swift action, you may use Greater dispel magic, as the spell.
+		</circle>
+		<circle n="7" name="No Requiem" type="SU">Heroes who manage to
+			strike you down are doomed to frustration. Once per [Scene], if you
+			become [Dead] or are rendered [Unconscious], you return to undeath
+			after 1 [Round] with full hit points. You may delay your revival or
+			choose not to return at all. </circle>
+	</track>
+	<track bindId="undead" id="mummy" name="Mummy">
+		<circle n="1" name="Growing Horror" type="SU">You draw strength from
+			the fear of surrounding mortals. Every time an opponent within
+			[Close] range fails a saving throw against a [Fear] effect, you
+			regain %LVL% HP. The first opponent you hit each [Round]
+			must make a Will save (DC %10+LVL/2+KOM%) or become [Shaken] for one [Round]. 
+		</circle>
+		<circle n="2" name="Well Embalmed" type="EX">You now feed on courage
+			as well as fear. You gain [Lesser resistance] to physical damage.
+			Whenever a creature other than yourself within [Close] range ignores
+			a [Fear] effect due to an [Immunity] to [Fear], you regain %LVL/2% HP.
+		</circle>
+		<circle n="3" name="The Flesh is Strong" type="EX">You gain
+			[Immunity] to [Fear], [Bleeding], and the in-combat use of
+			Intimidate. </circle>
+		<circle n="4" name="Fear Aura" type="SU">For each opponent, the
+			first time that opponent begins its turn within or enters your
+			[Melee] range in an [Encounter], you may choose to give that opponent
+			a terrifying gaze that causes that opponent to become [Shaken]. A
+			successful Will save (DC %10+LVL/2+KOM%) negates the [Shaken] condition. </circle>
+		<circle n="5" name="Necrotic Aura" type="SU">Each opponent takes a
+			penalty to all d20 rolls based on how close it is to you: a -3
+			penalty within your [Melee] range, a -2 penalty within your [Close]
+			range, and a -1 penalty within your [Medium] range. These penalties
+			do not stack and expire as soon as the opponent leaves the area of
+			effect. </circle>
+		<circle n="6" name="Contagious Touch" type="SU">As a standard
+			action, you may make a single attack. On a hit, you deal damage as
+			normal and inflict a -3 penalty to attack rolls and a -5 penalty to
+			damage until the end of the [Encounter]. A successful Fortitude save
+			(DC %10+LVL/2+KOM%) negates these penalties. Additionally, once per [Round],
+			as a swift action, you may inflict a -3 penalty to attack rolls
+			and a -5 penalty to damage until the end of the [Encounter] on any creature
+			within %5+5*LVL/5% ft of a creature already penalized by Contagious
+			Touch. A successful Fortitude save (DC %10+LVL/2+KOM%) negates these penalties.
+		</circle>
+		<circle n="7" name="No Requiem" type="SU">Heroes who manage to
+			strike you down are doomed to frustration. Once per [Scene], if you
+			become [Dead] or are rendered [Unconscious], you return to undeath
+			after 1 [Round] with full hit points. You may delay your revival or
+			choose not to return at all. </circle>
+	</track>
+	<track bindId="undead" id="vampire" name="Vampire">
+		<circle n="1" name="Bloodlust" type="SU">You draw strength from
+			feeding on blood. Whenever you deal damage with your Vampire Bite
+			natural weapon, you heal half the damage dealt, to a maximum of %KOM%.
+			Abilities or effects that would increase this ability’s healing do so
+			only once per [Round]. You gain the Vampire Bite natural weapon: 
+			Vampire Bite – Melee, range [Melee], [Brutal 2], [Magnum]. </circle>
+		<circle n="2" name="Discorporation" type="SU">At will, as a swift
+			action, you can turn into a swarm of bats, mist, or similar form to
+			move between opponents and around obstacles (and even through cracks
+			in walls) with ease. For one [Round], you do not provoke attacks of
+			opportunity while moving and gain the Fly movement mode. You may
+			enter occupied squares, but if you end your movement in an occupied
+			square, you are shunted to the last unoccupied square you entered.
+		</circle>
+		<circle n="3" name="The Flesh is Strong" type="EX">You gain
+			[Immunity] to [Fear], [Bleeding], and the in-combat use of
+			Intimidate. </circle>
+		<circle n="4" name="Entrancing Gaze" type="SLA"> Once per
+			[Encounter], as a standard action, you may gain the effects of a
+			Sanctuary spell with a DC of %10+LVL/2+KOM% and cause all opponents 
+			within [Close] range to become [Confused] for three [Rounds].
+			A successful Will save (DC %10+LVL/2+KOM%) negates the [Confused]
+			condition. </circle>
+		<circle n="5" name="Necrotic Aura" type="SU">Each opponent takes a
+			penalty to all d20 rolls based on how close it is to you: a -3
+			penalty within your [Melee] range, a -2 penalty within your [Close]
+			range, and a -1 penalty within your [Medium] range. These penalties
+			do not stack and expire as soon as the opponent leaves the area of
+			effect. </circle>
+		<circle n="6" name="Child of Shadows" type="SU">You gain [Fast
+			healing] %LVL%. In addition, you may now use your Discorporation
+			ability as a free action. Whenever you use Discorporation, 
+			for one [Round], whenever you move, you may make any
+			opponent within [Melee] range of your movement path [Shaken] for the
+			rest of the [Encounter]. A successful Will save (DC %10+LVL/2+KOM%)
+			negates the [Shaken] condition. You may only make each opponent
+			[Shaken] with this ability once per [Encounter]. </circle>
+		<circle n="7" name="No Requiem" type="SU">Heroes who manage to
+			strike you down are doomed to frustration. Once per [Scene], if you
+			become [Dead] or are rendered [Unconscious], you return to undeath
+			after 1 [Round] with full hit points. You may delay your revival or
+			choose not to return at all. </circle>
+	</track>
+	<track bindId="undead" id="skeletonChampion" name="Skeleton Champion">
+		<circle n="1" name="Devastating Strike" type="SU"> At the beginning
+			of an [Encounter], you gain a focus point. Once per [Round], when an
+			ally in [Close] range activates a spell, spell-like, or supernatural
+			ability, takes an offensive action, or is affected by an offensive
+			action, you gain a focus point. In addition, you may spend 3 focus
+			points during an attack action to make a [Bonus attack] and heal %LVL% HP.</circle>
+		<circle n="2" name="Rattling Bones" type="SU">Once per
+			[Round], as a swift action, as long as you possess at least 1 point
+			of focus, you may gain a +2 bonus to your next attack roll, and deal
+			%KOM% additional energy damage with the [Acid], [Cold], [Electricity], or
+			[Fire] whenever you deal damage with an attack for one [Round]. </circle>
+		<circle n="3" name="The Flesh is Strong" type="EX">You gain
+			[Immunity] to [Fear], [Bleeding], and the in-combat use of
+			Intimidate. </circle>
+		<circle n="4" name="Fury of the Dead" type="EX">Once per [Round],
+			you may replace one attack from your attack action with the Bull
+			Rush, Disarm, or Trip combat maneuver. The Disarm and Trip combat
+			maneuvers are made with the same attack bonus as the replaced attack.
+		</circle>
+		<circle n="5" name="Necrotic Aura" type="SU">Each opponent takes a
+			penalty to all d20 rolls based on how close it is to you: a -3
+			penalty within your [Melee] range, a -2 penalty within your [Close]
+			range, and a -1 penalty within your [Medium] range. These penalties
+			do not stack and expire as soon as the opponent leaves the area of
+			effect. </circle>
+		<circle n="6" name="Eternal Warrior" type="EX">You gain [Lesser
+			resistance] to all damage. Whenever you would be dealt damage, you
+			can spend a focus point to increase your [Lesser resistance] from
+			this ability to [Resistance] against that damage, or two focus points
+			to increase your [Lesser resistance] from this ability to [Greater
+			resistance] against that damage. </circle>
+		<circle n="7" name="No Requiem" type="SU">Heroes who manage to
+			strike you down are doomed to frustration. Once per [Scene], if you
+			become [Dead] or are rendered [Unconscious], you return to undeath
+			after 1 [Round] with full hit points. You may delay your revival or
+			choose not to return at all. </circle>
+	</track>
+	<track id="utterBrute" name="Utter Brute">
+		<circle n="1" name="Uncivilized" type="EX">You gain the following
+			natural weapon: Hulking Smash: Melee, range [Melee], [Brutal 2],
+			[Reach]In addition, select one of the following abilities:
+			-Defender: You gain a bonus that is both fury and item to Armor Class
+			equal to the higher of +2 or %CRL%. -Attacker: You gain a +%CRL% bonus that is
+			both fury and item to your attack rolls.
+		</circle>
+		<circle n="2" name="Unforgiving" type="EX">The first time you hit
+			with an attack each [Round], after dealing damage, you deal [HP
+			reduction] equal to that amount of damage, up to your character
+			level. In addition, once per [Encounter], when you would become
+			[Dead], you may first take a standard action. You are still [Dead]
+			after taking the action, so healing won’t help you, and you can’t
+			activate abilities to resurrect yourself if you opt to activate
+			Unforgiving. Triggered abilities with no action cost may be activated
+			instead of the standard action.</circle>
+		<circle n="3" name="Unrelenting" type="EX">At the beginning of your
+			turn, you may move 5 ft. At the end of your turn, you may move 5 ft.
+			Effects and conditions other than [Dead] that prevent movement do not
+			prevent this. If you are [Grappled], or [Pinned], this movement
+			causes the creature grappling or pinning you to move 5 ft in the same
+			direction, and does not end the [Grappled] or [Pinned] condition.
+			This movement does not provoke attacks of opportunity. </circle>
+		<circle n="4" name="Unnatural" type="EX">Select a set of bonuses
+			from the following. These bonuses are fury bonuses. 
+			-Soldier: You gain a +3 bonus to attack rolls and Fortitude saves, 
+			a +%LVL*3% bonus to your maximum hit points, and a +10 ft bonus to your movement speed. 
+			-Striker: You gain a +3 bonus to attack rolls and Fortitude saves, 
+			a +%LVL*3% bonus to your maximum hit points, and a +5 ft bonus to your [Melee] range.
+			-Skirmisher: You gain a +1 bonus to attack rolls and Fortitude saves, 
+			a +%LVL% bonus to your maximum hit points, a +15 ft bonus to your movement speed,
+			and a +5 ft bonus to your [Melee] range. </circle>
+		<circle n="5" name="Unspeakable" type="EX">Choose two of the
+			following abilities (these choices are permanent): -Flight: You gain
+			the Fly movement mode. -Focus: You can eavesdrop on telepathic
+			communication if any participant is within [Close] range. »
+			Flexibility: Your [Melee] range is increased by 10 ft. -Flesh: You
+			gain [Fast healing] %LVL%. </circle>
+		<circle n="6" name="Unbreakable" type="EX">You gain [Immunity] to
+			two of the following: [Stunned], [Dazed], [Prone], [Slowed], [Fear]
+			effects (this includes [Shaken], [Frightened], [Panicked] and
+			[Cowering]). </circle>
+		<circle n="7" name="Unstoppable" type="EX">You gain [Immunity] to
+			[Unconscious] and [Dying], though you still die at -%10+2*CON%
+			HP. Additionally, every time you hit an opponent with an attack, you
+			may move that opponent 5 ft in any direction. </circle>
+	</track>
+</root>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Created from PDF via Acrobat SaveAsXML -->
+<!-- Mapping Table version: 28-February-2003 -->
+<root>
+	<class id="barbarian" name="Barbarian" kom="pick" kdm="con" hp="10" skills="5" bab="full" saves="pick/pick">
+		<track locked="false" id="rage" progression="medium"/>
+		<track locked="false" id="pathOfDestruction" progression="slow"/>
+		<track locked="false" id="pathOfAncestors" progression="fast"/>
+	</class>
+	<class id="monk" name="Monk" kom="wis" kdm="con" hp="8" skills="6" bab="full" saves="pick/pick">
+		<track locked="false" id="disciplineOfSerpent" progression="medium"/>
+		<track locked="false" id="disciplineOfCrane" progression="slow"/>
+		<track locked="false" id="disciplineOfDragon" progression="fast"/>
+	</class>
+	<class id="paladin" name="Paladin" kom="str" kdm="cha" hp="10" skills="5" bab="full" saves="fort/will">
+		<track locked="true" id="judgment" progression="fast"/>			
+		<track locked="false" id="bastion" progression="medium"/>
+		<track locked="false" id="virtue" progression="slow"/>
+	</class>
+	<class id="ranger" name="Ranger" kom="dex" kdm="int" hp="10" skills="6" bab="full" saves="fort/ref">
+		<track locked="false" id="professionalSoldier" progression="medium"/>			
+		<track locked="false" id="ironMagi" progression="slow"/>
+		<track locked="false" id="battleTempering" progression="fast"/>
+	</class>
+	<class id="rogue" name="Rogue" kom="pick" kdm="pick" hp="8" skills="6" bab="full" saves="ref/pick">
+		<track locked="true" id="esotericaRadica" progression="fast"/>			
+		<track locked="false" id="assassin" progression="medium"/>
+		<track locked="false" id="tenNinjas" progression="slow"/>
+	</class>
+	<class id="sage" name="Sage" kom="int/cha/wis" kdm="str/dex/con" hp="8" skills="6" bab="part" saves="pick/pick">
+		<track locked="false" id="arcaneSecrets" progression="fast"/>			
+		<track locked="false" id="justBlade" progression="medium"/>
+		<track locked="false" id="forceOfWill" progression="slow"/>
+	</class>
+	<class id="shaman" name="Shaman" kom="wis" kdm="cha" hp="8" skills="6" bab="part" saves="fort/will">
+		<track locked="true" id="shamanPath" progression="slow"/>
+		<track locked="false" id="incantation" progression="medium"/>
+		<track locked="false" id="shamanSpells" progression="fast"/>
+	</class>
+	<class id="tactician" name="Tactician" kom="int" kdm="con" hp="8" skills="9" bab="part" saves="ref/will">
+		<track locked="false" id="tacticalInsight" progression="medium"/>
+		<track locked="false" id="bagOfTricks" progression="slow"/>
+		<track locked="false" id="tacticianSpells" progression="fast"/>
+	</class>
+</root>

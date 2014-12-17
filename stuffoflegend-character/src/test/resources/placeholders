@@ -1,0 +1,15 @@
+KOM=com.ruleofcool.stuffoflegend.math.expressions.abilities.KomReader
+KDM=com.ruleofcool.stuffoflegend.math.expressions.abilities.KdmReader
+LVL=com.ruleofcool.stuffoflegend.math.expressions.abilities.LvlReader
+STR=com.ruleofcool.stuffoflegend.math.expressions.abilities.StrReader
+DEX=com.ruleofcool.stuffoflegend.math.expressions.abilities.DexReader
+CON=com.ruleofcool.stuffoflegend.math.expressions.abilities.ConReader
+INT=com.ruleofcool.stuffoflegend.math.expressions.abilities.IntReader
+WIS=com.ruleofcool.stuffoflegend.math.expressions.abilities.WisReader
+CHA=com.ruleofcool.stuffoflegend.math.expressions.abilities.ChaReader
+TAM=com.ruleofcool.stuffoflegend.math.expressions.abilities.TamReader
+TEST=com.ruleofcool.stuffoflegend.math.TestReader
+
+
+
+
