@@ -1,10 +1,9 @@
-/stuffoflegend-character/.project
-/stuffoflegend-character/.settings
+# eclipse stuff
+.project
+.settings
+.classpath
+.buildpath
+
+# maven target repos
 /stuffoflegend-character/target
-/stuffoflegend-character/.classpath
-/stuffoflegend-parent/.project
-/stuffoflegend-parent/.settings
-/stuffoflegend-web/.project
-/stuffoflegend-web/.settings
 /stuffoflegend-web/target
-/stuffoflegend-web/.classpath
