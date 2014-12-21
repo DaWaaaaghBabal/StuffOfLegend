@@ -5,10 +5,20 @@
     <description>Entry point for the webapp.</description>
     <display-name>Entry point Servlet</display-name>
     <servlet-name>EntryPointServlet</servlet-name>
-    <servlet-class>com.ruleofcool.stuffoflegend.web.EntryPointServlet</servlet-class>
+    <servlet-class>com.dwb.stuffoflegend.web.servlet.EntryPointServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description></description>
+    <display-name>LoginServlet</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.dwb.stuffoflegend.web.servlet.LoginServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>EntryPointServlet</servlet-name>
     <url-pattern>/</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
   </servlet-mapping>
 </web-app>

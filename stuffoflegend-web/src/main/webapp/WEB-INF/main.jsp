@@ -9,10 +9,10 @@
 <title>The Stuff of Legend - Home</title>
 </head>
 <body>
-<jstl:forEach var="i" begin="0" end="7" step="1">
-	<p>
-		<jstl:out value="Hello, World ! ${i}" />
-	</p>
-</jstl:forEach>
+	<jstl:forEach var="i" begin="0" end="7" step="1">
+		<p>
+			<jstl:out value="Hello, World ! ${i}" />
+		</p>
+	</jstl:forEach>
 </body>
 </html>

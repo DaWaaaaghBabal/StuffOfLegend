@@ -10,6 +10,7 @@
 		<module>../stuffoflegend-web</module>
 		<module>../stuffoflegend-character</module>
 		<module>../stuffoflegend-data</module>
+		<module>../stuffoflegend-db</module>
 	</modules>
 
 	<build>
@@ -57,7 +58,21 @@
 				<artifactId>junit</artifactId>
 				<version>4.12</version>
 			</dependency>
-
+			<dependency>
+				<groupId>mysql</groupId>
+				<artifactId>mysql-connector-java</artifactId>
+				<version>5.1.6</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>stuffoflegend-data</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>stuffoflegend-db</artifactId>
+				<version>${project.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 </project>
