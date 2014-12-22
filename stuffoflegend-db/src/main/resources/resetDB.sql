@@ -115,7 +115,16 @@ CREATE TABLE IF NOT EXISTS kom_choices (
   PRIMARY KEY (class, stat),
   FOREIGN KEY (stat) REFERENCES statistics(id),
   FOREIGN KEY (class) REFERENCES classes(id)
-) ;
+);
+
+CREATE TABLE IF NOT EXISTS save_choices (
+  class int NOT NULL,
+  save int NOT NULL,
+  id tinyint(1) NOT NULL,
+  PRIMARY KEY (class, save, id),
+  FOREIGN KEY (save) REFERENCES saves(id),
+  FOREIGN KEY (class) REFERENCES classes(id)
+);
 
 CREATE TABLE IF NOT EXISTS tam_choices (
   track int NOT NULL,
@@ -149,7 +158,6 @@ CREATE TABLE IF NOT EXISTS archetypes (
   FOREIGN KEY (kdm) REFERENCES statistics(id),
   FOREIGN KEY (kom) REFERENCES statistics(id),
   FOREIGN KEY (save1) REFERENCES saves(id),
-  FOREIGN KEY (save2) REFERENCES saves(id),
   FOREIGN KEY (save2) REFERENCES saves(id),
   FOREIGN KEY (class) REFERENCES classes(id),
   FOREIGN KEY (author) REFERENCES users(id)
@@ -270,19 +278,20 @@ CREATE TABLE IF NOT EXISTS _translations_tracks (
   FOREIGN KEY (language) REFERENCES languages(id),
   FOREIGN KEY (track) REFERENCES tracks(id)
 );
- 
+
 INSERT INTO languages (id, name) VALUES
 (1, 'English'),
-(2, 'FranÁais');
+(2, 'Fran√ßais');
 INSERT INTO ability_types (id) VALUES
 (1),
 (2),
 (3);
+
 INSERT INTO _translations_ability_types (ability_type, language, label_short, label_long) VALUES
 (1, 1, 'EX', 'Extraordinary ability'),
-(1, 2, 'EX', 'CapacitÈ extraordinaire'),
+(1, 2, 'EX', 'Capacit√© extraordinaire'),
 (2, 1, 'SU', 'Supernatural ability'),
-(2, 2, 'SU', 'CapacitÈ surnaturelle'),
+(2, 2, 'SU', 'Capacit√© surnaturelle'),
 (3, 1, 'SLA', 'Spell-like ability'),
 (3, 2, 'PM', 'Pouvoir magique');
 
@@ -299,7 +308,7 @@ INSERT INTO _translations_statistics (stat, language, label_short, label_long) V
 (2, 1, 'CON', 'Constitution'),
 (2, 2, 'CON', 'Constitution'),
 (3, 1, 'DEX', 'Dexterity'),
-(3, 2, 'DEX', 'DextÈritÈ'),
+(3, 2, 'DEX', 'Dext√©rit√©'),
 (4, 1, 'INT', 'Intelligence'),
 (4, 2, 'INT', 'Intelligence'),
 (5, 1, 'WIS', 'Wisdom'),
@@ -315,7 +324,7 @@ INSERT INTO _translations_saves (save, language, label_short, label_long) VALUES
 (1, 1, 'FORT', 'Fortitude'),
 (1, 2, 'VIG', 'Vigueur'),
 (2, 1, 'REF', 'Reflexes'),
-(2, 2, 'REF', 'RÈflexes'),
+(2, 2, 'REF', 'R√©flexes'),
 (3, 1, 'WILL', 'Will'),
 (3, 2, 'VOL', 'Volont√©');
 
@@ -355,6 +364,20 @@ INSERT INTO kdm_choices (class, stat) VALUES
 (2, 2),
 (2, 3);
 
+INSERT INTO save_choices (class, id, save) VALUES
+(1, 1, 1),
+(1, 1, 2),
+(1, 1, 3),
+(1, 2, 1),
+(1, 2, 2),
+(1, 2, 3),
+(2, 1, 1),
+(2, 1, 2),
+(2, 1, 3),
+(2, 2, 1),
+(2, 2, 2),
+(2, 2, 3);
+
 INSERT INTO tracks (id) VALUES
 (1),
 (2),
@@ -377,7 +400,7 @@ INSERT INTO _translations_tracks (track, language, name) VALUES
 (6, 1, 'Arcane Lore'),
 (6, 2, 'Savoir des Arcanes'),
 (7, 1, 'Force of Will'),
-(7, 2, 'Force de VolontÈ');
+(7, 2, 'Force de Volont√©');
 
 INSERT INTO track_choices (class, progression, track) VALUES
 (1, 1, 1),
@@ -414,23 +437,23 @@ INSERT INTO _translations_circles (circle, language, name) VALUES
 (4, 1, 'Internal Principles'),
 (4, 2, 'Principes Internes'),
 (5, 1, 'Fast Movement'),
-(5, 2, 'Mouvement accÈlÈrÈ'),
+(5, 2, 'Mouvement acc√©l√©r√©'),
 (6, 1, 'Between the Drops'),
 (6, 2, 'Entre les Gouttes'),
 (7, 1, 'Hungry Shadows'),
-(7, 2, 'Ombres affamÈes'),
+(7, 2, 'Ombres affam√©es'),
 (8, 1, 'Space, Discontent'),
 (8, 2, 'Espace, instatisfait'),
 (9, 1, 'Grim Inheritor'),
-(9, 2, 'HÈritier Sombre'),
+(9, 2, 'Sombre H√©ritier'),
 (10, 1, 'Mental Thrust'),
-(10, 2, 'PoussÈe mentale'),
+(10, 2, 'Pouss√©e mentale'),
 (11, 1, 'Black Tidings'),
 (11, 2, 'Noires nouvelles'),
 (12, 1, 'Canto'),
 (12, 2, 'Canto'),
 (13, 1, 'Healing Burst'),
-(13, 2, 'Rafale guÈrisseuse'),
+(13, 2, 'Rafale gu√©risseuse'),
 (14, 1, 'A Stitch In Time'),
 (14, 2, 'Un Accroc dans le Temps');
 
@@ -482,7 +505,7 @@ INSERT INTO _translations_abilities (ability, language, name, rules_text) VALUES
 (1, 1, 'Careful Sun', 'Discipline of the Dragon 1.1'),
 (1, 2, 'Soleil prudent', 'Discipline du Dragon 1.1'),
 (2, 1, 'Reckless Moon', 'Discipline of the Dragon 1.2'),
-(2, 2, 'Lune ImpÈtueuse', 'Discipline du Dragon 1.2'),
+(2, 2, 'Lune Imp√©tueuse', 'Discipline du Dragon 1.2'),
 (3, 1, NULL, 'Discipline of the Dragon 2'),
 (3, 2, NULL, 'Discipline du Dragon 2'),
 (4, 1, NULL, 'Discipline of the Serpent 1.1'),
@@ -504,7 +527,7 @@ INSERT INTO _translations_abilities (ability, language, name, rules_text) VALUES
 (12, 1, 'Lungbreaker', 'Arcane Secrets 2.1'),
 (12, 2, 'Brise-poumons', 'Secrets des Arcanes 2.1'),
 (13, 1, 'Stutter step', 'Arcane Secrets 2.2'),
-(13, 2, 'FoulÈe bÈgayante', 'Secrets des Arcanes 2.2'),
+(13, 2, 'Foul√©e b√©gayante', 'Secrets des Arcanes 2.2'),
 (14, 1, NULL, 'Just Blade 1'),
 (14, 2, NULL, 'Lame du Juste 1'),
 (15, 1, NULL, 'Just Blade 2'),
@@ -518,9 +541,9 @@ INSERT INTO _translations_abilities (ability, language, name, rules_text) VALUES
 (19, 1, 'Grey Hymn', 'Arcane Lore 2.2'),
 (19, 2, 'Hymne Gris', 'Savoir des Arcanes 2.2'),
 (20, 1, NULL, 'Force of Will 1'),
-(20, 2, NULL, 'Force de VolontÈ 1'),
+(20, 2, NULL, 'Force de Volont√© 1'),
 (21, 1, NULL, 'Force of Will 2'),
-(21, 2, NULL, 'Force de VolontÈ 2');
+(21, 2, NULL, 'Force de Volont√© 2');
 
 INSERT INTO users (id, login, password, email) VALUES
 (1, 'admin', 'password', 'admin@admin.fr');
