@@ -2,24 +2,18 @@ package com.dwb.stuffoflegend.database.core;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Map.Entry;
 
-public abstract class Queries {
+public abstract class Queries extends HashMap<QueryKey, String> {
+	private static final long	serialVersionUID	= 8431899735073015107L;
 
-	public enum QueryKey {
-		CREATE_USER, LOGIN;
-	}
-
-	protected Map<QueryKey, String> queries;
-	
-	public Queries() {
-		queries = new HashMap<>();
-	}
-	
-	public String getFormattedQuery (QueryKey key, Map<String, String> parameters) {
-		String query = queries.get(key);
-		for(Entry<String, String> entry : parameters.entrySet()) {
-			query = query.replaceAll("\\$\\{"+ entry.getKey() + "\\}", entry.getValue());
+	public String getFormattedQuery(QueryKey key, Map<String, String> parameters) {
+		if (parameters.get(Language.PARAMETER_NAME) == null) {
+			parameters.put(Language.PARAMETER_NAME, "" + Language.getCurrent());
+		}
+		String query = get(key);
+		for (Entry<String, String> entry : parameters.entrySet()) {
+			query = query.replaceAll("\\$\\{" + entry.getKey() + "\\}",
+					entry.getValue());
 		}
 		return query;
 	}

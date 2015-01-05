@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="debug" strict="true" name="XMLConfigTest"
+	packages="org.apache.logging.log4j.test">
+	<Properties>
+		<Property name="filename">test.log</Property>
+		<Property name="pattern">%d{DEFAULT} %level %C{3} %m</Property>
+	</Properties>
+	<Filter type="ThresholdFilter" level="trace" />
+
+	<Appenders>
+		<Appender type="Console" name="STDOUT">
+			<Layout type="PatternLayout" pattern="${pattern}" />
+		</Appender>
+		<Appender type="File" name="File" fileName="${filename}">
+			<Layout type="PatternLayout" pattern="${pattern}" />
+		</Appender>
+	</Appenders>
+
+	<Loggers>
+		<Logger name="com.dwb.stuffoflegend" level="debug"
+			additivity="true">
+			<AppenderRef ref="File" />
+		</Logger>
+		<Root level="trace">
+			<AppenderRef ref="STDOUT" />
+		</Root>
+	</Loggers>
+
+</Configuration>

@@ -3,281 +3,282 @@ CREATE DATABASE stuffoflegend DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 USE stuffoflegend;
 
 CREATE TABLE IF NOT EXISTS users (
-  id int NOT NULL AUTO_INCREMENT,
-  login varchar(64),
-  password varchar(44),
-  email varchar(256),
-  PRIMARY KEY (id),
-  UNIQUE KEY (login)
+	id int NOT NULL AUTO_INCREMENT,
+	login varchar(64),
+	password varchar(44),
+	email varchar(256),
+	PRIMARY KEY (id),
+	UNIQUE KEY (login)
 );
 
 CREATE TABLE IF NOT EXISTS languages (
-  id int NOT NULL AUTO_INCREMENT,
-  label varchar(5),
-  name varchar(32) NOT NULL,
-  PRIMARY KEY (id),
-  UNIQUE KEY (label),
-  UNIQUE KEY (name)
+	id int NOT NULL AUTO_INCREMENT,
+	label varchar(5),
+	name varchar(32) NOT NULL,
+	PRIMARY KEY (id),
+	UNIQUE KEY (label),
+	UNIQUE KEY (name)
 );
 
 CREATE TABLE IF NOT EXISTS ability_types (
-  id int NOT NULL AUTO_INCREMENT,
-  PRIMARY KEY (id)
+	id int NOT NULL AUTO_INCREMENT,
+	PRIMARY KEY (id)
 );
 
 CREATE TABLE IF NOT EXISTS statistics (
-  id int NOT NULL AUTO_INCREMENT,
-  char_id char(3) NOT NULL,
-  PRIMARY KEY (id)
+	id int NOT NULL AUTO_INCREMENT,
+	char_id char(3) NOT NULL,
+	PRIMARY KEY (id)
 );
 
 CREATE TABLE IF NOT EXISTS progressions (
-  id int NOT NULL AUTO_INCREMENT,
-  offset int DEFAULT '1',
-  PRIMARY KEY (id)
+	id int NOT NULL AUTO_INCREMENT,
+	offset int DEFAULT '1',
+	PRIMARY KEY (id)
 );
 
 CREATE TABLE IF NOT EXISTS classes (
-  id int NOT NULL AUTO_INCREMENT,
-  hp int NOT NULL,
-  bab float NOT NULL,
-  skills int NOT NULL,
-  PRIMARY KEY (id)
+	id int NOT NULL AUTO_INCREMENT,
+	hp int NOT NULL,
+	bab float NOT NULL,
+	skills int NOT NULL,
+	PRIMARY KEY (id)
 );
 
 CREATE TABLE IF NOT EXISTS saves (
-  id int NOT NULL AUTO_INCREMENT,
-  stat1 int NOT NULL,
-  stat2 int NOT NULL,
-  PRIMARY KEY (id),
-  FOREIGN KEY (stat1) REFERENCES statistics(id),
-  FOREIGN KEY (stat2) REFERENCES statistics(id)
+	id int NOT NULL AUTO_INCREMENT,
+	stat1 int NOT NULL,
+	stat2 int NOT NULL,
+	PRIMARY KEY (id),
+	FOREIGN KEY (stat1) REFERENCES statistics(id),
+	FOREIGN KEY (stat2) REFERENCES statistics(id)
 );
 
 CREATE TABLE IF NOT EXISTS tracks (
-  id int NOT NULL AUTO_INCREMENT,
-  PRIMARY KEY (id)
+	id int NOT NULL AUTO_INCREMENT,
+	PRIMARY KEY (id)
 );
 
 CREATE TABLE IF NOT EXISTS circles (
-  id int NOT NULL AUTO_INCREMENT,
-  number int NOT NULL,
-  ability_type int NOT NULL,
-  track int NOT NULL,
-  PRIMARY KEY (id),
-  FOREIGN KEY (ability_type) REFERENCES ability_types (id),
-  FOREIGN KEY (track) REFERENCES tracks (id)
+	id int NOT NULL AUTO_INCREMENT,
+	number int NOT NULL,
+	ability_type int NOT NULL,
+	track int NOT NULL,
+	PRIMARY KEY (id),
+	FOREIGN KEY (ability_type) REFERENCES ability_types (id),
+	FOREIGN KEY (track) REFERENCES tracks (id)
 );
 
 CREATE TABLE IF NOT EXISTS circle_choices (
-  id int NOT NULL AUTO_INCREMENT,
-  circle int NOT NULL,
-  PRIMARY KEY (id),
-  FOREIGN KEY (circle) REFERENCES circles (id)
+	id int NOT NULL AUTO_INCREMENT,
+	circle int NOT NULL,
+	PRIMARY KEY (id),
+	FOREIGN KEY (circle) REFERENCES circles (id)
 );
 
 CREATE TABLE IF NOT EXISTS abilities (
-  id int NOT NULL AUTO_INCREMENT,
-  ability_type int,
-  circle_choice int NOT NULL,
-  PRIMARY KEY (id),
-  FOREIGN KEY (ability_type) REFERENCES ability_types(id),
-  FOREIGN KEY (circle_choice) REFERENCES circle_choices(id)
+	id int NOT NULL AUTO_INCREMENT,
+	ability_type int,
+	circle_choice int NOT NULL DEFAULT 0,
+	PRIMARY KEY (id),
+	FOREIGN KEY (ability_type) REFERENCES ability_types(id),
+	FOREIGN KEY (circle_choice) REFERENCES circle_choices(id)
 );
 
 CREATE TABLE IF NOT EXISTS forced_kdms (
-  track int NOT NULL,
-  stat int NOT NULL,
-  PRIMARY KEY (track),
-  FOREIGN KEY (track) REFERENCES tracks(id),
-  FOREIGN KEY (stat) REFERENCES statistics(id)
+	track int NOT NULL,
+	stat int NOT NULL,
+	PRIMARY KEY (track),
+	FOREIGN KEY (track) REFERENCES tracks(id),
+	FOREIGN KEY (stat) REFERENCES statistics(id)
 );
 
 CREATE TABLE IF NOT EXISTS forced_koms (
-  track int NOT NULL,
-  stat int NOT NULL,
-  PRIMARY KEY (track),
-  FOREIGN KEY (track) REFERENCES tracks(id),
-  FOREIGN KEY (stat) REFERENCES statistics(id)
+	track int NOT NULL,
+	stat int NOT NULL,
+	PRIMARY KEY (track),
+	FOREIGN KEY (track) REFERENCES tracks(id),
+	FOREIGN KEY (stat) REFERENCES statistics(id)
 );
 
 CREATE TABLE IF NOT EXISTS kdm_choices (
-  class int NOT NULL,
-  stat int NOT NULL,
-  PRIMARY KEY (class, stat),
-  FOREIGN KEY (stat) REFERENCES statistics(id),
-  FOREIGN KEY (class) REFERENCES classes(id)
+	class int NOT NULL,
+	stat int NOT NULL,
+	PRIMARY KEY (class, stat),
+	FOREIGN KEY (stat) REFERENCES statistics(id),
+	FOREIGN KEY (class) REFERENCES classes(id)
 );
 
 CREATE TABLE IF NOT EXISTS kom_choices (
-  class int NOT NULL,
-  stat int NOT NULL,
-  PRIMARY KEY (class, stat),
-  FOREIGN KEY (stat) REFERENCES statistics(id),
-  FOREIGN KEY (class) REFERENCES classes(id)
+	class int NOT NULL,
+	stat int NOT NULL,
+	PRIMARY KEY (class, stat),
+	FOREIGN KEY (stat) REFERENCES statistics(id),
+	FOREIGN KEY (class) REFERENCES classes(id)
 );
 
 CREATE TABLE IF NOT EXISTS save_choices (
-  class int NOT NULL,
-  save int NOT NULL,
-  id tinyint(1) NOT NULL,
-  PRIMARY KEY (class, save, id),
-  FOREIGN KEY (save) REFERENCES saves(id),
-  FOREIGN KEY (class) REFERENCES classes(id)
+		class int NOT NULL,
+		save int NOT NULL,
+		id tinyint(1) NOT NULL,
+		PRIMARY KEY (class, save, id),
+		FOREIGN KEY (save) REFERENCES saves(id),
+		FOREIGN KEY (class) REFERENCES classes(id)
 );
 
 CREATE TABLE IF NOT EXISTS tam_choices (
-  track int NOT NULL,
-  stat int NOT NULL,
-  sam tinyint(1) NOT NULL,
-  PRIMARY KEY (track, stat),
-  FOREIGN KEY (stat) REFERENCES statistics(id),
-  FOREIGN KEY (track) REFERENCES tracks(id)
+	track int NOT NULL,
+	stat int NOT NULL,
+	sam tinyint(1) NOT NULL,
+	PRIMARY KEY (track, stat),
+	FOREIGN KEY (stat) REFERENCES statistics(id),
+	FOREIGN KEY (track) REFERENCES tracks(id)
 ) ;
 
 CREATE TABLE IF NOT EXISTS track_choices (
-  class int NOT NULL,
-  track int,
-  progression int NOT NULL,
-  PRIMARY KEY (class, track, progression),
-  FOREIGN KEY (class) REFERENCES classes(id),
-  FOREIGN KEY (track) REFERENCES tracks(id),
-  FOREIGN KEY (progression) REFERENCES progressions(id)
+	class int NOT NULL,
+	track int,
+	progression int NOT NULL,
+	PRIMARY KEY (class, track, progression),
+	FOREIGN KEY (class) REFERENCES classes(id),
+	FOREIGN KEY (track) REFERENCES tracks(id),
+	FOREIGN KEY (progression) REFERENCES progressions(id)
 );
 
 CREATE TABLE IF NOT EXISTS archetypes (
-  id int NOT NULL AUTO_INCREMENT,
-  kdm int NOT NULL,
-  kom int NOT NULL,
-  save1 int NOT NULL,
-  save2 int NOT NULL,
-  name varchar(256) NOT NULL,
-  class int NOT NULL,
-  author int NOT NULL,
-  PRIMARY KEY (id),
-  FOREIGN KEY (kdm) REFERENCES statistics(id),
-  FOREIGN KEY (kom) REFERENCES statistics(id),
-  FOREIGN KEY (save1) REFERENCES saves(id),
-  FOREIGN KEY (save2) REFERENCES saves(id),
-  FOREIGN KEY (class) REFERENCES classes(id),
-  FOREIGN KEY (author) REFERENCES users(id)
+	id int NOT NULL AUTO_INCREMENT,
+	kdm int NOT NULL,
+	kom int NOT NULL,
+	save1 int NOT NULL,
+	save2 int NOT NULL,
+	name varchar(256) NOT NULL,
+	class int NOT NULL,
+	author int NOT NULL,
+	PRIMARY KEY (id),
+	FOREIGN KEY (kdm) REFERENCES statistics(id),
+	FOREIGN KEY (kom) REFERENCES statistics(id),
+	FOREIGN KEY (save1) REFERENCES saves(id),
+	FOREIGN KEY (save2) REFERENCES saves(id),
+	FOREIGN KEY (class) REFERENCES classes(id),
+	FOREIGN KEY (author) REFERENCES users(id)
 );
 
 CREATE TABLE IF NOT EXISTS circle_picks (
-  archetype int NOT NULL,
-  circle_choice int NOT NULL,
-  ability int NOT NULL,
-  PRIMARY KEY (archetype,circle_choice),
-  FOREIGN KEY (archetype) REFERENCES archetypes(id),
-  FOREIGN KEY (circle_choice) REFERENCES circle_choices(id),
-  FOREIGN KEY (ability) REFERENCES abilities(id)
+archetype int NOT NULL,
+circle_choice int NOT NULL,
+ability int NOT NULL,
+PRIMARY KEY (archetype,circle_choice),
+FOREIGN KEY (archetype) REFERENCES archetypes(id) ON DELETE CASCADE,
+FOREIGN KEY (circle_choice) REFERENCES circle_choices(id),
+FOREIGN KEY (ability) REFERENCES abilities(id)
 );
 
 CREATE TABLE IF NOT EXISTS tam_picks (
-  track int NOT NULL,
-  archetype int NOT NULL,
-  stat int,
-  PRIMARY KEY (track,archetype),
-  FOREIGN KEY (archetype) REFERENCES archetypes(id),
-  FOREIGN KEY (track) REFERENCES tracks(id),
-  FOREIGN KEY (stat) REFERENCES statistics(id)
+track int NOT NULL,
+archetype int NOT NULL,
+stat int,
+PRIMARY KEY (track,archetype),
+FOREIGN KEY (archetype) REFERENCES archetypes(id) ON DELETE CASCADE,
+FOREIGN KEY (track) REFERENCES tracks(id),
+FOREIGN KEY (stat) REFERENCES statistics(id)
 );
 
 CREATE TABLE IF NOT EXISTS track_picks (
-  archetype int NOT NULL,
-  progression int NOT NULL,
-  track int,
-  PRIMARY KEY (archetype,progression),
-  FOREIGN KEY (archetype) REFERENCES archetypes(id),
-  FOREIGN KEY (progression) REFERENCES progressions(id),
-  FOREIGN KEY (track) REFERENCES tracks(id)
+archetype int NOT NULL,
+progression int NOT NULL,
+track int,
+PRIMARY KEY (archetype,progression),
+FOREIGN KEY (archetype) REFERENCES archetypes(id) ON DELETE CASCADE,
+FOREIGN KEY (progression) REFERENCES progressions(id),
+FOREIGN KEY (track) REFERENCES tracks(id)
 );
 
 CREATE TABLE IF NOT EXISTS substitutions (
-  id int NOT NULL AUTO_INCREMENT,
-  archetype int NOT NULL,
-  progression int NOT NULL,
-  track int,
-  PRIMARY KEY (id),
-  FOREIGN KEY (archetype) REFERENCES archetypes(id),
-  FOREIGN KEY (progression) REFERENCES progressions(id),
-  FOREIGN KEY (track) REFERENCES tracks(id)
+id int NOT NULL AUTO_INCREMENT,
+archetype int NOT NULL,
+progression int NOT NULL,
+track int,
+PRIMARY KEY (id),
+FOREIGN KEY (archetype) REFERENCES archetypes(id) ON DELETE CASCADE,
+FOREIGN KEY (progression) REFERENCES progressions(id),
+FOREIGN KEY (track) REFERENCES tracks(id)
 );
 
 CREATE TABLE IF NOT EXISTS _translations_abilities (
-  ability int NOT NULL,
-  language int NOT NULL,
-  name varchar(64),
-  rules_text TEXT,
-  PRIMARY KEY (ability,language),
-  FOREIGN KEY (language) REFERENCES languages(id),
-  FOREIGN KEY (ability) REFERENCES abilities(id)
+ability int NOT NULL,
+language int NOT NULL,
+name varchar(64),
+rules_text TEXT,
+PRIMARY KEY (ability,language),
+FOREIGN KEY (language) REFERENCES languages(id),
+FOREIGN KEY (ability) REFERENCES abilities(id) ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS _translations_ability_types (
-  ability_type int NOT NULL,
-  language int NOT NULL,
-  label_short varchar(3),
-  label_long varchar(64),
-  PRIMARY KEY (ability_type,language),
-  FOREIGN KEY (language) REFERENCES languages(id),
-  FOREIGN KEY (ability_type) REFERENCES ability_types(id)
+ability_type int NOT NULL,
+language int NOT NULL,
+label_short varchar(3),
+label_long varchar(64),
+PRIMARY KEY (ability_type,language),
+FOREIGN KEY (language) REFERENCES languages(id),
+FOREIGN KEY (ability_type) REFERENCES ability_types(id) ON DELETE CASCADE
 );
 CREATE TABLE IF NOT EXISTS _translations_circles (
-  circle int NOT NULL,
-  language int NOT NULL,
-  name varchar(64),
-  PRIMARY KEY (circle,language),
-  FOREIGN KEY (language) REFERENCES languages(id),
-  FOREIGN KEY (circle) REFERENCES circles(id)
+circle int NOT NULL,
+language int NOT NULL,
+name varchar(64),
+PRIMARY KEY (circle,language),
+FOREIGN KEY (language) REFERENCES languages(id),
+FOREIGN KEY (circle) REFERENCES circles(id) ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS _translations_classes (
-  class int NOT NULL,
-  language int NOT NULL,
-  name varchar(64) NOT NULL,
-  PRIMARY KEY (class,language),
-  FOREIGN KEY (language) REFERENCES languages(id),
-  FOREIGN KEY (class) REFERENCES classes(id)
+class int NOT NULL,
+language int NOT NULL,
+name varchar(64) NOT NULL,
+PRIMARY KEY (class,language),
+FOREIGN KEY (language) REFERENCES languages(id),
+FOREIGN KEY (class) REFERENCES classes(id) ON DELETE CASCADE
 );
 
-CREATE TABLE IF NOT EXISTS _translations_progression (
-  progression int NOT NULL,
-  language int NOT NULL,
-  name varchar(32),
-  PRIMARY KEY (progression,language),
-  FOREIGN KEY (language) REFERENCES languages(id),
-  FOREIGN KEY (progression) REFERENCES progressions(id)
+CREATE TABLE IF NOT EXISTS _translations_progressions (
+progression int NOT NULL,
+language int NOT NULL,
+name varchar(32),
+PRIMARY KEY (progression,language),
+FOREIGN KEY (language) REFERENCES languages(id),
+FOREIGN KEY (progression) REFERENCES progressions(id) ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS _translations_saves (
-  save int NOT NULL,
-  language int NOT NULL,
-  label_short varchar(4),
-  label_long varchar(32),
-  PRIMARY KEY (save,language),
-  FOREIGN KEY (language) REFERENCES languages(id),
-  FOREIGN KEY (save) REFERENCES saves(id)
+save int NOT NULL,
+language int NOT NULL,
+label_short varchar(4),
+label_long varchar(32),
+PRIMARY KEY (save,language),
+FOREIGN KEY (language) REFERENCES languages(id),
+FOREIGN KEY (save) REFERENCES saves(id) ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS _translations_statistics (
-  stat int NOT NULL,
-  language int NOT NULL,
-  label_short varchar(3),
-  label_long varchar(32),
-  PRIMARY KEY (stat,language),
-  FOREIGN KEY (language) REFERENCES languages(id),
-  FOREIGN KEY (stat) REFERENCES statistics(id)
+stat int NOT NULL,
+language int NOT NULL,
+label_short varchar(3),
+label_long varchar(32),
+PRIMARY KEY (stat,language),
+FOREIGN KEY (language) REFERENCES languages(id),
+FOREIGN KEY (stat) REFERENCES statistics(id) ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS _translations_tracks (
-  track int NOT NULL,
-  language int NOT NULL,
-  name varchar(64) NOT NULL,
-  PRIMARY KEY (track,language),
-  FOREIGN KEY (language) REFERENCES languages(id),
-  FOREIGN KEY (track) REFERENCES tracks(id)
+track int NOT NULL,
+language int NOT NULL,
+name varchar(64) NOT NULL,
+PRIMARY KEY (track,language),
+FOREIGN KEY (language) REFERENCES languages(id),
+FOREIGN KEY (track) REFERENCES tracks(id) ON DELETE CASCADE
 );
+"End of rules DB initialisation ; start of rules populations (for tests ; will be removed eventually)."
 
 INSERT INTO languages (id, name) VALUES
 (1, 'English'),
@@ -333,7 +334,7 @@ INSERT INTO progressions (id, offset) VALUES
 (2, 1),
 (3, 2),
 (4, 1);
-INSERT INTO _translations_progression (progression, language, name) VALUES
+INSERT INTO _translations_progressions (progression, language, name) VALUES
 (1, 1, 'Fast'),
 (1, 2, 'Rapide'),
 (2, 1, 'Medium'),
@@ -548,8 +549,32 @@ INSERT INTO _translations_abilities (ability, language, name, rules_text) VALUES
 INSERT INTO users (id, login, password, email) VALUES
 (1, 'admin', 'password', 'admin@admin.fr');
 
+"End of rules database population, start of forum database initialisation"
 
+CREATE TABLE IF NOT EXISTS forums {
+	id int NOT NULL AUTO_INCREMENT,
+	parent int,
+	title text,
+	PRIMARY KEY (id),
+	FOREIGN KEY (parent) REFERENCES forums(id)
+}
 
+CREATE TABLE IF NOT EXISTS games {
+	id int NOT NULL AUTO_INCREMENT,
+	forum int,
+	title text,
+	PRIMARY KEY (id),
+	FOREIGN KEY (forum) REFERENCES forums(id)
+}
 
-
+CREATE TABLE IF NOT EXISTS characters {
+	id int NOT NULL AUTO_INCREMENT,
+	game int,
+	name varchar(128),
+	archetype int,
+	avatar varchar(128),
+	PRIMARY KEY (id),
+	FOREIGN KEY (game) REFERENCES games(id),
+	FOREIGN KEY (archetype) REFERENCES archetypes(id)
+}
 

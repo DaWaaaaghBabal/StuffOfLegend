@@ -18,5 +18,9 @@
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>stuffoflegend-data</artifactId>
+		</dependency>
 	</dependencies>
 </project>
