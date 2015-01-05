@@ -43,14 +43,15 @@ public class EntryPointServlet extends HttpServlet {
 	private Controller getControllerForRequest(HttpServletRequest request) {
 		String urlPattern = request.getRequestURI()
 				.substring("/stuffoflegend-web/".length()).split("/")[0];
+		logger.debug("Handling request for: " + urlPattern);
 		Controller controller = new ControllerManager()
 				.getController(urlPattern);
+		logger.debug("Corresponding controller: " + controller.getClass().getSimpleName());
+		
 		controller.setServlet(this);
 		HttpSession session = request.getSession();
 		session.setAttribute("provider", new MysqlInteractorProvider());
 		controller.setUrlPattern(rootURI + urlPattern);
-		logger.debug("Handling request for: " + urlPattern
-				+ " with controller: " + controller.getClass().getSimpleName());
 		return controller;
 	}
 

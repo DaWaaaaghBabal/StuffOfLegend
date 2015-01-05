@@ -1,5 +1,6 @@
 package com.dwb.stuffoflegend.data.tests;
 
+import java.sql.SQLException;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
@@ -29,9 +30,15 @@ public class TestDatabase extends TestCase {
 	@Test
 	public void testTracksList() {
 		System.out.println("Tracks currently in the database:");
-		Map<Integer, Track> tracks = trackInteractor.getTracks(true);
-		for(Track track : tracks.values()) {
-			System.out.println(track.getId() + " : " + track.getName());
+		Map<Integer, Track> tracks;
+		try {
+			tracks = trackInteractor.getTracks(true);
+			for(Track track : tracks.values()) {
+				System.out.println(track.getId() + " : " + track.getName());
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 	}
 
@@ -49,13 +56,19 @@ public class TestDatabase extends TestCase {
 		System.out.println("Classes currently in the database, with the associated Tracks:");
 		for(CharacterClass clazz : classInteractor.getClasses().values()) {
 			System.out.println(clazz.getId() + ": " + clazz.getName());
-			Map<Progression, Set<Track>> trackChoices = trackInteractor.getTrackChoices(clazz, true);
-			for (Entry<Progression, Set<Track>> entry : trackChoices.entrySet()) {
-				System.out.println("\t" + entry.getKey().getName() + ":");
-				Set<Track> tracks = entry.getValue();
-				for(Track track : tracks) {
-					System.out.println("\t\t" + track.getName());
+			Map<Progression, Set<Track>> trackChoices;
+			try {
+				trackChoices = trackInteractor.getTrackChoices(clazz, true);
+				for (Entry<Progression, Set<Track>> entry : trackChoices.entrySet()) {
+					System.out.println("\t" + entry.getKey().getName() + ":");
+					Set<Track> tracks = entry.getValue();
+					for(Track track : tracks) {
+						System.out.println("\t\t" + track.getName());
+					}
 				}
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
 		}
 	}

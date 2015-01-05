@@ -34,7 +34,7 @@ public class ControllerManager {
 			String className=file.getPath()
 					.substring(rootPath.length()-1)
 					.replaceAll("\\.class", "")
-					.replaceAll("\\\\", ".");
+					.replaceAll("\\\\|/", ".");
 			try {
 				Class<?> clazz = Class.forName(className);
 				if (Controller.class.isAssignableFrom(clazz)) {
